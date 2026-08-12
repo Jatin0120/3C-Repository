@@ -1,0 +1,1517 @@
+{
+  "generatedAt": "2026-08-12T10:37:12.733Z",
+  "sections": [
+    {
+      "title": "3C Repository",
+      "items": []
+    },
+    {
+      "title": "Github Repositories",
+      "items": [
+        {
+          "title": "Introduction to Computational Chemistry",
+          "description": null,
+          "primaryUrl": "https://github.com/mrauha/compchem_start",
+          "links": [],
+          "rawText": "Introduction to Computational Chemistry"
+        },
+        {
+          "title": "Computational Fluid Dynamics",
+          "description": null,
+          "primaryUrl": "https://github.com/DrZGan/Python_CFD",
+          "links": [],
+          "rawText": "Computational Fluid Dynamics"
+        },
+        {
+          "title": "Water Models",
+          "description": null,
+          "primaryUrl": "https://computecanada.github.io/molmodsim-md-theory-lesson-novice/09-water_models/index.html",
+          "links": [],
+          "rawText": "Water Models"
+        },
+        {
+          "title": "Generative model for computing EM field solutions",
+          "description": null,
+          "primaryUrl": "https://github.com/bencbartlett/neural-maxwell",
+          "links": [],
+          "rawText": "Generative model for computing EM field solutions"
+        },
+        {
+          "title": "Interactive Materials Science",
+          "description": null,
+          "primaryUrl": "https://msehabibur.github.io/blog",
+          "links": [],
+          "rawText": "Interactive Materials Science"
+        },
+        {
+          "title": "Navier-Stokes Spectral method simulation",
+          "description": null,
+          "primaryUrl": "https://github.com/pmocz/navier-stokes-spectral-python",
+          "links": [],
+          "rawText": "Navier-Stokes Spectral method simulation"
+        },
+        {
+          "title": "QCB Group",
+          "description": null,
+          "primaryUrl": "https://gitlab.com/cbp-unitn/qcb19-20/-/tree/master/QCB?ref_type=heads",
+          "links": [
+            {
+              "label": "Gitlab",
+              "url": "https://gitlab.com/cbp-unitn/qcb19-20/-/tree/master/QCB?ref_type=heads"
+            },
+            {
+              "label": "tutorial2",
+              "url": "https://cbp-unitn.gitlab.io/qcb22-23/QCB/tutorial2_gromacs.html"
+            }
+          ],
+          "rawText": "QCB Group (Gitlab) (tutorial2)"
+        },
+        {
+          "title": "Ian Johnson’s repository",
+          "description": null,
+          "primaryUrl": "https://github.com/enjalot/algovis",
+          "links": [],
+          "rawText": "Ian Johnson’s repository"
+        },
+        {
+          "title": "PhiFlow",
+          "description": "Differentiable PDE solving framework for ML",
+          "primaryUrl": "https://github.com/tum-pbs/PhiFlow",
+          "links": [],
+          "rawText": "PhiFlow ー Differentiable PDE solving framework for ML"
+        },
+        {
+          "title": "Qiskit Nature Tutorials",
+          "description": "ES calculations under QC framework",
+          "primaryUrl": "https://qiskit-community.github.io/qiskit-nature/tutorials/index.html",
+          "links": [],
+          "rawText": "Qiskit Nature Tutorials ー ES calculations under QC framework"
+        },
+        {
+          "title": "AI for Crystal materials",
+          "description": null,
+          "primaryUrl": "https://github.com/WanyuGroup/AI-for-Crystal-Materials",
+          "links": [],
+          "rawText": "AI for Crystal materials"
+        },
+        {
+          "title": "ML-DL cheatsheet and visualisation",
+          "description": null,
+          "primaryUrl": "https://github.com/rusty1s/deep-learning-cheatsheet",
+          "links": [
+            {
+              "label": "repo1",
+              "url": "https://github.com/rusty1s/deep-learning-cheatsheet"
+            },
+            {
+              "label": "repo2a",
+              "url": "https://github.com/Jerry-0821/ml-dl-formula-cheatsheet"
+            },
+            {
+              "label": "repo2b",
+              "url": "https://github.com/Jerry-0821/deep-learning-visualized"
+            }
+          ],
+          "rawText": "ML-DL cheatsheet and visualisation (repo1) (repo2a, repo2b)"
+        },
+        {
+          "title": "MatterGen",
+          "description": "Generative model for inorganic materials design",
+          "primaryUrl": "https://github.com/microsoft/mattergen",
+          "links": [],
+          "rawText": "MatterGen ー Generative model for inorganic materials design"
+        },
+        {
+          "title": "PINN",
+          "description": "Physics Informed NN using PyTorch",
+          "primaryUrl": "https://github.com/rezaakb/pinns-torch",
+          "links": [],
+          "rawText": "PINN ー Physics Informed NN using PyTorch"
+        },
+        {
+          "title": "NeuroDiffGym",
+          "description": "Solving DE using NN",
+          "primaryUrl": "https://github.com/NeuroDiffGym/neurodiffeq",
+          "links": [],
+          "rawText": "NeuroDiffGym ー Solving DE using NN"
+        },
+        {
+          "title": "Quantum-Enhanced DFT in JAX",
+          "description": null,
+          "primaryUrl": "https://github.com/pasqal-io/qex",
+          "links": [],
+          "rawText": "Quantum-Enhanced DFT in JAX"
+        },
+        {
+          "title": "ComProScanner",
+          "description": "Multi-agent framework for composition-property relationships extraction",
+          "primaryUrl": "https://github.com/slimeslab/ComProScanner",
+          "links": [
+            {
+              "label": "Documentation",
+              "url": "https://slimeslab.github.io/ComProScanner/"
+            }
+          ],
+          "rawText": "ComProScanner ー Multi-agent framework for composition-property relationships extraction (Documentation)"
+        },
+        {
+          "title": "Hamiltonian Simulation: Transverse-Field Ising Model (TFIM) via Trotterization",
+          "description": null,
+          "primaryUrl": "https://github.com/brian-hepler-phd/hamiltonian-simulation-tfim-trotter",
+          "links": [],
+          "rawText": "Hamiltonian Simulation: Transverse-Field Ising Model (TFIM) via Trotterization"
+        },
+        {
+          "title": "Algebrica",
+          "description": "Free mathematical knowledge base",
+          "primaryUrl": "https://algebrica.org/",
+          "links": [],
+          "rawText": "Algebrica ー Free mathematical knowledge base"
+        },
+        {
+          "title": "SKALA",
+          "description": "NN-based exchange-correlation functional for DFT",
+          "primaryUrl": "https://github.com/microsoft/skala",
+          "links": [
+            {
+              "label": "paper",
+              "url": "https://arxiv.org/abs/2506.14665"
+            }
+          ],
+          "rawText": "SKALA ー NN-based exchange-correlation functional for DFT (paper)"
+        },
+        {
+          "title": "Molecular Dynamics Simulation: Protein-in-Water",
+          "description": "Automated Python pipeline for performing MD simulation using GROMACS for proteins in explicit water with ions.",
+          "primaryUrl": "https://github.com/Mayuri3498/Molecular-Dynamics-Simulation---Protein-in-Water",
+          "links": [],
+          "rawText": "Molecular Dynamics Simulation: Protein-in-Water ー Automated Python pipeline for performing MD simulation using GROMACS for proteins in explicit water with ions."
+        },
+        {
+          "title": "MatChem Datasets",
+          "description": "For training AI & ML foundational models",
+          "primaryUrl": "https://github.com/blaiszik/awesome-matchem-datasets",
+          "links": [],
+          "rawText": "MatChem Datasets ー For training AI & ML foundational models"
+        },
+        {
+          "title": "ChemPredict — AI for Chemistry",
+          "description": null,
+          "primaryUrl": "https://github.com/ali1810/chempredict",
+          "links": [],
+          "rawText": "ChemPredict — AI for Chemistry"
+        },
+        {
+          "title": "MLIP Studio",
+          "description": null,
+          "primaryUrl": "https://github.com/mlipstudio/MLIP-Studio",
+          "links": [
+            {
+              "label": "paper",
+              "url": "https://arxiv.org/html/2607.07606v1"
+            }
+          ],
+          "rawText": "MLIP Studio (paper)"
+        },
+        {
+          "title": "mCGCNN",
+          "description": "dual-stream crystal graph CNN for the efficient prediction of magnetic properties of crystalline materials",
+          "primaryUrl": "https://github.com/SouravMal/mCGCNN",
+          "links": [
+            {
+              "label": "paper",
+              "url": "https://arxiv.org/abs/2606.28458"
+            },
+            {
+              "label": "YT link",
+              "url": "https://youtu.be/gNm0U7DMCeQ?si=jlFA3KXGY_7pmQ4J"
+            }
+          ],
+          "rawText": "mCGCNN ー dual-stream crystal graph CNN for the efficient prediction of magnetic properties of crystalline materials (paper) (YT link)"
+        }
+      ]
+    },
+    {
+      "title": "Youtube Resources",
+      "items": [
+        {
+          "title": "Potential Energy Surface",
+          "description": null,
+          "primaryUrl": "https://www.youtube.com/watch?v=pu4uL7deCNw",
+          "links": [],
+          "rawText": "Potential Energy Surface"
+        },
+        {
+          "title": "The Hydrogen Molecule Ion",
+          "description": null,
+          "primaryUrl": "https://youtu.be/uKxYdMODRSU?si=ny4j2YRvkOCkCrdq",
+          "links": [],
+          "rawText": "The Hydrogen Molecule Ion"
+        },
+        {
+          "title": "The Finite Volume Method in CFD",
+          "description": null,
+          "primaryUrl": "https://youtu.be/E9_kyXjtRHc?si=hwDPxTUFtZjlaVje",
+          "links": [],
+          "rawText": "The Finite Volume Method in CFD"
+        },
+        {
+          "title": "The Hatree-Fock Algorithm",
+          "description": null,
+          "primaryUrl": "https://youtu.be/WTz8nr1abwc?si=UIfOJNm8xiIfQuEe",
+          "links": [],
+          "rawText": "The Hatree-Fock Algorithm"
+        },
+        {
+          "title": "Molecular Dynamics: Basics",
+          "description": null,
+          "primaryUrl": "https://youtu.be/bnGXwRIPICQ?si=XWU0J8_E6asGXdm7",
+          "links": [],
+          "rawText": "Molecular Dynamics: Basics"
+        },
+        {
+          "title": "SCAN functional (Prof. Jianwei Sun)",
+          "description": null,
+          "primaryUrl": "https://youtu.be/hHIm4BvyUq8?si=GPRvc3bdYthh1eTF",
+          "links": [],
+          "rawText": "SCAN functional (Prof. Jianwei Sun)"
+        },
+        {
+          "title": "Hydrogen atom wavefunctions",
+          "description": null,
+          "primaryUrl": "https://youtu.be/DvRzdCnsiYw?si=XA7MWr6-i_zt_k9a",
+          "links": [],
+          "rawText": "Hydrogen atom wavefunctions"
+        },
+        {
+          "title": "Random Numbers with LFSR",
+          "description": null,
+          "primaryUrl": "https://youtu.be/Ks1pw1X22y4?si=gdwu0Lkr9GQ0tsmN",
+          "links": [],
+          "rawText": "Random Numbers with LFSR"
+        },
+        {
+          "title": "Sampling and Integration",
+          "description": null,
+          "primaryUrl": "https://youtu.be/Z_VomhU7XH8?si=_ka7C6wD9eu6MNO_",
+          "links": [],
+          "rawText": "Sampling and Integration"
+        },
+        {
+          "title": "Fourier Transform",
+          "description": null,
+          "primaryUrl": "https://youtu.be/5Di01Cpen_o?si=hzErsC-NkoRIUSkw",
+          "links": [],
+          "rawText": "Fourier Transform"
+        },
+        {
+          "title": "Harvard AM 205: graduate-level course on scientific computing and numerical methods",
+          "description": null,
+          "primaryUrl": "https://youtu.be/mRo-NUGYZ9w?si=a0pEXTvqEsigFP6R",
+          "links": [],
+          "rawText": "Harvard AM 205: graduate-level course on scientific computing and numerical methods"
+        },
+        {
+          "title": "Freezing atoms with Lasers",
+          "description": null,
+          "primaryUrl": "https://youtu.be/xMAJc1zwyrs?si=nTQ9Gn51bR3NjL8S",
+          "links": [],
+          "rawText": "Freezing atoms with Lasers"
+        },
+        {
+          "title": "Physics Engine to simulate the TDSE",
+          "description": null,
+          "primaryUrl": "https://youtu.be/KYX4cEG-Zag?si=uSpaUC77pDvnolUj",
+          "links": [],
+          "rawText": "Physics Engine to simulate the TDSE"
+        },
+        {
+          "title": "The meaning of Metric Tensor",
+          "description": null,
+          "primaryUrl": "https://youtu.be/Dn0ZZRVuJcU?si=1rpFLxh407bk4zAS",
+          "links": [],
+          "rawText": "The meaning of Metric Tensor"
+        },
+        {
+          "title": "A systems neuroscience approach to building AGI",
+          "description": null,
+          "primaryUrl": "https://youtu.be/Qgd3OK5DZWI?si=n8gAbWinvSR4Z9sI",
+          "links": [],
+          "rawText": "A systems neuroscience approach to building AGI"
+        },
+        {
+          "title": "Optimal Learning Protocols Via Statistical Physics and Control Theory",
+          "description": "Prof. Francesca Mignacco",
+          "primaryUrl": "https://www.youtube.com/watch?v=Bwvd3Qt3coY",
+          "links": [],
+          "rawText": "Optimal Learning Protocols Via Statistical Physics and Control Theory ー Prof. Francesca Mignacco"
+        },
+        {
+          "title": "The Mathematics of LLM models by Andrea Montanari (Stanford University, USA)",
+          "description": null,
+          "primaryUrl": "https://www.youtube.com/live/_fF6z1wMhCI?si=bt3h_N0aMxYj3NjG",
+          "links": [
+            {
+              "label": "Lecture 1",
+              "url": "https://www.youtube.com/live/_fF6z1wMhCI?si=bt3h_N0aMxYj3NjG"
+            },
+            {
+              "label": "Lecture 2",
+              "url": "https://www.youtube.com/live/mGuKFFQXjmc?si=9KcmGXJRJFx-AFmr"
+            },
+            {
+              "label": "Lecture 3",
+              "url": "https://www.youtube.com/live/yRDauxgj3wU?si=IVYoXbw71c0W6wsS"
+            }
+          ],
+          "rawText": "The Mathematics of LLM models by Andrea Montanari (Stanford University, USA) (Lecture 1) (Lecture 2) (Lecture 3)"
+        },
+        {
+          "title": "Neutral Atom Computers: The Physics of Rydberg Quantum Gates",
+          "description": null,
+          "primaryUrl": "https://youtu.be/lfoxGYzdI0s?si=fVw-giEuUh7apF9M",
+          "links": [],
+          "rawText": "Neutral Atom Computers: The Physics of Rydberg Quantum Gates"
+        },
+        {
+          "title": "QR Decomposition",
+          "description": null,
+          "primaryUrl": "https://youtu.be/JoO0qP1d4Do?si=RcyOn1zJeVRLIR1t",
+          "links": [],
+          "rawText": "QR Decomposition"
+        },
+        {
+          "title": "Computer Architecture, Processors, and more with David Patterson",
+          "description": null,
+          "primaryUrl": "https://www.youtube.com/watch?v=Pn4ZwlEh5nw",
+          "links": [],
+          "rawText": "Computer Architecture, Processors, and more with David Patterson"
+        },
+        {
+          "title": "ML Workshop by David Baker",
+          "description": null,
+          "primaryUrl": "https://www.youtube.com/watch?v=YbGjrfvzj90",
+          "links": [],
+          "rawText": "ML Workshop by David Baker"
+        }
+      ]
+    },
+    {
+      "title": "Papers",
+      "items": [
+        {
+          "title": "Quantum Computing for Phonon Scattering Effects on Thermal Conductivity",
+          "description": null,
+          "primaryUrl": "https://arxiv.org/abs/2407.15808",
+          "links": [],
+          "rawText": "Quantum Computing for Phonon Scattering Effects on Thermal Conductivity"
+        },
+        {
+          "title": "A practical guide to machine learning interatomic potentials -- Status and future",
+          "description": null,
+          "primaryUrl": "https://arxiv.org/abs/2503.09814v1",
+          "links": [],
+          "rawText": "A practical guide to machine learning interatomic potentials -- Status and future"
+        },
+        {
+          "title": "Program Structure & Computational Complexity",
+          "description": "Synopsis, Dennis .M. Ritchie",
+          "primaryUrl": "https://archive.computerhistory.org/resources/access/text/2020/05/102790971/Ritchie_dissertation.pdf",
+          "links": [],
+          "rawText": "Program Structure & Computational Complexity ー Synopsis, Dennis .M. Ritchie"
+        },
+        {
+          "title": "Resolving Feynman’s restaurant problem reveals optimal solutions and human strategies",
+          "description": "PNAS, June 1, 2026",
+          "primaryUrl": "https://www.pnas.org/doi/epdf/10.1073/pnas.2509612123",
+          "links": [],
+          "rawText": "Resolving Feynman’s restaurant problem reveals optimal solutions and human strategies ー PNAS, June 1, 2026"
+        },
+        {
+          "title": "Beyond Text and Tables: Vision-Language Model Integration in ComProScanner for Extracting Materials Data from Scientific Figures with High Accuracy",
+          "description": null,
+          "primaryUrl": "https://arxiv.org/abs/2606.00065",
+          "links": [],
+          "rawText": "Beyond Text and Tables: Vision-Language Model Integration in ComProScanner for Extracting Materials Data from Scientific Figures with High Accuracy"
+        },
+        {
+          "title": "The effective noise of Stochastic Gradient Descent",
+          "description": null,
+          "primaryUrl": "https://arxiv.org/abs/2112.10852",
+          "links": [],
+          "rawText": "The effective noise of Stochastic Gradient Descent"
+        },
+        {
+          "title": "A phase transition between positional and semantic learning in a solvable model of dot product attention",
+          "description": null,
+          "primaryUrl": "https://iopscience.iop.org/article/10.1088/1742-5468/ade137/pdf",
+          "links": [],
+          "rawText": "A phase transition between positional and semantic learning in a solvable model of dot product attention"
+        },
+        {
+          "title": "Overparameterized Nonlinear Learning: Gradient Descent Takes the Shortest Path?",
+          "description": null,
+          "primaryUrl": "https://arxiv.org/abs/1812.10004",
+          "links": [],
+          "rawText": "Overparameterized Nonlinear Learning: Gradient Descent Takes the Shortest Path?"
+        },
+        {
+          "title": "The principles of Deep Learning theory",
+          "description": null,
+          "primaryUrl": "https://arxiv.org/abs/2106.10165",
+          "links": [],
+          "rawText": "The principles of Deep Learning theory"
+        },
+        {
+          "title": "Electronic spectra of (H2S)n+(n = 2 – 6) and [(H2S)2– (H2O)m]+ (m = 1 – 2) in the gas phase",
+          "description": null,
+          "primaryUrl": "https://drive.google.com/file/d/1Nlzrr7WGl0YjjMeqif7lUg5uBXvBdWcq/view?usp=drive_link",
+          "links": [],
+          "rawText": "Electronic spectra of (H2S)n+(n = 2 – 6) and [(H2S)2– (H2O)m]+ (m = 1 – 2) in the gas phase"
+        },
+        {
+          "title": "Learning the action for long-time-step simulations of molecular dynamics",
+          "description": null,
+          "primaryUrl": "https://arxiv.org/abs/2508.01068",
+          "links": [],
+          "rawText": "Learning the action for long-time-step simulations of molecular dynamics"
+        },
+        {
+          "title": "Random Reshuffling Dominates Stochastic Gradient Descent",
+          "description": null,
+          "primaryUrl": "https://arxiv.org/abs/2606.32005",
+          "links": [],
+          "rawText": "Random Reshuffling Dominates Stochastic Gradient Descent"
+        },
+        {
+          "title": "Self-Consistent DFT+U for CO Adsorption on Transition Metal Surfaces: A Practical Correction and Benchmark",
+          "description": null,
+          "primaryUrl": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2026-56chp/v2",
+          "links": [],
+          "rawText": "Self-Consistent DFT+U for CO Adsorption on Transition Metal Surfaces: A Practical Correction and Benchmark"
+        },
+        {
+          "title": "Chemical bonding concepts emerge naturally from maximally entangled atomic orbitals",
+          "description": null,
+          "primaryUrl": "https://arxiv.org/abs/2501.15699",
+          "links": [],
+          "rawText": "Chemical bonding concepts emerge naturally from maximally entangled atomic orbitals"
+        },
+        {
+          "title": "Machine-learning iterative calculation of entropy for physical systems",
+          "description": null,
+          "primaryUrl": "https://drive.google.com/file/d/1SsOMLnFN3xkei6j3CSDXdw_mHKImsG41/view?usp=drive_link",
+          "links": [],
+          "rawText": "Machine-learning iterative calculation of entropy for physical systems"
+        }
+      ]
+    },
+    {
+      "title": "Lectures & Books",
+      "items": [
+        {
+          "title": "Atomistic Computer Modelling of Materials",
+          "description": "(MIT OpencourseWare)",
+          "primaryUrl": "https://ocw.mit.edu/courses/3-320-atomistic-computer-modeling-of-materials-sma-5107-spring-2005/",
+          "links": [],
+          "rawText": "Atomistic Computer Modelling of Materials (MIT OpencourseWare)"
+        },
+        {
+          "title": "Teaching Notes",
+          "description": null,
+          "primaryUrl": "https://docs.google.com/document/d/1zKxHxnq4-u5cXJlEWjXYF_tDZP6yLbtqPVU9x-pRXHg/edit?usp=sharing",
+          "links": [],
+          "rawText": "Teaching Notes"
+        },
+        {
+          "title": "The Physical Principles of Quantum Theory",
+          "description": "(Starts at Page 5)",
+          "primaryUrl": "https://www.hlevkin.com/hlevkin/90MathPhysBioBooks/Physics/Physics/Heizenberg/2015.166273.The-Physical-Principles-Of-The-Quantum-Theory.pdf",
+          "links": [],
+          "rawText": "The Physical Principles of Quantum Theory (Starts at Page 5)"
+        },
+        {
+          "title": "Advanced Quantum Chemistry Methods",
+          "description": null,
+          "primaryUrl": "https://qc2-teaching.readthedocs.io/en/latest/",
+          "links": [],
+          "rawText": "Advanced Quantum Chemistry Methods"
+        },
+        {
+          "title": "Optimising H2+ Molecular Orbital",
+          "description": null,
+          "primaryUrl": "https://av.tib.eu/media/18904",
+          "links": [],
+          "rawText": "Optimising H2+ Molecular Orbital"
+        },
+        {
+          "title": "Python Programming and Numerical Methods",
+          "description": null,
+          "primaryUrl": "https://pythonnumericalmethods.studentorg.berkeley.edu/notebooks/Index.html",
+          "links": [],
+          "rawText": "Python Programming and Numerical Methods"
+        },
+        {
+          "title": "On the constitution of atoms and molecules",
+          "description": "by N. Bohr",
+          "primaryUrl": "https://www.gutenberg.org/cache/epub/72787/pg72787-images.html",
+          "links": [],
+          "rawText": "On the constitution of atoms and molecules by N. Bohr"
+        },
+        {
+          "title": "Stochastic simulation of biological circuits",
+          "description": null,
+          "primaryUrl": "http://be150.caltech.edu/2020/content/lessons/12_stochastic_simulation.html",
+          "links": [],
+          "rawText": "Stochastic simulation of biological circuits"
+        },
+        {
+          "title": "Stochastic simulation",
+          "description": null,
+          "primaryUrl": "https://www.rpgroup.caltech.edu/aph161/assets/tut/t3/t03_stochastic_simulations.html",
+          "links": [],
+          "rawText": "Stochastic simulation"
+        },
+        {
+          "title": "3C directory",
+          "description": "Directory holding additional PDFs",
+          "primaryUrl": "https://drive.google.com/drive/folders/1QvbA0hTVk68PrelvkASSU63WvDPs3PnU?usp=drive_link",
+          "links": [],
+          "rawText": "3C directory ー Directory holding additional PDFs"
+        },
+        {
+          "title": "Introduction to Statistical Mechanics",
+          "description": null,
+          "primaryUrl": "https://web.stanford.edu/~peastman/statmech/index.html",
+          "links": [],
+          "rawText": "Introduction to Statistical Mechanics"
+        },
+        {
+          "title": "Numerical Integrators",
+          "description": null,
+          "primaryUrl": "https://www.roma1.infn.it/~sciortif/didattica/SIMATOM/SIMATOM/inizio-MD.pdf",
+          "links": [],
+          "rawText": "Numerical Integrators"
+        },
+        {
+          "title": "Linear Response theory",
+          "description": null,
+          "primaryUrl": "https://www.physics.rutgers.edu/grad/621/lectures/L14_LinearResponse.pdf",
+          "links": [],
+          "rawText": "Linear Response theory"
+        },
+        {
+          "title": "TD Quantum Mechanics & Spectroscopy",
+          "description": null,
+          "primaryUrl": "https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Time_Dependent_Quantum_Mechanics_and_Spectroscopy_2014e_(Tokmakoff)",
+          "links": [],
+          "rawText": "TD Quantum Mechanics & Spectroscopy"
+        },
+        {
+          "title": "Notes on Rademacher Complexity",
+          "description": null,
+          "primaryUrl": "https://www.cs.toronto.edu/~rjliao/notes/Notes_on_Rademacher_Complexity.pdf",
+          "links": [],
+          "rawText": "Notes on Rademacher Complexity"
+        },
+        {
+          "title": "Mean Field Theory of Two-layers NN",
+          "description": null,
+          "primaryUrl": "https://misiakie.github.io/publications/Misiakiewicz_MeanFieldNNs_Simons.pdf",
+          "links": [],
+          "rawText": "Mean Field Theory of Two-layers NN"
+        },
+        {
+          "title": "Calculus Early Transcendentals",
+          "description": null,
+          "primaryUrl": "https://rodrigopacios.github.io/mrpacios/download/Thomas_Calculus.pdf",
+          "links": [],
+          "rawText": "Calculus Early Transcendentals"
+        },
+        {
+          "title": "Atomic Theory and the Description of Nature by N. Bohr",
+          "description": null,
+          "primaryUrl": "https://www.rexresearch1.com/BohrPhysics/Atomic%20TheorYDescription%20Of%20NatureBohr.pdf",
+          "links": [],
+          "rawText": "Atomic Theory and the Description of Nature by N. Bohr"
+        },
+        {
+          "title": "ScotChem protein-ligand docking course",
+          "description": null,
+          "primaryUrl": "https://www.scotchem.ac.uk/pldc/",
+          "links": [],
+          "rawText": "ScotChem protein-ligand docking course"
+        },
+        {
+          "title": "Computational Methods in Chemical Engineering",
+          "description": null,
+          "primaryUrl": "https://drive.google.com/file/d/1wGkx5pfuqTz7sxz-F_9yeLc_37U-k54o/view?usp=drive_link",
+          "links": [],
+          "rawText": "Computational Methods in Chemical Engineering"
+        },
+        {
+          "title": "Dive Into Deep Learning",
+          "description": null,
+          "primaryUrl": "https://d2l.ai/index.html",
+          "links": [],
+          "rawText": "Dive Into Deep Learning"
+        },
+        {
+          "title": "Quantum Physics Course",
+          "description": null,
+          "primaryUrl": "https://quantummechanics.ucsd.edu/ph130a/130_notes/node1.html",
+          "links": [],
+          "rawText": "Quantum Physics Course"
+        },
+        {
+          "title": "Jupyter Notebook Tutorials: Introduction to Quantum Mechanics",
+          "description": null,
+          "primaryUrl": "https://deprincelab.github.io/tutorials/jupyter_notebooks/variation/variation.html",
+          "links": [],
+          "rawText": "Jupyter Notebook Tutorials: Introduction to Quantum Mechanics"
+        },
+        {
+          "title": "Fundamentals of Analytical Chemistry",
+          "description": null,
+          "primaryUrl": "https://dl.konkur.in/2025/03/Analytical-Chemistry2021-%5Bwww.konkur.in%5D.pdf",
+          "links": [],
+          "rawText": "Fundamentals of Analytical Chemistry"
+        }
+      ]
+    },
+    {
+      "title": "Additional Reading Resources",
+      "items": [
+        {
+          "title": "Qijing Zheng posts on relevant concepts",
+          "description": null,
+          "primaryUrl": "http://staff.ustc.edu.cn/~zqj/",
+          "links": [
+            {
+              "label": "link",
+              "url": "http://staff.ustc.edu.cn/~zqj/"
+            }
+          ],
+          "rawText": "Qijing Zheng posts on relevant concepts (link)"
+        },
+        {
+          "title": "Deep Neural Nets: 33 years ago and 33 years from now",
+          "description": null,
+          "primaryUrl": "https://karpathy.github.io/2022/03/14/lecun1989/",
+          "links": [],
+          "rawText": "Deep Neural Nets: 33 years ago and 33 years from now"
+        },
+        {
+          "title": "Davidsons-method",
+          "description": null,
+          "primaryUrl": "https://joshuagoings.com/2013/08/23/davidsons-method/",
+          "links": [
+            {
+              "label": "joshuagoings",
+              "url": "https://joshuagoings.com/2013/08/23/davidsons-method/"
+            }
+          ],
+          "rawText": "Davidsons-method (joshuagoings)"
+        },
+        {
+          "title": "Wolfram Summer School Projects",
+          "description": null,
+          "primaryUrl": "https://www.wolframcloud.com/obj/microsites/summerschool/projects.html",
+          "links": [],
+          "rawText": "Wolfram Summer School Projects"
+        },
+        {
+          "title": "Introduction To Computational Chemistry Calculations: PES and Saddle Point",
+          "description": null,
+          "primaryUrl": "https://aritraroy.live/tutorial/blogs/2020/introduction-to-pes-and-saddle-point/",
+          "links": [],
+          "rawText": "Introduction To Computational Chemistry Calculations: PES and Saddle Point"
+        },
+        {
+          "title": "Polarizability of Hydrogen Atom",
+          "description": null,
+          "primaryUrl": "https://demonstrations.wolfram.com/PolarizabilityOfHydrogenAtom/",
+          "links": [],
+          "rawText": "Polarizability of Hydrogen Atom"
+        },
+        {
+          "title": "Neutral-atom quantum computers",
+          "description": null,
+          "primaryUrl": "https://pennylane.ai/demos/tutorial_neutral_atoms",
+          "links": [],
+          "rawText": "Neutral-atom quantum computers"
+        },
+        {
+          "title": "HF Theory in 100 lines",
+          "description": null,
+          "primaryUrl": "https://adambaskerville.github.io/posts/HartreeFockGuide/",
+          "links": [],
+          "rawText": "HF Theory in 100 lines"
+        },
+        {
+          "title": "How does the approximate energy relate with the trial function in variational method?",
+          "description": null,
+          "primaryUrl": "https://physics.stackexchange.com/questions/620877/how-does-the-approximate-energy-relate-with-the-trial-function-in-variational-me",
+          "links": [],
+          "rawText": "How does the approximate energy relate with the trial function in variational method?"
+        },
+        {
+          "title": "Computational Physics",
+          "description": null,
+          "primaryUrl": "https://vovchenko.net/computational-physics/intro.html",
+          "links": [],
+          "rawText": "Computational Physics"
+        },
+        {
+          "title": "Condensed matter physics",
+          "description": null,
+          "primaryUrl": "https://www.quantamagazine.org/tag/condensed-matter-physics/",
+          "links": [
+            {
+              "label": "Quanta Magazine",
+              "url": "https://www.quantamagazine.org/tag/condensed-matter-physics/"
+            }
+          ],
+          "rawText": "Condensed matter physics (Quanta Magazine)"
+        },
+        {
+          "title": "Exchange Interaction ー",
+          "description": null,
+          "primaryUrl": "https://research.uni-leipzig.de/sum/files/magtheory-slides-2.pdf",
+          "links": [
+            {
+              "label": "Lecture slide",
+              "url": "https://research.uni-leipzig.de/sum/files/magtheory-slides-2.pdf"
+            }
+          ],
+          "rawText": "Exchange Interaction ー Lecture slide"
+        },
+        {
+          "title": "The discovery of the electron spin",
+          "description": null,
+          "primaryUrl": "https://lorentz.leidenuniv.nl/history/spin/goudsmit.html",
+          "links": [],
+          "rawText": "The discovery of the electron spin"
+        },
+        {
+          "title": "An interactive guide to the Fourier Transform",
+          "description": null,
+          "primaryUrl": "https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/",
+          "links": [],
+          "rawText": "An interactive guide to the Fourier Transform"
+        },
+        {
+          "title": "The Tensor Cookbook",
+          "description": null,
+          "primaryUrl": "https://tensorcookbook.com/",
+          "links": [],
+          "rawText": "The Tensor Cookbook"
+        },
+        {
+          "title": "Quantum Mechanics for Engineers",
+          "description": null,
+          "primaryUrl": "https://web1.eng.famu.fsu.edu/~dommelen/quantum/style_a/index.html",
+          "links": [],
+          "rawText": "Quantum Mechanics for Engineers"
+        },
+        {
+          "title": "Smooth Particle Hydrodynamics",
+          "description": null,
+          "primaryUrl": "https://personal.ems.psu.edu/~fkd/courses/EGEE520/2017Deliverables/SPH_2017.pdf",
+          "links": [
+            {
+              "label": "slides",
+              "url": "https://personal.ems.psu.edu/~fkd/courses/EGEE520/2017Deliverables/SPH_2017.pdf"
+            },
+            {
+              "label": "web",
+              "url": "https://2021.help.altair.com/2021/hwsolvers/rad/topics/solvers/rad/theory_sph_c.htm"
+            },
+            {
+              "label": "Ian Johnson",
+              "url": "https://enjalot.github.io/moonshine/sph/"
+            }
+          ],
+          "rawText": "Smooth Particle Hydrodynamics (slides) (web) (Ian Johnson)"
+        },
+        {
+          "title": "Are Deep Neural Networks Dramatically Overfitted?",
+          "description": null,
+          "primaryUrl": "https://lilianweng.github.io/posts/2019-03-14-overfit/",
+          "links": [],
+          "rawText": "Are Deep Neural Networks Dramatically Overfitted?"
+        },
+        {
+          "title": "A Gentle Introduction to Graph NN",
+          "description": null,
+          "primaryUrl": "https://distill.pub/2021/gnn-intro/",
+          "links": [],
+          "rawText": "A Gentle Introduction to Graph NN"
+        },
+        {
+          "title": "What AlphaFold 3 struggles with",
+          "description": null,
+          "primaryUrl": "https://www.ebi.ac.uk/training/online/courses/alphafold/alphafold-3-and-alphafold-server/introducing-alphafold-3/what-alphafold-3-struggles-with/",
+          "links": [],
+          "rawText": "What AlphaFold 3 struggles with"
+        },
+        {
+          "title": "Mathematical Pathways to Machine Learning",
+          "description": null,
+          "primaryUrl": "https://xxl12.github.io/from_math_to_ml/",
+          "links": [],
+          "rawText": "Mathematical Pathways to Machine Learning"
+        },
+        {
+          "title": "Predictive coding",
+          "description": null,
+          "primaryUrl": "https://en.wikipedia.org/wiki/Predictive_coding",
+          "links": [
+            {
+              "label": "wiki",
+              "url": "https://en.wikipedia.org/wiki/Predictive_coding"
+            },
+            {
+              "label": "arxiv paper",
+              "url": "https://arxiv.org/abs/2107.12979"
+            },
+            {
+              "label": "repos",
+              "url": "https://github.com/topics/predictive-coding"
+            }
+          ],
+          "rawText": "Predictive coding (wiki) (arxiv paper) (repos)"
+        },
+        {
+          "title": "Teaching thermodynamic laws to AI unlocks a polymer modeling challenge",
+          "description": null,
+          "primaryUrl": "https://phys.org/news/2026-05-thermodynamic-laws-ai-polymer.html",
+          "links": [
+            {
+              "label": "Physorg",
+              "url": "https://phys.org/news/2026-05-thermodynamic-laws-ai-polymer.html"
+            }
+          ],
+          "rawText": "Teaching thermodynamic laws to AI unlocks a polymer modeling challenge (Physorg)"
+        },
+        {
+          "title": "SMCB ー Seminar Series",
+          "description": null,
+          "primaryUrl": "https://sites.google.com/view/smcb2021/seminar-series",
+          "links": [],
+          "rawText": "SMCB ー Seminar Series"
+        },
+        {
+          "title": "PyFock",
+          "description": null,
+          "primaryUrl": "https://pyfock.bragitoff.com/",
+          "links": [
+            {
+              "label": "website",
+              "url": "https://pyfock.bragitoff.com/"
+            },
+            {
+              "label": "repo",
+              "url": "https://github.com/manassharma07/PyFock"
+            },
+            {
+              "label": "Chemrxiv",
+              "url": "https://chemrxiv.org/doi/full/10.26434/chemrxiv.15003943/v1"
+            }
+          ],
+          "rawText": "PyFock (website) (repo) (Chemrxiv)"
+        },
+        {
+          "title": "Swart Lab ー Theoretical Chemistry",
+          "description": null,
+          "primaryUrl": "https://www.marcelswart.eu/",
+          "links": [],
+          "rawText": "Swart Lab ー Theoretical Chemistry"
+        },
+        {
+          "title": "A 50-Year Quest: My Personal Journey with the Second Law of Thermodynamics by Stephen Wolfram",
+          "description": null,
+          "primaryUrl": "https://writings.stephenwolfram.com/2023/02/a-50-year-quest-my-personal-journey-with-the-second-law-of-thermodynamics/#computational-irreducibility-and-rule-30",
+          "links": [],
+          "rawText": "A 50-Year Quest: My Personal Journey with the Second Law of Thermodynamics by Stephen Wolfram"
+        },
+        {
+          "title": "Geometry and Topology in many-body physics ー",
+          "description": null,
+          "primaryUrl": "https://www.cond-mat.de/events/correl20/talks/resta.pdf",
+          "links": [
+            {
+              "label": "Lecture slide",
+              "url": "https://www.cond-mat.de/events/correl20/talks/resta.pdf"
+            }
+          ],
+          "rawText": "Geometry and Topology in many-body physics ー Lecture slide"
+        },
+        {
+          "title": "Making Claude a Chemist",
+          "description": null,
+          "primaryUrl": "https://www.anthropic.com/research/making-claude-a-chemist",
+          "links": [],
+          "rawText": "Making Claude a Chemist"
+        },
+        {
+          "title": "Optimal Transport and Wasserstein Distance",
+          "description": null,
+          "primaryUrl": "https://www.stat.cmu.edu/~larry/=sml/Opt.pdf",
+          "links": [],
+          "rawText": "Optimal Transport and Wasserstein Distance"
+        },
+        {
+          "title": "AutoChemy",
+          "description": "Computational Chemistry Assistant",
+          "primaryUrl": "https://autochemy.xyz/",
+          "links": [],
+          "rawText": "AutoChemy ー Computational Chemistry Assistant"
+        },
+        {
+          "title": "Learning the integral of a diffusion model",
+          "description": null,
+          "primaryUrl": "https://sander.ai/2026/05/06/flow-maps.html",
+          "links": [],
+          "rawText": "Learning the integral of a diffusion model"
+        },
+        {
+          "title": "Deep Learning for Astrophysics",
+          "description": null,
+          "primaryUrl": "https://www.deeplearning4astro.com/",
+          "links": [],
+          "rawText": "Deep Learning for Astrophysics"
+        },
+        {
+          "title": "Replica Method for the Machine Learning Theorist",
+          "description": null,
+          "primaryUrl": "https://windowsontheory.org/2021/08/11/replica-method-for-the-machine-learning-theorist-part-1-of-2/",
+          "links": [],
+          "rawText": "Replica Method for the Machine Learning Theorist"
+        },
+        {
+          "title": "Understanding Muon (MomentUm Orthogonalized by Newton-Schulz)",
+          "description": null,
+          "primaryUrl": "https://www.lakernewhouse.com/writing/muon-1",
+          "links": [],
+          "rawText": "Understanding Muon (MomentUm Orthogonalized by Newton-Schulz)"
+        },
+        {
+          "title": "Lie Theory: A Visual Introduction without the Maths",
+          "description": null,
+          "primaryUrl": "https://aalok.uk/projects/lietheory/",
+          "links": [],
+          "rawText": "Lie Theory: A Visual Introduction without the Maths"
+        },
+        {
+          "title": "Exact training of a neural network",
+          "description": null,
+          "primaryUrl": "https://mmaaz.ca/writings/exactnn.html",
+          "links": [],
+          "rawText": "Exact training of a neural network"
+        },
+        {
+          "title": "ML Research Blog ー Non-convex quadratic optimization problems",
+          "description": null,
+          "primaryUrl": "https://francisbach.com/non-convex-quadratic-problems/",
+          "links": [],
+          "rawText": "ML Research Blog ー Non-convex quadratic optimization problems"
+        },
+        {
+          "title": "Empirical Rademacher Complexity and Its Implications to Deep Learning",
+          "description": null,
+          "primaryUrl": "https://www.onurtunali.com/ml/2019/02/01/empirical-rademacher-complexity-and-its-implications-to-deep-learning.html#widehatrad_nmathcalh-code-practice",
+          "links": [],
+          "rawText": "Empirical Rademacher Complexity and Its Implications to Deep Learning"
+        },
+        {
+          "title": "The Illustrated Transformer",
+          "description": null,
+          "primaryUrl": "https://jalammar.github.io/illustrated-transformer/",
+          "links": [],
+          "rawText": "The Illustrated Transformer"
+        },
+        {
+          "title": "Intermediate Zeeman Effect ー",
+          "description": null,
+          "primaryUrl": "http://phys.iit.edu/~segre/phys406/21S/modules_05.pdf",
+          "links": [
+            {
+              "label": "Lecture slide",
+              "url": "http://phys.iit.edu/~segre/phys406/21S/modules_05.pdf"
+            }
+          ],
+          "rawText": "Intermediate Zeeman Effect ー Lecture slide"
+        },
+        {
+          "title": "Miedema's model",
+          "description": null,
+          "primaryUrl": "https://en.wikipedia.org/wiki/Miedema%27s_model",
+          "links": [],
+          "rawText": "Miedema's model"
+        },
+        {
+          "title": "Finding Chemical Records using Digital Computers",
+          "description": null,
+          "primaryUrl": "https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=821693",
+          "links": [],
+          "rawText": "Finding Chemical Records using Digital Computers"
+        },
+        {
+          "title": "MoleCVUE",
+          "description": null,
+          "primaryUrl": "https://sites.google.com/view/molecvue/about",
+          "links": [],
+          "rawText": "MoleCVUE"
+        },
+        {
+          "title": "ICML Tutorial by Mark Schmidt ー",
+          "description": null,
+          "primaryUrl": "https://www.cs.ubc.ca/~schmidtm/Documents/2026_ICML_Tutorial.pdf",
+          "links": [
+            {
+              "label": "Lecture slide",
+              "url": "https://www.cs.ubc.ca/~schmidtm/Documents/2026_ICML_Tutorial.pdf"
+            }
+          ],
+          "rawText": "ICML Tutorial by Mark Schmidt ー Lecture slide"
+        },
+        {
+          "title": "Deep Belief Nets by Geoffrey Hinton ー",
+          "description": null,
+          "primaryUrl": "https://www.cs.toronto.edu/~hinton/nipstutorial/nipstut3.pdf",
+          "links": [
+            {
+              "label": "Lecture slide",
+              "url": "https://www.cs.toronto.edu/~hinton/nipstutorial/nipstut3.pdf"
+            }
+          ],
+          "rawText": "Deep Belief Nets by Geoffrey Hinton ー Lecture slide"
+        },
+        {
+          "title": "Core Rope & Woven-Wire Memory Systems",
+          "description": null,
+          "primaryUrl": "https://madrona.ca/e/corerope/index.html",
+          "links": [],
+          "rawText": "Core Rope & Woven-Wire Memory Systems"
+        },
+        {
+          "title": "Is it right to neglect very small imaginary frequencies?",
+          "description": null,
+          "primaryUrl": "https://mattermodeling.stackexchange.com/questions/3942/is-it-right-to-neglect-very-small-imaginary-frequencies",
+          "links": [],
+          "rawText": "Is it right to neglect very small imaginary frequencies?"
+        },
+        {
+          "title": "A roadmap for AI disruption in drug discovery",
+          "description": null,
+          "primaryUrl": "https://wildtypehuman.substack.com/p/a-roadmap-for-techbio-disruption",
+          "links": [],
+          "rawText": "A roadmap for AI disruption in drug discovery"
+        },
+        {
+          "title": "Risk and Uncertainty in Deep Learning",
+          "description": null,
+          "primaryUrl": "https://gdmarmerola.github.io/risk-and-uncertainty-deep-learning/",
+          "links": [],
+          "rawText": "Risk and Uncertainty in Deep Learning"
+        },
+        {
+          "title": "Understanding Model Uncertainty",
+          "description": null,
+          "primaryUrl": "https://e-baumer.github.io/2020-04-03-model-risk-uncertainty/",
+          "links": [],
+          "rawText": "Understanding Model Uncertainty"
+        },
+        {
+          "title": "Bindome Database",
+          "description": null,
+          "primaryUrl": "https://bindome.epfl.ch/static/index.html",
+          "links": [],
+          "rawText": "Bindome Database"
+        },
+        {
+          "title": "Trouble in High-Dimensional Land",
+          "description": null,
+          "primaryUrl": "https://dibyaghosh.com/blog/probability/highdimensionalgeometry/",
+          "links": [],
+          "rawText": "Trouble in High-Dimensional Land"
+        },
+        {
+          "title": "Neural Networks, Manifolds, and Topology",
+          "description": null,
+          "primaryUrl": "https://colah.github.io/posts/2014-03-NN-Manifolds-Topology/",
+          "links": [],
+          "rawText": "Neural Networks, Manifolds, and Topology"
+        }
+      ]
+    },
+    {
+      "title": "Extra Resources",
+      "items": [
+        {
+          "title": "How should chemists think?",
+          "description": null,
+          "primaryUrl": "https://roaldhoffmann.com/sites/default/files/fromd6/how_should_chemists_think.pdf",
+          "links": [],
+          "rawText": "How should chemists think?"
+        },
+        {
+          "title": "Estimating matter particle combustion kinetics",
+          "description": null,
+          "primaryUrl": "https://apps.dtic.mil/sti/tr/pdf/AD0614563.pdf",
+          "links": [],
+          "rawText": "Estimating matter particle combustion kinetics"
+        },
+        {
+          "title": "Combustion Chemistry",
+          "description": "Summer School 2021",
+          "primaryUrl": "https://www.cce.tsinghua.edu.cn/2021_Tomlin.pdf",
+          "links": [],
+          "rawText": "Combustion Chemistry ー Summer School 2021"
+        },
+        {
+          "title": "Physics reading list",
+          "description": "by Daniel Friedan",
+          "primaryUrl": "https://www.physics.rutgers.edu/~friedan/physics_readings/",
+          "links": [],
+          "rawText": "Physics reading list by Daniel Friedan"
+        },
+        {
+          "title": "TIFRAC, India’s First Computer – A Retrospective",
+          "description": null,
+          "primaryUrl": "https://www.ias.ac.in/article/fulltext/reso/013/05/0420-0429",
+          "links": [],
+          "rawText": "TIFRAC, India’s First Computer – A Retrospective"
+        },
+        {
+          "title": "Hard disks from CM to Stat Mech",
+          "description": null,
+          "primaryUrl": "https://youtu.be/ameqTFF7Q9g?si=dHzVVXU_inhhkUet",
+          "links": [],
+          "rawText": "Hard disks from CM to Stat Mech"
+        },
+        {
+          "title": "Steels: characteristics of martensite",
+          "description": null,
+          "primaryUrl": "https://youtu.be/kELQAG-c_o8?si=rd6tqr49j_MMGNYu",
+          "links": [],
+          "rawText": "Steels: characteristics of martensite"
+        },
+        {
+          "title": "DFT Trajectory Dataset",
+          "description": null,
+          "primaryUrl": "https://figshare.com/articles/dataset/Materials_Project_Trajectory_Dataset_of_r_sup_2_sup_SCAN_MPr_sup_2_sup_SCAN_/28245650?file=51832613",
+          "links": [
+            {
+              "label": "Dataset",
+              "url": "https://figshare.com/articles/dataset/Materials_Project_Trajectory_Dataset_of_r_sup_2_sup_SCAN_MPr_sup_2_sup_SCAN_/28245650?file=51832613"
+            },
+            {
+              "label": "website",
+              "url": "https://next-gen.materialsproject.org/"
+            }
+          ],
+          "rawText": "DFT Trajectory Dataset (Dataset) (website)"
+        },
+        {
+          "title": "Project Brahmagupta",
+          "description": null,
+          "primaryUrl": "https://projectbrahmagupta.github.io/",
+          "links": [],
+          "rawText": "Project Brahmagupta"
+        },
+        {
+          "title": "Los Alamos from Below",
+          "description": null,
+          "primaryUrl": "https://youtu.be/uY-u1qyRM5w?si=iJfNuatBY6W9ZVwC",
+          "links": [
+            {
+              "label": "Feynman Lecture",
+              "url": "https://youtu.be/uY-u1qyRM5w?si=iJfNuatBY6W9ZVwC"
+            },
+            {
+              "label": "caltech_lib",
+              "url": "https://calteches.library.caltech.edu/34/3/FeynmanLosAlamos.pdf"
+            }
+          ],
+          "rawText": "Los Alamos from Below (Feynman Lecture) (caltech_lib)"
+        },
+        {
+          "title": "Introduction to the Society of Mind",
+          "description": null,
+          "primaryUrl": "https://youtu.be/-pb3z2w9gDg?si=XtpB4o5N6brsZkRl",
+          "links": [],
+          "rawText": "Introduction to the Society of Mind"
+        },
+        {
+          "title": "Exploring Consciousness",
+          "description": null,
+          "primaryUrl": "https://loc.closertotruth.com/landscape/exploring-consciousness",
+          "links": [],
+          "rawText": "Exploring Consciousness"
+        },
+        {
+          "title": "Resolution Challenge",
+          "description": "Structural Biology",
+          "primaryUrl": "https://rico.ibs.fr/helixplorer/resolution/",
+          "links": [],
+          "rawText": "Resolution Challenge: Structural Biology"
+        },
+        {
+          "title": "The Unbearable Slowness of Being: Why do we live at 10 bits/s?",
+          "description": null,
+          "primaryUrl": "https://arxiv.org/abs/2408.10234",
+          "links": [],
+          "rawText": "The Unbearable Slowness of Being: Why do we live at 10 bits/s?"
+        },
+        {
+          "title": "Art of Computer Programming",
+          "description": null,
+          "primaryUrl": "https://learnaifromscratch.github.io/taocp.html",
+          "links": [
+            {
+              "label": "webpage",
+              "url": "https://learnaifromscratch.github.io/taocp.html"
+            }
+          ],
+          "rawText": "Art of Computer Programming (webpage)"
+        },
+        {
+          "title": "Floating Point: The Origin Story",
+          "description": null,
+          "primaryUrl": "https://thechipletter.substack.com/p/floating-point-the-origin-story?r=hwlvk&triedRedirect=true",
+          "links": [],
+          "rawText": "Floating Point: The Origin Story"
+        },
+        {
+          "title": "Fermat’s Last Theorem",
+          "description": null,
+          "primaryUrl": "https://youtu.be/GY4yN4cROE8?si=qvtemzCASiLuQVPl",
+          "links": [],
+          "rawText": "Fermat’s Last Theorem"
+        },
+        {
+          "title": "ManーComputer Symbiosis",
+          "description": null,
+          "primaryUrl": "https://groups.csail.mit.edu/medg/people/psz/Licklider.html",
+          "links": [],
+          "rawText": "ManーComputer Symbiosis"
+        },
+        {
+          "title": "IBM Debuts World’s First Sub-1 Nanometer Chip Technology",
+          "description": null,
+          "primaryUrl": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
+          "links": [],
+          "rawText": "IBM Debuts World’s First Sub-1 Nanometer Chip Technology"
+        },
+        {
+          "title": "Story of Enrico Fermi",
+          "description": null,
+          "primaryUrl": "https://www-zeus.roma1.infn.it/~dagos/history/Orear_Fermi_master.pdf",
+          "links": [],
+          "rawText": "Story of Enrico Fermi"
+        },
+        {
+          "title": "The Brachistochrone problem: origins",
+          "description": null,
+          "primaryUrl": "https://www.math.purdue.edu/~eremenko/bernoulli.html",
+          "links": [],
+          "rawText": "The Brachistochrone problem: origins"
+        },
+        {
+          "title": "AI and the future of Math",
+          "description": null,
+          "primaryUrl": "https://youtu.be/TfyPshgMbug?si=MxWHXiaxwl7wFF4z",
+          "links": [],
+          "rawText": "AI and the future of Math"
+        },
+        {
+          "title": "Markov Chains 101",
+          "description": null,
+          "primaryUrl": "https://www.sidhantbansal.com/2025/When-is-a-deck-truly-shuffled/",
+          "links": [],
+          "rawText": "Markov Chains 101"
+        },
+        {
+          "title": "LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction",
+          "description": null,
+          "primaryUrl": "https://github.com/Robbyant/lingbot-map",
+          "links": [],
+          "rawText": "LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction"
+        },
+        {
+          "title": "Peeping into mathematics research",
+          "description": null,
+          "primaryUrl": "https://aldousdj.medium.com/doing-research-mathematics-is-like-aaf4ff0d9235",
+          "links": [],
+          "rawText": "Peeping into mathematics research"
+        },
+        {
+          "title": "The Baffling Intelligence of a Single Cell (The story of E. coli chemotaxis)",
+          "description": null,
+          "primaryUrl": "https://jsomers.net/e-coli-chemotaxis/",
+          "links": [],
+          "rawText": "The Baffling Intelligence of a Single Cell (The story of E. coli chemotaxis)"
+        },
+        {
+          "title": "Development and impact of Quantum theory by Hans Bethe",
+          "description": null,
+          "primaryUrl": "https://youtu.be/Chy0k1GiNmY?si=oLKOsxysrwbab3ak",
+          "links": [],
+          "rawText": "Development and impact of Quantum theory by Hans Bethe"
+        },
+        {
+          "title": "Dr Smith goes to Los Alamos",
+          "description": null,
+          "primaryUrl": "https://www.ias.ac.in/article/fulltext/reso/011/06/0008-0025",
+          "links": [],
+          "rawText": "Dr Smith goes to Los Alamos"
+        },
+        {
+          "title": "The Research Lab The US Government Shutdown in 1984",
+          "description": null,
+          "primaryUrl": "https://youtu.be/c-cSeTz3dMg?si=zMyzkzDXfJ1Zj2i7",
+          "links": [],
+          "rawText": "The Research Lab The US Government Shutdown in 1984"
+        },
+        {
+          "title": "What Did Ilya See?",
+          "description": null,
+          "primaryUrl": "https://youtu.be/glWvwvhZkQ8?si=5IqFGC6DvgT5zrD6",
+          "links": [],
+          "rawText": "What Did Ilya See?"
+        },
+        {
+          "title": "Flash Attention Series - Mastering Softmax",
+          "description": null,
+          "primaryUrl": "https://jino-rohit.github.io/blogs/05_softmax.html",
+          "links": [],
+          "rawText": "Flash Attention Series - Mastering Softmax"
+        },
+        {
+          "title": "Aircraft Propulsion",
+          "description": null,
+          "primaryUrl": "https://ia800902.us.archive.org/4/items/aircraftpropulsion2ed_201907/Aircraft%20Propulsion%202ed.pdf",
+          "links": [],
+          "rawText": "Aircraft Propulsion"
+        },
+        {
+          "title": "David Harker—a life for crystallography",
+          "description": null,
+          "primaryUrl": "https://link.springer.com/article/10.1007/s11224-022-02011-0",
+          "links": [],
+          "rawText": "David Harker—a life for crystallography"
+        },
+        {
+          "title": "Beyond Darkness (Public Lecture Programme on Black Holes)",
+          "description": null,
+          "primaryUrl": "https://www.youtube.com/live/k_N3PFMUxPc",
+          "links": [],
+          "rawText": "Beyond Darkness (Public Lecture Programme on Black Holes)"
+        },
+        {
+          "title": "Black Hole Thermodynamics ー",
+          "description": null,
+          "primaryUrl": "https://people-lux.obspm.fr/gourgoulhon/fr/present_rec/bhthermo_X24.pdf",
+          "links": [
+            {
+              "label": "Lecture slide",
+              "url": "https://people-lux.obspm.fr/gourgoulhon/fr/present_rec/bhthermo_X24.pdf"
+            }
+          ],
+          "rawText": "Black Hole Thermodynamics ー Lecture slide"
+        },
+        {
+          "title": "Mathematics in the Age of AI ー Terrance Tao",
+          "description": null,
+          "primaryUrl": "https://teorth.github.io/tao-web/slides/age-of-ai-icm-2026.pdf",
+          "links": [],
+          "rawText": "Mathematics in the Age of AI ー Terrance Tao"
+        },
+        {
+          "title": "Compression and Intelligence ー",
+          "description": null,
+          "primaryUrl": "https://www.greene.sh/compression-and-intelligence/",
+          "links": [
+            {
+              "label": "Blog",
+              "url": "https://www.greene.sh/compression-and-intelligence/"
+            }
+          ],
+          "rawText": "Compression and Intelligence ー Blog"
+        },
+        {
+          "title": "Chemistry and Lithography",
+          "description": null,
+          "primaryUrl": "https://bdt.semi.ac.cn/library/upload/files/2022/3/3165512406.pdf",
+          "links": [],
+          "rawText": "Chemistry and Lithography"
+        },
+        {
+          "title": "The Story of Haemoglobin",
+          "description": null,
+          "primaryUrl": "https://www.newtinteractive.com/essays/hemoglobin",
+          "links": [],
+          "rawText": "The Story of Haemoglobin"
+        },
+        {
+          "title": "Why haven't organoids solved all of drug discovery?",
+          "description": null,
+          "primaryUrl": "https://www.owlposting.com/p/why-havent-organoids-solved-all-of",
+          "links": [],
+          "rawText": "Why haven't organoids solved all of drug discovery?"
+        },
+        {
+          "title": "Measuring hardware overhang",
+          "description": null,
+          "primaryUrl": "https://www.lesswrong.com/posts/75dnjiD8kv2khe9eQ/measuring-hardware-overhang",
+          "links": [],
+          "rawText": "Measuring hardware overhang"
+        },
+        {
+          "title": "Bandit Algorithms",
+          "description": null,
+          "primaryUrl": "https://web.archive.org/web/20201105122829/https://tor-lattimore.com/downloads/book/book.pdf",
+          "links": [],
+          "rawText": "Bandit Algorithms"
+        },
+        {
+          "title": "A scientific portrait of Giorgio Parisi: complex systems and much more",
+          "description": null,
+          "primaryUrl": "https://iopscience.iop.org/article/10.1088/2632-072X/acb8a1",
+          "links": [],
+          "rawText": "A scientific portrait of Giorgio Parisi: complex systems and much more"
+        },
+        {
+          "title": "Learn Anatomy Interactively",
+          "description": null,
+          "primaryUrl": "https://anatomy-livid.vercel.app/en",
+          "links": [],
+          "rawText": "Learn Anatomy Interactively"
+        },
+        {
+          "title": "The Fate of Ernst Ising and the Fate of his Model",
+          "description": null,
+          "primaryUrl": "https://physics.lnu.edu.ua/jps/2017/3/pdf/3002-19.pdf",
+          "links": [],
+          "rawText": "The Fate of Ernst Ising and the Fate of his Model"
+        },
+        {
+          "title": "Measuring Scientific Progress",
+          "description": null,
+          "primaryUrl": "https://diffuse.one/p/d1-012",
+          "links": [],
+          "rawText": "Measuring Scientific Progress"
+        },
+        {
+          "title": "FANoS-v2",
+          "description": "PyTorch optimizer for experiments with feedback-controlled momentum",
+          "primaryUrl": "https://pypi.org/project/fanos/",
+          "links": [],
+          "rawText": "FANoS-v2 ー PyTorch optimizer for experiments with feedback-controlled momentum"
+        }
+      ]
+    }
+  ]
+}
