@@ -1,0 +1,12 @@
+{
+  "name": "3c-repository-site",
+  "version": "1.0.0",
+  "description": "Automated site build for the 3C Repository shared resource doc",
+  "private": true,
+  "scripts": {
+    "fetch-thumbnails": "node scripts/fetch-thumbnails.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  }
+}
