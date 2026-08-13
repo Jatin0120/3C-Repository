@@ -20,7 +20,11 @@ const fetch = require("node-fetch");
 const DATA_JSON_PATH = path.join(__dirname, "..", "data.json");
 const THUMBNAILS_JSON_PATH = path.join(__dirname, "..", "thumbnails.json");
 const FETCH_TIMEOUT_MS = 10000;
-const MAX_HTML_BYTES = 500_000; // don't download entire huge pages, og tags are always in <head>
+const MAX_HTML_BYTES = 2_000_000; // raised from 500KB after finding YouTube's
+  // og:image tag sits ~694KB into the page (confirmed via diagnose-one-url.js
+  // against a real video URL) - some sites have very large <head> sections
+  // due to inline scripts/JSON before meta tags. 2MB comfortably covers this
+  // while still bailing out of truly pathological pages.
 const GENERIC_FALLBACK = "assets/generic-thumbnail.svg"; // relative path used by the site itself
 
 /**
@@ -58,10 +62,44 @@ function resolveImageUrl(imageUrl, pageUrl) {
 }
 
 /**
+ * Given a page URL that had no usable og:image, builds a favicon URL
+ * using Google's public favicon service as a second-tier fallback. This
+ * works even for direct PDF/file links (favicons are domain-level, not
+ * page-level), giving at least a "which site is this" visual instead of
+ * a fully generic placeholder. We don't verify the favicon actually
+ * resolves to a real (non-blank) icon before using it — the service
+ * always returns *some* valid image response, so that would only
+ * confirm reachability, not icon quality, and isn't worth an extra
+ * request on every single fallback.
+ */
+function faviconUrlFor(pageUrl) {
+  try {
+    const domain = new URL(pageUrl).hostname;
+    return `https://www.google.com/s2/favicons?domain=${encodeURIComponent(domain)}&sz=128`;
+  } catch (e) {
+    return null;
+  }
+}
+
+/**
+ * Central "og:image didn't work" handler used by every failure path in
+ * scrapeOne. Tries the domain favicon as a second tier before finally
+ * falling back to the fully generic placeholder (only reached if the
+ * page URL itself can't even be parsed, which should be rare).
+ */
+function fallbackFor(pageUrl, errorReason) {
+  const favicon = faviconUrlFor(pageUrl);
+  if (favicon) {
+    return { image: favicon, source: "favicon", error: errorReason };
+  }
+  return { image: GENERIC_FALLBACK, source: "fallback", error: errorReason };
+}
+
+/**
  * Fetches a single URL and tries to extract its thumbnail image.
  * Returns { image: string, source: "og"|"fallback", error?: string }
  */
-async function scrapeOne(url) {
+async function scrapeOne(url, isRetry = false) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
 
@@ -89,31 +127,43 @@ async function scrapeOne(url) {
     });
 
     if (!res.ok) {
-      return { image: GENERIC_FALLBACK, source: "fallback", error: "HTTP " + res.status };
+      // Some CDNs (GitHub Pages included) occasionally return a transient
+      // 404/5xx on a cold cache hit that succeeds on a second try shortly
+      // after. One retry, once, catches this without masking genuinely
+      // broken links (a real 404 will fail again on retry too).
+      if (!isRetry && (res.status === 404 || res.status >= 500)) {
+        clearTimeout(timeout);
+        await new Promise(resolve => setTimeout(resolve, 1500));
+        return scrapeOne(url, true);
+      }
+      return fallbackFor(url, "HTTP " + res.status);
     }
 
-    // Read only a bounded amount of the body — og:image is always in
-    // <head>, so we never need the full page, even for huge documents.
+    // Read the body, but stop early once we've passed </head> - that's
+    // the real signal all meta tags have been seen, so there's no need
+    // to keep downloading the rest of a multi-megabyte page. MAX_HTML_BYTES
+    // is a safety ceiling for pages that never close </head> cleanly.
     const reader = res.body;
     let html = "";
     for await (const chunk of reader) {
       html += chunk.toString("utf8");
+      if (html.includes("</head>")) break;
       if (html.length > MAX_HTML_BYTES) break;
     }
 
     const rawImage = extractImageFromHtml(html);
     if (!rawImage) {
-      return { image: GENERIC_FALLBACK, source: "fallback", error: "no og:image found" };
+      return fallbackFor(url, "no og:image found");
     }
 
     const resolved = resolveImageUrl(rawImage, res.url || url);
     if (!resolved) {
-      return { image: GENERIC_FALLBACK, source: "fallback", error: "could not resolve image url" };
+      return fallbackFor(url, "could not resolve image url");
     }
 
     return { image: resolved, source: "og" };
   } catch (e) {
-    return { image: GENERIC_FALLBACK, source: "fallback", error: String(e.message || e) };
+    return fallbackFor(url, String(e.message || e));
   } finally {
     clearTimeout(timeout);
   }
@@ -149,12 +199,23 @@ async function main() {
     }
   }
 
-  const urlsToScrape = allUrls.filter(url => !cache[url]);
+  // Retry logic: only truly-generic fallbacks get retried on future runs
+  // (a real og:image or even a favicon is "good enough" to keep). This
+  // means: if we previously found a favicon for a URL, we don't keep
+  // re-hitting that site every run just hoping for a real og:image later.
+  const cachedUrls = Object.keys(cache);
+  const trueFallbackUrls = cachedUrls.filter(url => cache[url].source === "fallback");
+  const urlsToScrape = allUrls.filter(
+    url => !cache[url] || cache[url].source === "fallback"
+  );
   console.log(
-    `Found ${allUrls.length} unique URLs total, ${urlsToScrape.length} not yet cached.`
+    `Found ${allUrls.length} unique URLs total. ` +
+    `${cachedUrls.length - trueFallbackUrls.length} already have a real thumbnail or favicon cached. ` +
+    `${urlsToScrape.length} will be (re)tried this run (new URLs + previous generic fallbacks).`
   );
 
   let scraped = 0;
+  let usedFavicon = 0;
   let failed = 0;
 
   for (const url of urlsToScrape) {
@@ -165,16 +226,25 @@ async function main() {
     };
     if (result.source === "og") {
       scraped++;
-      console.log(`${url} -> ${result.image}`);
+      console.log(`✅ ${url} -> ${result.image}`);
+    } else if (result.source === "favicon") {
+      usedFavicon++;
+      console.log(`🔹 ${url} -> favicon fallback (${result.error})`);
     } else {
       failed++;
-      console.log(`${url} -> fallback (${result.error})`);
+      console.log(`⚠️  ${url} -> generic fallback (${result.error})`);
     }
+
+    // Be a polite scraper: small delay between requests so we don't
+    // trip rate-limiting (HTTP 429) on sites like lesswrong.com that
+    // throttle rapid back-to-back requests from the same source.
+    await new Promise(resolve => setTimeout(resolve, 500));
   }
 
   fs.writeFileSync(THUMBNAILS_JSON_PATH, JSON.stringify(cache, null, 2));
   console.log(
-    `\nDone. ${scraped} thumbnails found, ${failed} fell back to generic, ` +
+    `\nDone. ${scraped} real thumbnails found, ${usedFavicon} used a site favicon, ` +
+    `${failed} fell back to fully generic, ` +
     `${allUrls.length - urlsToScrape.length} already cached.`
   );
 }
