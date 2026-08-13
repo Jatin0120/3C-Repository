@@ -1,0 +1,64 @@
+# .github/workflows/update-thumbnails.yml
+#
+# WHAT THIS DOES:
+#   1. Trigger: runs whenever data.json changes on the main branch
+#      (this fires automatically right after the Apps Script pushes).
+#   2. Spins up a fresh Ubuntu runner (a temporary, disposable machine).
+#   3. Downloads this repo's files onto that machine.
+#   4. Installs Node.js and the node-fetch dependency.
+#   5. Runs fetch-thumbnails.js, which reads data.json, scrapes any
+#      NEW urls not already in thumbnails.json, and updates
+#      thumbnails.json.
+#   6. Commits thumbnails.json back to the repo, but ONLY if it
+#      actually changed (so we don't create empty commits every time).
+#
+# Building the actual website (index.html) and deploying to GitHub
+# Pages is a SEPARATE workflow file, added in a later step - this one
+# only handles thumbnails, kept deliberately small and single-purpose
+# so it's easier to understand and debug on its own.
+
+name: Update Thumbnails
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "data.json" # only run when data.json actually changes
+
+# Gives this workflow permission to commit back to the repo.
+# Without this, the "commit thumbnails.json" step would fail with a
+# permissions error - GitHub Actions defaults to read-only access.
+permissions:
+  contents: write
+
+jobs:
+  update-thumbnails:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run thumbnail scraper
+        run: node scripts/fetch-thumbnails.js
+
+      - name: Commit updated thumbnails.json (if changed)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add thumbnails.json
+          if git diff --staged --quiet; then
+            echo "No changes to thumbnails.json - skipping commit"
+          else
+            git commit -m "Update thumbnails.json [automated]"
+            git push
+          fi
