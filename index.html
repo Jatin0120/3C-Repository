@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3C Repository — Computational Chemistry & Materials Science Resources</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --bg-primary: #FFFFFF;
+      --bg-secondary: #F5F5F5;
+      --text-primary: #1A1A1A;
+      --text-secondary: #999999;
+      --accent: #0066CC;
+      --border: #EEEEEE;
+    }
+
+    html.dark-mode {
+      --bg-primary: #121212;
+      --bg-secondary: #1E1E1E;
+      --text-primary: #E8E8E8;
+      --text-secondary: #B0B0B0;
+      --accent: #4DA6FF;
+      --border: #2A2A2A;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background-color: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.6;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    /* Header with dark mode toggle */
+    header {
+      position: sticky;
+      top: 0;
+      background-color: var(--bg-primary);
+      border-bottom: 1px solid var(--border);
+      padding: 1.5rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 100;
+    }
+
+    .header-content {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+
+    .header-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+    }
+
+    .header-subtitle {
+      font-size: 0.875rem;
+      color: var(--text-secondary);
+    }
+
+    .toggle-container {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .toggle-label {
+      font-size: 0.875rem;
+      color: var(--text-secondary);
+      user-select: none;
+    }
+
+    .toggle-switch {
+      position: relative;
+      width: 44px;
+      height: 24px;
+      background-color: var(--border);
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      padding: 2px;
+      transition: background-color 0.3s ease;
+    }
+
+    .toggle-switch::after {
+      content: '';
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background-color: var(--bg-primary);
+      border-radius: 10px;
+      top: 2px;
+      left: 2px;
+      transition: left 0.3s ease;
+    }
+
+    html.dark-mode .toggle-switch {
+      background-color: var(--accent);
+    }
+
+    html.dark-mode .toggle-switch::after {
+      left: 22px;
+    }
+
+    /* Main content */
+    main {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 3rem 2rem;
+    }
+
+    .hero {
+      text-align: center;
+      margin-bottom: 4rem;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+    }
+
+    .hero p {
+      font-size: 1.125rem;
+      color: var(--text-secondary);
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    /* Sections */
+    section {
+      margin-bottom: 4rem;
+    }
+
+    .section-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 2px solid var(--accent);
+      display: inline-block;
+    }
+
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+
+    /* Card styling */
+    .card {
+      background-color: var(--bg-secondary);
+      border: 1px solid var(--border);
+      cursor: pointer;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    }
+
+    html.dark-mode .card:hover {
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    }
+
+    .card-thumbnail {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      background-color: var(--border);
+    }
+
+    .card-content {
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      flex: 1;
+    }
+
+    .card-title {
+      font-size: 1.125rem;
+      font-weight: 600;
+      color: var(--accent);
+      word-break: break-word;
+    }
+
+    .card-description {
+      font-size: 0.9375rem;
+      color: var(--text-secondary);
+      line-height: 1.5;
+      flex: 1;
+    }
+
+    .card-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: auto;
+    }
+
+    .card-link {
+      display: inline-block;
+      font-size: 0.8125rem;
+      padding: 0.5rem 0.75rem;
+      background-color: var(--border);
+      color: var(--text-primary);
+      text-decoration: none;
+      border: 1px solid var(--border);
+      cursor: pointer;
+      transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    .card-link:hover {
+      background-color: var(--accent);
+      color: white;
+      border-color: var(--accent);
+    }
+
+    .card-primary-link {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .card-primary-link:hover {
+      text-decoration: none;
+    }
+
+    /* Loading state */
+    .loading {
+      text-align: center;
+      padding: 3rem;
+      font-size: 1.125rem;
+      color: var(--text-secondary);
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: flex-start;
+      }
+
+      .toggle-container {
+        width: 100%;
+        justify-content: space-between;
+      }
+
+      .hero h1 {
+        font-size: 2rem;
+      }
+
+      .hero p {
+        font-size: 1rem;
+      }
+
+      .cards-grid {
+        grid-template-columns: 1fr;
+      }
+
+      main {
+        padding: 2rem 1rem;
+      }
+    }
+
+    /* Reduced motion */
+    @media (prefers-reduced-motion: reduce) {
+      * {
+        transition: none !important;
+        animation: none !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1 class="header-title">3C Repository</h1>
+      <p class="header-subtitle">Curated resources for computational chemistry & materials science</p>
+    </div>
+    <div class="toggle-container">
+      <label class="toggle-label" for="dark-mode-toggle">Dark mode</label>
+      <button class="toggle-switch" id="dark-mode-toggle" aria-label="Toggle dark mode"></button>
+    </div>
+  </header>
+
+  <main>
+    <div class="hero">
+      <h2>A shared repository of essential learning materials</h2>
+      <p>Explore papers, courses, code repositories, and more across computational chemistry, materials science, and related fields.</p>
+    </div>
+
+    <div id="sections-container">
+      <div class="loading">Loading resources...</div>
+    </div>
+  </main>
+
+  <script>
+    // Dark mode toggle
+    const darkModeToggle = document.getElementById('dark-mode-toggle');
+    const html = document.documentElement;
+
+    // Check for saved dark mode preference, or default to system preference
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const savedMode = localStorage.getItem('3c-dark-mode');
+    const isDark = savedMode !== null ? savedMode === 'true' : prefersDark;
+
+    if (isDark) {
+      html.classList.add('dark-mode');
+    }
+
+    darkModeToggle.addEventListener('click', () => {
+      html.classList.toggle('dark-mode');
+      localStorage.setItem('3c-dark-mode', html.classList.contains('dark-mode'));
+    });
+
+    // Load and render data
+    async function loadAndRender() {
+      try {
+        const [dataRes, thumbnailsRes] = await Promise.all([
+          fetch('data.json'),
+          fetch('thumbnails.json')
+        ]);
+
+        if (!dataRes.ok || !thumbnailsRes.ok) {
+          throw new Error('Failed to load data files');
+        }
+
+        const data = await dataRes.json();
+        const thumbnails = await thumbnailsRes.json();
+
+        renderSections(data, thumbnails);
+      } catch (err) {
+        document.getElementById('sections-container').innerHTML =
+          '<div class="loading">Error loading resources. Please check back soon.</div>';
+        console.error('Failed to load data:', err);
+      }
+    }
+
+    function renderSections(data, thumbnails) {
+      const container = document.getElementById('sections-container');
+      container.innerHTML = '';
+
+      for (const section of data.sections) {
+        const sectionEl = document.createElement('section');
+        
+        const titleEl = document.createElement('h2');
+        titleEl.className = 'section-title';
+        titleEl.textContent = section.title;
+        sectionEl.appendChild(titleEl);
+
+        const gridEl = document.createElement('div');
+        gridEl.className = 'cards-grid';
+
+        for (const item of section.items) {
+          const cardEl = createCard(item, thumbnails);
+          gridEl.appendChild(cardEl);
+        }
+
+        sectionEl.appendChild(gridEl);
+        container.appendChild(sectionEl);
+      }
+    }
+
+    function createCard(item, thumbnails) {
+      // Items with no primaryUrl (the zero-link case parser.gs allows for
+      // future-proofing) should render as a plain, non-clickable card
+      // rather than a broken link pointing at the literal string "null".
+      const hasLink = !!item.primaryUrl;
+      const card = document.createElement(hasLink ? 'a' : 'div');
+      card.className = 'card card-primary-link';
+      if (hasLink) {
+        card.href = item.primaryUrl;
+        card.target = '_blank';
+        card.rel = 'noopener noreferrer';
+      }
+
+      // Get thumbnail
+      const thumbnail = thumbnails[item.primaryUrl];
+      const thumbnailUrl = thumbnail ? thumbnail.image : 'assets/generic-thumbnail.svg';
+
+      // Build card HTML
+      let linksHtml = '';
+      if (item.links && item.links.length > 0) {
+        linksHtml = '<div class="card-links">' +
+          item.links.map(link => 
+            `<a class="card-link" href="${escapeHtml(link.url)}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation();">${escapeHtml(link.label)}</a>`
+          ).join('') +
+          '</div>';
+      }
+
+      const description = item.description ? `<p class="card-description">${escapeHtml(item.description)}</p>` : '';
+
+      card.innerHTML = `
+        <img class="card-thumbnail" src="${escapeHtml(thumbnailUrl)}" alt="${escapeHtml(item.title)}" onerror="this.src='assets/generic-thumbnail.svg'">
+        <div class="card-content">
+          <h3 class="card-title">${escapeHtml(item.title)}</h3>
+          ${description}
+          ${linksHtml}
+        </div>
+      `;
+
+      return card;
+    }
+
+    function escapeHtml(text) {
+      const map = {
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        '"': '&quot;',
+        "'": '&#039;'
+      };
+      return text.replace(/[&<>"']/g, m => map[m]);
+    }
+
+    // Load on page load
+    loadAndRender();
+  </script>
+</body>
+</html>
