@@ -37,17 +37,30 @@
       transition: background-color 0.3s ease, color 0.3s ease;
     }
 
-    /* Header with dark mode toggle */
-    header {
+    /* Sticky wrapper - holds header + search bar as ONE sticky unit.
+       Previously these were two INDEPENDENTLY sticky elements, with the
+       search bar's "top" hardcoded to a guessed pixel value matching the
+       header's height. Any mismatch between that guess and the header's
+       real rendered height (which varies slightly across browsers, font
+       rendering, zoom level) caused a visible seam - a gap or overlap
+       between the two bars while scrolling. Wrapping them together in
+       one sticky container eliminates the guesswork entirely: the
+       browser handles their relative positioning as normal in-flow
+       content, and only the OUTER wrapper needs to stick to top: 0. */
+    .sticky-top {
       position: sticky;
       top: 0;
+      z-index: 100;
+    }
+
+    /* Header with dark mode toggle */
+    header {
       background-color: var(--bg-primary);
       border-bottom: 1px solid var(--border);
       padding: 1.5rem 2rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      z-index: 100;
     }
 
     .header-content {
@@ -242,12 +255,9 @@
 
     /* Search bar */
     .search-container {
-      position: sticky;
-      top: 73px; /* sits right below the header */
       background-color: var(--bg-primary);
       border-bottom: 1px solid var(--border);
       padding: 1rem 2rem;
-      z-index: 99;
     }
 
     .search-input-wrapper {
@@ -375,7 +385,6 @@
 
       .search-container {
         padding: 1rem;
-        top: 129px; /* header is taller on mobile due to wrapping */
       }
 
       .search-input {
@@ -403,29 +412,31 @@
   </style>
 </head>
 <body>
-  <header>
-    <div class="header-content">
-      <h1 class="header-title">3C Repository</h1>
-      <p class="header-subtitle">Curated resources for computational chemistry & materials science</p>
-    </div>
-    <div class="toggle-container">
-      <label class="toggle-label" for="dark-mode-toggle">Dark mode</label>
-      <button class="toggle-switch" id="dark-mode-toggle" aria-label="Toggle dark mode"></button>
-    </div>
-  </header>
+  <div class="sticky-top">
+    <header>
+      <div class="header-content">
+        <h1 class="header-title">3C Repository</h1>
+        <p class="header-subtitle">Curated resources for computational chemistry & materials science</p>
+      </div>
+      <div class="toggle-container">
+        <label class="toggle-label" for="dark-mode-toggle">Dark mode</label>
+        <button class="toggle-switch" id="dark-mode-toggle" aria-label="Toggle dark mode"></button>
+      </div>
+    </header>
 
-  <div class="search-container">
-    <div class="search-input-wrapper">
-      <input
-        type="text"
-        id="search-input"
-        class="search-input"
-        placeholder="Search by title or description..."
-        aria-label="Search resources"
-      >
-      <span class="search-results-count" id="search-results-count"></span>
+    <div class="search-container">
+      <div class="search-input-wrapper">
+        <input
+          type="text"
+          id="search-input"
+          class="search-input"
+          placeholder="Search by title or description..."
+          aria-label="Search resources"
+        >
+        <span class="search-results-count" id="search-results-count"></span>
+      </div>
+      <nav class="jump-nav" id="jump-nav" aria-label="Jump to section"></nav>
     </div>
-    <nav class="jump-nav" id="jump-nav" aria-label="Jump to section"></nav>
   </div>
 
   <main>
@@ -535,12 +546,35 @@
         navLink.dataset.sectionId = sectionId;
         navLink.addEventListener('click', (e) => {
           e.preventDefault();
-          sectionEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          scrollToSection(sectionEl);
         });
         jumpNav.appendChild(navLink);
       }
 
       setupScrollSpy();
+    }
+
+    /**
+     * Scrolls to a section, offsetting for the sticky top wrapper
+     * (header + search/jump-nav bar) so the section heading actually
+     * lands BELOW it, visible, rather than being hidden underneath. We
+     * measure the wrapper's real height at click-time instead of
+     * hardcoding a pixel value, since its height changes between
+     * desktop and mobile layouts (the search row wraps differently) -
+     * a fixed offset would only be correct at one screen size.
+     */
+    function scrollToSection(sectionEl) {
+      const stickyWrapper = document.querySelector('.sticky-top');
+      const stickyOffset = stickyWrapper.offsetHeight;
+
+      // A little extra breathing room below the sticky bar, so the
+      // heading isn't pressed flush against it.
+      const extraPadding = 16;
+
+      const targetY = sectionEl.getBoundingClientRect().top +
+        window.scrollY - stickyOffset - extraPadding;
+
+      window.scrollTo({ top: targetY, behavior: 'smooth' });
     }
 
     /**
