@@ -26,7 +26,7 @@ on:
     paths:
       - "data.json" # only run when data.json actually changes
 
-# Gives this workflow permission to commit back to the repo.
+        # Gives this workflow permission to commit back to the repo.
 # Without this, the "commit thumbnails.json" step would fail with a
 # permissions error - GitHub Actions defaults to read-only access.
 permissions:
@@ -38,12 +38,12 @@ jobs:
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
-          node-version: "20"
+          node-version: "24"
 
       - name: Install dependencies
         run: npm install
