@@ -546,13 +546,22 @@
         navLink.dataset.sectionId = sectionId;
         navLink.addEventListener('click', (e) => {
           e.preventDefault();
-          scrollToSection(sectionEl);
+          scrollToSection(sectionEl, navLink);
         });
         jumpNav.appendChild(navLink);
       }
 
       setupScrollSpy();
     }
+
+    // Tracks whether a click-triggered scroll is currently in flight, so
+    // the IntersectionObserver-driven highlighting (setupScrollSpy) knows
+    // to stay out of the way rather than fight over which link is
+    // "active" while the browser is still animating toward a target -
+    // that fight was the actual cause of the flicker/glitch when
+    // clicking a second nav link before the first scroll finished.
+    let isManualScroll = false;
+    let manualScrollFallbackTimer = null;
 
     /**
      * Scrolls to a section, offsetting for the sticky top wrapper
@@ -563,7 +572,19 @@
      * desktop and mobile layouts (the search row wraps differently) -
      * a fixed offset would only be correct at one screen size.
      */
-    function scrollToSection(sectionEl) {
+    function scrollToSection(sectionEl, clickedLink) {
+      // Immediately lock in the clicked link as the active one,
+      // deterministically - don't wait for the scroll-position-based
+      // observer to figure it out, since it will fire repeatedly (and
+      // inconsistently) while the animation is still travelling through
+      // intermediate sections.
+      isManualScroll = true;
+      clearTimeout(manualScrollFallbackTimer);
+      if (clickedLink) {
+        document.querySelectorAll('.jump-nav-link').forEach(l => l.classList.remove('active'));
+        clickedLink.classList.add('active');
+      }
+
       const stickyWrapper = document.querySelector('.sticky-top');
       const stickyOffset = stickyWrapper.offsetHeight;
 
@@ -575,7 +596,23 @@
         window.scrollY - stickyOffset - extraPadding;
 
       window.scrollTo({ top: targetY, behavior: 'smooth' });
+
+      // Hand control back to the observer-driven highlighting once the
+      // scroll has genuinely settled. 'scrollend' is the correct, precise
+      // signal where supported; the timeout is a safety net for older
+      // browsers that don't yet support it, so the guard doesn't get
+      // stuck "on" forever if scrollend never fires.
+      manualScrollFallbackTimer = setTimeout(() => {
+        isManualScroll = false;
+      }, 1000);
     }
+
+    window.addEventListener('scrollend', () => {
+      if (isManualScroll) {
+        clearTimeout(manualScrollFallbackTimer);
+        isManualScroll = false;
+      }
+    });
 
     /**
      * Converts a section title into a URL-safe id, e.g.
@@ -606,6 +643,12 @@
 
       const observer = new IntersectionObserver(
         (entries) => {
+          // While a click-triggered scroll is in flight, don't let the
+          // observer's own (transient, order-inconsistent) firings
+          // overwrite the deterministic highlight scrollToSection already
+          // set - that fight was the actual source of the flicker.
+          if (isManualScroll) return;
+
           entries.forEach(entry => {
             const link = document.querySelector(
               `.jump-nav-link[data-section-id="${entry.target.id}"]`
