@@ -1,0 +1,64 @@
+# .github/workflows/deploy-pages.yml
+#
+# WHAT THIS DOES:
+#   Deploys the site (index.html, assets/, data.json, thumbnails.json)
+#   to GitHub Pages, using GitHub's official Actions-based Pages
+#   deployment (not the older branch-based method).
+#
+#   Triggers on every push to main - so any change (new doc content
+#   synced via data.json, new thumbnails, or site code changes) causes
+#   a redeploy automatically. This runs independently of
+#   update-thumbnails.yml; if that workflow commits an updated
+#   thumbnails.json, THAT commit itself triggers this workflow too,
+#   so the live site always reflects the latest committed state.
+
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  # Also allow triggering manually from the Actions tab, useful for
+  # testing without needing to make a dummy commit.
+  workflow_dispatch:
+
+# Required permissions for the official Pages deployment actions.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Only one deployment should run at a time; if a new push comes in
+# while a deployment is in progress, let the in-progress one finish
+# rather than cancelling it mid-deploy (safer for Pages specifically).
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload site as Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Deploy the whole repo root, since index.html, assets/,
+          # data.json, and thumbnails.json all live there together.
+          # If this ever grows into a dedicated build step (e.g. a
+          # bundler), change this to point at a build output folder
+          # instead.
+          path: "."
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
