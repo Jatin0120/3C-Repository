@@ -44,7 +44,7 @@ jobs:
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
@@ -62,3 +62,15 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        # NOTE ON THE NODE 20 DEPRECATION WARNING:
+        # As of this writing, GitHub has not yet published Node-24-native
+        # releases of configure-pages, upload-pages-artifact, or
+        # deploy-pages (confirmed via GitHub's own community discussion
+        # on this exact topic). actions/checkout has been bumped to v5
+        # above, which does support Node 24. The remaining warning from
+        # the three Pages-specific actions is expected and currently
+        # unavoidable without abandoning GitHub's own official Pages
+        # actions - not worth doing. GitHub is auto-upgrading the runtime
+        # under the hood regardless, so this doesn't cause failures, only
+        # the warning. Revisit this note if GitHub ships updated
+        # versions later.
