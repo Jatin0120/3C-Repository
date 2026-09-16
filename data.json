@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T11:00:46.826Z",
+  "generatedAt": "2026-09-16T22:08:18.929Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -224,6 +224,13 @@
             }
           ],
           "rawText": "mCGCNN ー dual-stream crystal graph CNN for the efficient prediction of magnetic properties of crystalline materials (paper) (YT link)"
+        },
+        {
+          "title": "metal2D",
+          "description": "Readable 2D depictions of coordination and organometallic complexes for RDKit",
+          "primaryUrl": "https://github.com/levakrasnovs/metal2d",
+          "links": [],
+          "rawText": "metal2D ー Readable 2D depictions of coordination and organometallic complexes for RDKit"
         }
       ]
     },
@@ -499,6 +506,46 @@
           "primaryUrl": "https://drive.google.com/file/d/1SsOMLnFN3xkei6j3CSDXdw_mHKImsG41/view?usp=drive_link",
           "links": [],
           "rawText": "Machine-learning iterative calculation of entropy for physical systems"
+        },
+        {
+          "title": "Review of computational approaches to predict the thermodynamic stability of inorganic solids",
+          "description": null,
+          "primaryUrl": "https://link.springer.com/article/10.1007/s10853-022-06915-4",
+          "links": [],
+          "rawText": "Review of computational approaches to predict the thermodynamic stability of inorganic solids"
+        },
+        {
+          "title": "Interpretable Machine Learning for Science with PySR and",
+          "description": null,
+          "primaryUrl": "https://arxiv.org/abs/2305.01582",
+          "links": [
+            {
+              "label": "SymbolicRegression.jl",
+              "url": "SymbolicRegression.jl"
+            }
+          ],
+          "rawText": "Interpretable Machine Learning for Science with PySR and SymbolicRegression.jl"
+        },
+        {
+          "title": "The Statistical Prediction of Solutions of Dynamic Equations",
+          "description": "Edward N. Lorenz (1962)",
+          "primaryUrl": "https://web.archive.org/web/20190523190103/http://eaps4.mit.edu/research/Lorenz/The_Statistical_Prediction_of_Solutions_1962.pdf",
+          "links": [],
+          "rawText": "The Statistical Prediction of Solutions of Dynamic Equations ー Edward N. Lorenz (1962)"
+        },
+        {
+          "title": "Decoding the Taste of Peptides: Structure, Interactions With Taste Receptors, Bioactivities, and Applications",
+          "description": null,
+          "primaryUrl": "https://aocs.onlinelibrary.wiley.com/doi/10.1002/sfp2.70009",
+          "links": [],
+          "rawText": "Decoding the Taste of Peptides: Structure, Interactions With Taste Receptors, Bioactivities, and Applications"
+        },
+        {
+          "title": "Biphasic Solar Reforming of Lignin to Aromatics and CO for In Situ Carbonylation of Organics",
+          "description": null,
+          "primaryUrl": "https://pubs.acs.org/jacsat/article/148/35/38153/5348920/Biphasic-Solar-Reforming-of-Lignin-to-Aromatics",
+          "links": [],
+          "rawText": "Biphasic Solar Reforming of Lignin to Aromatics and CO for In Situ Carbonylation of Organics"
         }
       ]
     },
@@ -549,10 +596,10 @@
         },
         {
           "title": "On the constitution of atoms and molecules",
-          "description": "by N. Bohr",
+          "description": "(N. Bohr)",
           "primaryUrl": "https://www.gutenberg.org/cache/epub/72787/pg72787-images.html",
           "links": [],
-          "rawText": "On the constitution of atoms and molecules by N. Bohr"
+          "rawText": "On the constitution of atoms and molecules  (N. Bohr)"
         },
         {
           "title": "Stochastic simulation of biological circuits",
@@ -679,6 +726,13 @@
       "title": "Additional Reading Resources",
       "items": [
         {
+          "title": "Practical considerations for Molecular Dynamics",
+          "description": "Tutorial",
+          "primaryUrl": "https://computecanada.github.io/molmodsim-md-theory-lesson-novice/index.html",
+          "links": [],
+          "rawText": "Practical considerations for Molecular Dynamics ー Tutorial"
+        },
+        {
           "title": "Qijing Zheng posts on relevant concepts",
           "description": null,
           "primaryUrl": "http://staff.ustc.edu.cn/~zqj/",
@@ -731,6 +785,13 @@
           "rawText": "Polarizability of Hydrogen Atom"
         },
         {
+          "title": "The OpenMM Cookbook & Tutorials",
+          "description": null,
+          "primaryUrl": "https://openmm.github.io/openmm-cookbook/latest/index.html",
+          "links": [],
+          "rawText": "The OpenMM Cookbook & Tutorials"
+        },
+        {
           "title": "Neutral-atom quantum computers",
           "description": null,
           "primaryUrl": "https://pennylane.ai/demos/tutorial_neutral_atoms",
@@ -771,16 +832,18 @@
           "rawText": "Condensed matter physics (Quanta Magazine)"
         },
         {
-          "title": "Exchange Interaction ー",
-          "description": null,
+          "title": "Exchange Interaction",
+          "description": "Lecture slide",
           "primaryUrl": "https://research.uni-leipzig.de/sum/files/magtheory-slides-2.pdf",
-          "links": [
-            {
-              "label": "Lecture slide",
-              "url": "https://research.uni-leipzig.de/sum/files/magtheory-slides-2.pdf"
-            }
-          ],
+          "links": [],
           "rawText": "Exchange Interaction ー Lecture slide"
+        },
+        {
+          "title": "LiteMol1 ー A Multi Molecule Foundation Diffusion Language Model for Agents",
+          "description": null,
+          "primaryUrl": "https://www.lite.bio/research/litemol1",
+          "links": [],
+          "rawText": "LiteMol1 ー A Multi Molecule Foundation Diffusion Language Model for Agents"
         },
         {
           "title": "The discovery of the electron spin",
@@ -913,9 +976,13 @@
             {
               "label": "Chemrxiv",
               "url": "https://chemrxiv.org/doi/full/10.26434/chemrxiv.15003943/v1"
+            },
+            {
+              "label": "paper",
+              "url": "https://pubs.acs.org/jpcafh/article/130/35/7027/5298372/PyFock-A-Just-In-Time-Compiled-Gaussian-Basis-DFT"
             }
           ],
-          "rawText": "PyFock (website) (repo) (Chemrxiv)"
+          "rawText": "PyFock (website) (repo) (Chemrxiv) (paper)"
         },
         {
           "title": "Swart Lab ー Theoretical Chemistry",
@@ -932,15 +999,10 @@
           "rawText": "A 50-Year Quest: My Personal Journey with the Second Law of Thermodynamics by Stephen Wolfram"
         },
         {
-          "title": "Geometry and Topology in many-body physics ー",
-          "description": null,
+          "title": "Geometry and Topology in many-body physics",
+          "description": "Lecture slide",
           "primaryUrl": "https://www.cond-mat.de/events/correl20/talks/resta.pdf",
-          "links": [
-            {
-              "label": "Lecture slide",
-              "url": "https://www.cond-mat.de/events/correl20/talks/resta.pdf"
-            }
-          ],
+          "links": [],
           "rawText": "Geometry and Topology in many-body physics ー Lecture slide"
         },
         {
@@ -963,6 +1025,13 @@
           "primaryUrl": "https://autochemy.xyz/",
           "links": [],
           "rawText": "AutoChemy ー Computational Chemistry Assistant"
+        },
+        {
+          "title": "Linear-Scaling Density Functional Theory with Neural Operators",
+          "description": null,
+          "primaryUrl": "https://tensorlab.cms.caltech.edu/users/anima/ks_fno.html",
+          "links": [],
+          "rawText": "Linear-Scaling Density Functional Theory with Neural Operators"
         },
         {
           "title": "Learning the integral of a diffusion model",
@@ -1007,6 +1076,13 @@
           "rawText": "Exact training of a neural network"
         },
         {
+          "title": "Learning Room Shapes with Neural Networks",
+          "description": null,
+          "primaryUrl": "https://drscotthawley.github.io/blog/posts/2017-05-04-Learning-Room-Shapes.html",
+          "links": [],
+          "rawText": "Learning Room Shapes with Neural Networks"
+        },
+        {
           "title": "ML Research Blog ー Non-convex quadratic optimization problems",
           "description": null,
           "primaryUrl": "https://francisbach.com/non-convex-quadratic-problems/",
@@ -1028,15 +1104,10 @@
           "rawText": "The Illustrated Transformer"
         },
         {
-          "title": "Intermediate Zeeman Effect ー",
-          "description": null,
+          "title": "Intermediate Zeeman Effect",
+          "description": "Lecture slide",
           "primaryUrl": "http://phys.iit.edu/~segre/phys406/21S/modules_05.pdf",
-          "links": [
-            {
-              "label": "Lecture slide",
-              "url": "http://phys.iit.edu/~segre/phys406/21S/modules_05.pdf"
-            }
-          ],
+          "links": [],
           "rawText": "Intermediate Zeeman Effect ー Lecture slide"
         },
         {
@@ -1061,28 +1132,32 @@
           "rawText": "MoleCVUE"
         },
         {
-          "title": "ICML Tutorial by Mark Schmidt ー",
-          "description": null,
+          "title": "Mechanisms too simple for humans to design",
+          "description": "Blog",
+          "primaryUrl": "https://www.lesswrong.com/posts/6hDvwJyrwLtxBLHWG/mechanisms-too-simple-for-humans-to-design",
+          "links": [],
+          "rawText": "Mechanisms too simple for humans to design ー Blog"
+        },
+        {
+          "title": "ICML Tutorial by Mark Schmidt",
+          "description": "Lecture slide",
           "primaryUrl": "https://www.cs.ubc.ca/~schmidtm/Documents/2026_ICML_Tutorial.pdf",
-          "links": [
-            {
-              "label": "Lecture slide",
-              "url": "https://www.cs.ubc.ca/~schmidtm/Documents/2026_ICML_Tutorial.pdf"
-            }
-          ],
+          "links": [],
           "rawText": "ICML Tutorial by Mark Schmidt ー Lecture slide"
         },
         {
-          "title": "Deep Belief Nets by Geoffrey Hinton ー",
-          "description": null,
+          "title": "Deep Belief Nets by Geoffrey Hinton",
+          "description": "Lecture slide",
           "primaryUrl": "https://www.cs.toronto.edu/~hinton/nipstutorial/nipstut3.pdf",
-          "links": [
-            {
-              "label": "Lecture slide",
-              "url": "https://www.cs.toronto.edu/~hinton/nipstutorial/nipstut3.pdf"
-            }
-          ],
+          "links": [],
           "rawText": "Deep Belief Nets by Geoffrey Hinton ー Lecture slide"
+        },
+        {
+          "title": "Simulating cell biology using Boltz-2",
+          "description": null,
+          "primaryUrl": "https://valencelabs.substack.com/p/i-ran-boltz-2-100-million-times-to?r=hwlvk",
+          "links": [],
+          "rawText": "Simulating cell biology using Boltz-2"
         },
         {
           "title": "Core Rope & Woven-Wire Memory Systems",
@@ -1139,6 +1214,55 @@
           "primaryUrl": "https://colah.github.io/posts/2014-03-NN-Manifolds-Topology/",
           "links": [],
           "rawText": "Neural Networks, Manifolds, and Topology"
+        },
+        {
+          "title": "Maurice Brookhart: A Legacy to Organometallic Chemistry",
+          "description": null,
+          "primaryUrl": "https://pubs.acs.org/orgnd7/article/41/22/3073/396830/Maurice-Brookhart-A-Legacy-to-Organometallic",
+          "links": [],
+          "rawText": "Maurice Brookhart: A Legacy to Organometallic Chemistry"
+        },
+        {
+          "title": "The theory/calculation behind energy-above-hull: how to calculate for quarternary structures?",
+          "description": "Forum Discussion",
+          "primaryUrl": "https://matsci.org/t/the-theory-calculation-behind-energy-above-hull-how-to-calculate-for-quarternary-structures/59743",
+          "links": [],
+          "rawText": "The theory/calculation behind energy-above-hull: how to calculate for quarternary structures? ー Forum Discussion"
+        },
+        {
+          "title": "How can LLM RL Work Despite Information-Theoretic Inefficiency",
+          "description": null,
+          "primaryUrl": "https://www.beren.io/2026-07-26-How-Can-LLM-RL-Work-Despite-Information-Theoretic-Inefficiency/",
+          "links": [],
+          "rawText": "How can LLM RL Work Despite Information-Theoretic Inefficiency"
+        },
+        {
+          "title": "Rooflines ー Learning How to Scale Your Model",
+          "description": null,
+          "primaryUrl": "https://jax-ml.github.io/scaling-book/roofline/",
+          "links": [],
+          "rawText": "Rooflines ー Learning How to Scale Your Model"
+        },
+        {
+          "title": "Phase Transitions in Membranes",
+          "description": null,
+          "primaryUrl": "https://neherlab.org/20171128_theoretical_biophysics.html",
+          "links": [],
+          "rawText": "Phase Transitions in Membranes"
+        },
+        {
+          "title": "Flory-Stockmayer Theory",
+          "description": "Wikipedia Page",
+          "primaryUrl": "https://en.wikipedia.org/wiki/Flory%E2%80%93Stockmayer_theory",
+          "links": [],
+          "rawText": "Flory-Stockmayer Theory ー Wikipedia Page"
+        },
+        {
+          "title": "IClimbTrees",
+          "description": "Free Courses on Advanced Mathematics, ML, Optimisations and more.",
+          "primaryUrl": "https://www.iclimbtrees.com/courses",
+          "links": [],
+          "rawText": "IClimbTrees ー Free Courses on Advanced Mathematics, ML, Optimisations and more."
         }
       ]
     },
@@ -1288,6 +1412,13 @@
           "rawText": "Fermat’s Last Theorem"
         },
         {
+          "title": "24 Hrs Inside a Silicon Valley Biotech Startup",
+          "description": null,
+          "primaryUrl": "https://youtu.be/d9s9bQuG1qk?si=XkUThjWPdyQWflRl",
+          "links": [],
+          "rawText": "24 Hrs Inside a Silicon Valley Biotech Startup"
+        },
+        {
           "title": "ManーComputer Symbiosis",
           "description": null,
           "primaryUrl": "https://groups.csail.mit.edu/medg/people/psz/Licklider.html",
@@ -1365,6 +1496,26 @@
           "rawText": "Dr Smith goes to Los Alamos"
         },
         {
+          "title": "Rabbit Holes (Harish-Chandra) (Demis Hassabis) (Enrico Fermi) (William Harvey)",
+          "description": null,
+          "primaryUrl": "https://piyushastrocat.substack.com/p/rabbit-holes-terence-tao",
+          "links": [
+            {
+              "label": "Terrance Tao",
+              "url": "https://piyushastrocat.substack.com/p/rabbit-holes-terence-tao"
+            },
+            {
+              "label": "Manhattan Project",
+              "url": "https://piyushastrocat.substack.com/p/rabbit-holes-manhattan-project"
+            },
+            {
+              "label": "Aneesur Rahman",
+              "url": "https://piyushastrocat.substack.com/p/rabbit-holes-aneesur-rahman"
+            }
+          ],
+          "rawText": "Rabbit Holes (Terrance Tao) (Manhattan Project) (Aneesur Rahman) (Harish-Chandra) (Demis Hassabis) (Enrico Fermi) (William Harvey)"
+        },
+        {
           "title": "The Research Lab The US Government Shutdown in 1984",
           "description": null,
           "primaryUrl": "https://youtu.be/c-cSeTz3dMg?si=zMyzkzDXfJ1Zj2i7",
@@ -1400,6 +1551,13 @@
           "rawText": "David Harker—a life for crystallography"
         },
         {
+          "title": "The Interim Computer Museum",
+          "description": null,
+          "primaryUrl": "https://icm.museum/",
+          "links": [],
+          "rawText": "The Interim Computer Museum"
+        },
+        {
           "title": "Beyond Darkness (Public Lecture Programme on Black Holes)",
           "description": null,
           "primaryUrl": "https://www.youtube.com/live/k_N3PFMUxPc",
@@ -1407,15 +1565,10 @@
           "rawText": "Beyond Darkness (Public Lecture Programme on Black Holes)"
         },
         {
-          "title": "Black Hole Thermodynamics ー",
-          "description": null,
+          "title": "Black Hole Thermodynamics",
+          "description": "Lecture slide",
           "primaryUrl": "https://people-lux.obspm.fr/gourgoulhon/fr/present_rec/bhthermo_X24.pdf",
-          "links": [
-            {
-              "label": "Lecture slide",
-              "url": "https://people-lux.obspm.fr/gourgoulhon/fr/present_rec/bhthermo_X24.pdf"
-            }
-          ],
+          "links": [],
           "rawText": "Black Hole Thermodynamics ー Lecture slide"
         },
         {
@@ -1426,15 +1579,10 @@
           "rawText": "Mathematics in the Age of AI ー Terrance Tao"
         },
         {
-          "title": "Compression and Intelligence ー",
-          "description": null,
+          "title": "Compression and Intelligence",
+          "description": "Blog",
           "primaryUrl": "https://www.greene.sh/compression-and-intelligence/",
-          "links": [
-            {
-              "label": "Blog",
-              "url": "https://www.greene.sh/compression-and-intelligence/"
-            }
-          ],
+          "links": [],
           "rawText": "Compression and Intelligence ー Blog"
         },
         {
@@ -1506,6 +1654,114 @@
           "primaryUrl": "https://pypi.org/project/fanos/",
           "links": [],
           "rawText": "FANoS-v2 ー PyTorch optimizer for experiments with feedback-controlled momentum"
+        },
+        {
+          "title": "Understanding Mathematics ー Terrace Tao",
+          "description": null,
+          "primaryUrl": "https://terrytao.wordpress.com/career-advice/theres-more-to-mathematics-than-rigour-and-proofs/",
+          "links": [],
+          "rawText": "Understanding Mathematics ー Terrace Tao"
+        },
+        {
+          "title": "When We Did Research by Hand",
+          "description": null,
+          "primaryUrl": "https://nightingal3.github.io/blog/2026/08/09/research-retrospective/",
+          "links": [],
+          "rawText": "When We Did Research by Hand"
+        },
+        {
+          "title": "The Rise and Fall of Agent Civilizations",
+          "description": null,
+          "primaryUrl": "https://www.dwarkesh.com/p/openai-huggingface",
+          "links": [],
+          "rawText": "The Rise and Fall of Agent Civilizations"
+        },
+        {
+          "title": "How to build a cancer vaccine, and whether they will work this time?",
+          "description": null,
+          "primaryUrl": "https://www.owlposting.com/p/how-to-build-a-cancer-vaccine-and",
+          "links": [],
+          "rawText": "How to build a cancer vaccine, and whether they will work this time?"
+        },
+        {
+          "title": "Learning Particle Physics in 17 hrs",
+          "description": null,
+          "primaryUrl": "https://youtu.be/YFiQIZOM2fw",
+          "links": [],
+          "rawText": "Learning Particle Physics in 17 hrs"
+        },
+        {
+          "title": "Image Generation with Rectified Flow",
+          "description": "Tadao Yamaoka's Development Diary",
+          "primaryUrl": "https://tadaoyamaoka.hatenablog.com/entry/2024/09/29/163801",
+          "links": [],
+          "rawText": "Image Generation with Rectified Flow ー Tadao Yamaoka's Development Diary"
+        },
+        {
+          "title": "What Does the Universe Sound Like?",
+          "description": null,
+          "primaryUrl": "https://arxiv.org/pdf/2603.29996",
+          "links": [
+            {
+              "label": "Github Page",
+              "url": "https://francescoiacovelli.github.io/universal_harmony/"
+            }
+          ],
+          "rawText": "What Does the Universe Sound Like?  (Github Page)"
+        },
+        {
+          "title": "The maddening saga of how an Alzheimer’s ‘cabal’ thwarted progress toward a cure for decades",
+          "description": null,
+          "primaryUrl": "https://www.statnews.com/2019/06/25/alzheimers-cabal-thwarted-progress-toward-cure/",
+          "links": [],
+          "rawText": "The maddening saga of how an Alzheimer’s ‘cabal’ thwarted progress toward a cure for decades"
+        },
+        {
+          "title": "Prediction and Entropy of Printed English",
+          "description": "C.E. Shannon",
+          "primaryUrl": "https://www.princeton.edu/~wbialek/rome/refs/shannon_51.pdf",
+          "links": [],
+          "rawText": "Prediction and Entropy of Printed English ー C.E. Shannon"
+        },
+        {
+          "title": "Tesla Cathode Factory",
+          "description": null,
+          "primaryUrl": "https://youtu.be/tMhp4-ylrdE?si=Max4BVnylwookvit",
+          "links": [],
+          "rawText": "Tesla Cathode Factory"
+        },
+        {
+          "title": "AI Chip Architectures",
+          "description": null,
+          "primaryUrl": "https://www.jacobpeake.com/ai-chip-architectures",
+          "links": [],
+          "rawText": "AI Chip Architectures"
+        },
+        {
+          "title": "Why Are Rivers So Mathematical?",
+          "description": null,
+          "primaryUrl": "https://valencelabs.substack.com/p/i-ran-boltz-2-100-million-times-to?r=hwlvk",
+          "links": [
+            {
+              "label": "Quanta Magazine",
+              "url": "https://valencelabs.substack.com/p/i-ran-boltz-2-100-million-times-to?r=hwlvk"
+            }
+          ],
+          "rawText": "Why Are Rivers So Mathematical? (Quanta Magazine)"
+        },
+        {
+          "title": "Aelita ー The Hardest Soviet Mission in History",
+          "description": null,
+          "primaryUrl": "https://youtu.be/ZSECCauVFA8?si=a9cTI4hNYR3GVyDQ",
+          "links": [],
+          "rawText": "Aelita ー The Hardest Soviet Mission in History"
+        },
+        {
+          "title": "Perturbation of the de Sitter-Schwarzschild universe with massless fields",
+          "description": null,
+          "primaryUrl": "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.24.829",
+          "links": [],
+          "rawText": "Perturbation of the de Sitter-Schwarzschild universe with massless fields"
         }
       ]
     }
