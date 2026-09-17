@@ -1,0 +1,35 @@
+# .github/workflows/diagnose-network.yml
+#
+# ONE-OFF DIAGNOSTIC - not part of the real site pipeline.
+#
+# Manually triggered only (workflow_dispatch) - runs
+# diagnose-runner-network.js from inside a real GitHub Actions runner,
+# to get evidence about how this environment's network is treated
+# by various external sites as compared to local-machine
+# test results.
+#
+# Safe to delete this file once the diagnosis is done - it doesn't
+# affect data.json, thumbnails.json, or the deployed site in any way.
+
+name: Diagnose Runner Network
+
+on:
+  workflow_dispatch:
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run network diagnostic
+        run: node scripts/diagnose-runner-network.js
