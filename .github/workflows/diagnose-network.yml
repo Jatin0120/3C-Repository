@@ -32,4 +32,4 @@ jobs:
         run: npm install
 
       - name: Run network diagnostic
-        run: node scripts/diagnose-runner-network.js
+        run: node scripts/net-diagnose.js
