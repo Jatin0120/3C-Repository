@@ -1,4 +1,4 @@
-# .github/workflows/update-thumbnails_v2.yml
+# .github/workflows/update-thumbnails.yml
 #
 # WHAT THIS DOES, IN PLAIN TERMS:
 #   1. Trigger: runs whenever data.json changes on the main branch
@@ -76,9 +76,9 @@ jobs:
         run: npx playwright install --with-deps chromium
 
       - name: Run thumbnail scraper
-        run: node scripts/fetch-thumbnails_v2.js
+        run: node scripts/fetch-thumbnails.js
 
-      - name: Commit updated thumbnails_v2.json (if changed)
+      - name: Commit updated thumbnails.json (if changed)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
