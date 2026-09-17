@@ -1226,5 +1226,11 @@
     "source": "favicon",
     "error": "no og:image found",
     "fetchedAt": "2026-09-16T22:09:35.079Z"
+  },
+  "https://piyushastrocat.substack.com/p/rabbit-holes-demis-hassabis": {
+    "image": "https://www.google.com/s2/favicons?domain=piyushastrocat.substack.com&sz=128",
+    "source": "favicon",
+    "error": "HTTP 403",
+    "fetchedAt": "2026-09-17T19:38:33.384Z"
   }
 }
