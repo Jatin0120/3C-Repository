@@ -1,5 +1,5 @@
 /**
- * fetch-thumbnails_v2.js
+ * fetch-thumbnails.js
  *
  * Reads data.json (produced by the Apps Script parser), scrapes each
  * unique primaryUrl for an Open Graph / Twitter Card image, caches
@@ -506,6 +506,6 @@ async function main() {
 }
 
 main().catch(e => {
-  console.error("Fatal error in fetch-thumbnails_v2.js:", e);
+  console.error("Fatal error in fetch-thumbnails.js:", e);
   process.exit(1);
 });
