@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T18:18:11.010Z",
+  "generatedAt": "2026-09-17T19:38:18.551Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -1515,7 +1515,15 @@
             {
               "label": "Harish-Chandra",
               "url": "https://piyushastrocat.substack.com/p/rabbit-holes-harish-chandra"
-            },
+            }
+          ],
+          "rawText": "Rabbit Holes-I (Terrance Tao) (Manhattan Project) (Aneesur Rahman) (Harish-Chandra)"
+        },
+        {
+          "title": "Rabbit Holes-II",
+          "description": null,
+          "primaryUrl": "https://piyushastrocat.substack.com/p/rabbit-holes-demis-hassabis",
+          "links": [
             {
               "label": "Demis Hassabis",
               "url": "https://piyushastrocat.substack.com/p/rabbit-holes-demis-hassabis"
@@ -1529,7 +1537,7 @@
               "url": "https://krutikamaharana.substack.com/p/rabbit-holes-william-harvey?utm_source=share&utm_medium=android&r=8svft3"
             }
           ],
-          "rawText": "Rabbit Holes-I (Terrance Tao) (Manhattan Project) (Aneesur Rahman) (Harish-Chandra) (Demis Hassabis) (Enrico Fermi) (William Harvey)"
+          "rawText": "Rabbit Holes-II (Demis Hassabis) (Enrico Fermi) (William Harvey)"
         },
         {
           "title": "The Research Lab The US Government Shutdown in 1984",
