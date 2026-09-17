@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T22:08:18.929Z",
+  "generatedAt": "2026-09-17T05:32:53.719Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -1496,7 +1496,7 @@
           "rawText": "Dr Smith goes to Los Alamos"
         },
         {
-          "title": "Rabbit Holes (Harish-Chandra) (Demis Hassabis) (Enrico Fermi) (William Harvey)",
+          "title": "Rabbit Holes",
           "description": null,
           "primaryUrl": "https://piyushastrocat.substack.com/p/rabbit-holes-terence-tao",
           "links": [
@@ -1511,6 +1511,22 @@
             {
               "label": "Aneesur Rahman",
               "url": "https://piyushastrocat.substack.com/p/rabbit-holes-aneesur-rahman"
+            },
+            {
+              "label": "Harish-Chandra",
+              "url": "https://piyushastrocat.substack.com/p/rabbit-holes-harish-chandra"
+            },
+            {
+              "label": "Demis Hassabis",
+              "url": "https://piyushastrocat.substack.com/p/rabbit-holes-demis-hassabis"
+            },
+            {
+              "label": "Enrico Fermi",
+              "url": "https://piyushastrocat.substack.com/p/rabbit-holes-enrico-fermi"
+            },
+            {
+              "label": "William Harvey",
+              "url": "https://krutikamaharana.substack.com/p/rabbit-holes-william-harvey?utm_source=share&utm_medium=android&r=8svft3"
             }
           ],
           "rawText": "Rabbit Holes (Terrance Tao) (Manhattan Project) (Aneesur Rahman) (Harish-Chandra) (Demis Hassabis) (Enrico Fermi) (William Harvey)"
