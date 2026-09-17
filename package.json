@@ -4,7 +4,7 @@
   "description": "Automated site build for the 3C Repository shared resource doc",
   "private": true,
   "scripts": {
-    "fetch-thumbnails": "node scripts/fetch-thumbnails.js"
+    "fetch-thumbnails": "node scripts/fetch-thumbnails_v2.js"
   },
   "dependencies": {
     "node-fetch": "^2.7.0"
