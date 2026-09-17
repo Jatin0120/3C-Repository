@@ -1,0 +1,91 @@
+# .github/workflows/update-thumbnails_v2.yml
+#
+# WHAT THIS DOES, IN PLAIN TERMS:
+#   1. Trigger: runs whenever data.json changes on the main branch
+#      (this fires automatically right after the Apps Script pushes).
+#   2. Spins up a fresh Ubuntu runner (a temporary, disposable machine).
+#   3. Downloads this repo's files onto that machine.
+#   4. Installs Node.js, the node-fetch/playwright dependencies, and a
+#      real headless Chromium browser (see the dedicated step below for
+#      why this is needed).
+#   5. Runs fetch-thumbnails.js, which reads data.json, scrapes any
+#      NEW urls not already in thumbnails.json, and updates
+#      thumbnails.json. For URLs a plain HTTP fetch can't get real
+#      metadata from (some sites return different/blocked responses to
+#      non-browser requests), it falls back to rendering the page with
+#      the real headless browser before giving up to a favicon.
+#   6. Commits thumbnails.json back to the repo, but ONLY if it
+#      actually changed (so we don't create empty commits every time).
+#
+# Building the actual website (index.html) and deploying to GitHub
+# Pages is a SEPARATE workflow file, added in a later step - this one
+# only handles thumbnails, kept deliberately small and single-purpose
+# so it's easier to understand and debug on its own.
+
+name: Update Thumbnails
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "data.json" # only run when data.json actually changes
+
+# Gives this workflow permission to commit back to the repo.
+# Without this, the "commit thumbnails.json" step would fail with a
+# permissions error - GitHub Actions defaults to read-only access.
+permissions:
+  contents: write
+
+jobs:
+  update-thumbnails:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Install Playwright's Chromium browser
+        # This downloads the actual browser binary + required system
+        # libraries - the npm package alone (installed above) only
+        # provides the automation API, not a real browser to drive.
+        # Needed for the headless-render fallback tier in
+        # fetch-thumbnails.js; if this step is ever skipped or fails,
+        # the scraper detects that and simply skips that tier rather
+        # than crashing (see the try/catch around `require("playwright")`
+        # and the `if (!browser)` guard in tryHeadlessRender).
+        #
+        # KNOWN RISK (as of testing, Aug 2026): --with-deps occasionally
+        # hangs on GitHub's Azure-hosted runners due to apt-mirror
+        # flakiness (see github.com/microsoft/playwright issues). If this
+        # step starts hanging/timing out, the documented workaround is to
+        # drop --with-deps and install the handful of system libraries
+        # Chromium needs directly instead:
+        #   npx playwright install chromium
+        #   sudo apt-get update && sudo apt-get install -y libnss3 \
+        #     libatk-bridge2.0-0 libdrm2 libxcomposite1 libxdamage1 \
+        #     libxrandr2 libgbm1
+        run: npx playwright install --with-deps chromium
+
+      - name: Run thumbnail scraper
+        run: node scripts/fetch-thumbnails_v2.js
+
+      - name: Commit updated thumbnails_v2.json (if changed)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add thumbnails.json
+          if git diff --staged --quiet; then
+            echo "No changes to thumbnails.json - skipping commit"
+          else
+            git commit -m "Update thumbnails.json [automated]"
+            git push
+          fi
