@@ -1232,5 +1232,11 @@
     "source": "favicon",
     "error": "HTTP 403",
     "fetchedAt": "2026-09-17T19:38:33.384Z"
+  },
+  "https://scichemcode.github.io/alam-website/": {
+    "image": "https://www.google.com/s2/favicons?domain=scichemcode.github.io&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:42:35.867Z"
   }
 }
