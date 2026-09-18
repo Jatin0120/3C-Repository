@@ -91,7 +91,28 @@ jobs:
           git add thumbnails.json
           if git diff --staged --quiet; then
             echo "No changes to thumbnails.json - skipping commit"
-          else
-            git commit -m "Update thumbnails.json [automated]"
-            git push
+            exit 0
           fi
+          git commit -m "Update thumbnails.json [automated]"
+ 
+          # main can move between this job's checkout and its push - e.g.
+          # a manual commit or PR merge landing while the scraper was
+          # running (scraping many URLs with the headless-browser tier
+          # can take several minutes, a real window for this to happen -
+          # this is exactly what caused a real failed push once already).
+          # Retry with a fresh rebase + backoff rather than a single
+          # attempt, since a single retry could itself lose a second race
+          # if something else pushes again in that same short window.
+          max_attempts=5
+          attempt=1
+          until git push origin HEAD:main; do
+            if [ "$attempt" -ge "$max_attempts" ]; then
+              echo "Push still failing after $max_attempts attempts - giving up."
+              exit 1
+            fi
+            echo "Push rejected (attempt $attempt/$max_attempts) - main moved, rebasing and retrying..."
+            git fetch origin main
+            git rebase origin/main
+            sleep $((attempt * 2))
+            attempt=$((attempt + 1))
+          done
