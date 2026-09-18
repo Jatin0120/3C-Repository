@@ -312,5 +312,931 @@
     "source": "favicon",
     "error": "no og:image found",
     "fetchedAt": "2026-08-13T05:45:12.765Z"
+  },
+  "https://github.com/levakrasnovs/metal2d": {
+    "image": "https://opengraph.githubassets.com/4e4a63463190f4df1f669202efd61483275cc33c2eb836277959f048fffa21cf/levakrasnovs/metal2d",
+    "source": "og",
+    "fetchedAt": "2026-09-18T15:55:17.774Z"
+  },
+  "https://link.springer.com/article/10.1007/s10853-022-06915-4": {
+    "image": "https://www.google.com/s2/favicons?domain=link.springer.com&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:55:18.419Z"
+  },
+  "https://arxiv.org/abs/2305.01582": {
+    "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "source": "og",
+    "fetchedAt": "2026-09-18T15:55:19.032Z"
+  },
+  "https://web.archive.org/web/20190523190103/http://eaps4.mit.edu/research/Lorenz/The_Statistical_Prediction_of_Solutions_1962.pdf": {
+    "image": "https://www.google.com/s2/favicons?domain=web.archive.org&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:55:22.740Z"
+  },
+  "https://aocs.onlinelibrary.wiley.com/doi/10.1002/sfp2.70009": {
+    "image": "https://www.google.com/s2/favicons?domain=aocs.onlinelibrary.wiley.com&sz=128",
+    "source": "favicon",
+    "error": "HTTP 403",
+    "fetchedAt": "2026-09-18T15:55:23.659Z"
+  },
+  "https://pubs.acs.org/jacsat/article/148/35/38153/5348920/Biphasic-Solar-Reforming-of-Lignin-to-Aromatics": {
+    "image": "https://www.google.com/s2/favicons?domain=pubs.acs.org&sz=128",
+    "source": "favicon",
+    "error": "HTTP 403",
+    "fetchedAt": "2026-09-18T15:55:24.326Z"
+  },
+  "https://ocw.mit.edu/courses/3-320-atomistic-computer-modeling-of-materials-sma-5107-spring-2005/": {
+    "image": "https://ocw.mit.edu/courses/3-320-atomistic-computer-modeling-of-materials-sma-5107-spring-2005/e03cdfdf29c927bbd8762a2e8132e4c1_3-320s05.jpg",
+    "source": "og",
+    "fetchedAt": "2026-09-18T15:55:24.964Z"
+  },
+  "https://docs.google.com/document/d/1zKxHxnq4-u5cXJlEWjXYF_tDZP6yLbtqPVU9x-pRXHg/edit?usp=sharing": {
+    "image": "https://lh7-us.googleusercontent.com/docs/AHkbwyKZh6B2c8kk7lZ4V4H0MclCs4hVH3MYqfQYAhQ8oQdlUqdw6lszCQ7tA93Y7KzWkVTYfilaqvLG3835MiCQE2jmt1X9u42sDJANzj1uMYKaKZJp1lc9=w1200-h630-p",
+    "source": "og",
+    "fetchedAt": "2026-09-18T15:55:26.049Z"
+  },
+  "https://www.hlevkin.com/hlevkin/90MathPhysBioBooks/Physics/Physics/Heizenberg/2015.166273.The-Physical-Principles-Of-The-Quantum-Theory.pdf": {
+    "image": "https://www.google.com/s2/favicons?domain=www.hlevkin.com&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:55:27.755Z"
+  },
+  "https://qc2-teaching.readthedocs.io/en/latest/": {
+    "image": "https://www.google.com/s2/favicons?domain=qc2-teaching.readthedocs.io&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:55:28.527Z"
+  },
+  "https://av.tib.eu/media/18904": {
+    "image": "https://av.tib.eu/thumbnail/18904",
+    "source": "og",
+    "fetchedAt": "2026-09-18T15:55:30.352Z"
+  },
+  "https://pythonnumericalmethods.studentorg.berkeley.edu/notebooks/Index.html": {
+    "image": "https://www.google.com/s2/favicons?domain=pythonnumericalmethods.studentorg.berkeley.edu&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:55:31.057Z"
+  },
+  "https://www.gutenberg.org/cache/epub/72787/pg72787-images.html": {
+    "image": "https://www.gutenberg.org/cache/epub/72787/pg72787.cover.medium.jpg",
+    "source": "og",
+    "fetchedAt": "2026-09-18T15:55:31.844Z"
+  },
+  "http://be150.caltech.edu/2020/content/lessons/12_stochastic_simulation.html": {
+    "image": "https://www.google.com/s2/favicons?domain=be150.caltech.edu&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:55:32.532Z"
+  },
+  "https://www.rpgroup.caltech.edu/aph161/assets/tut/t3/t03_stochastic_simulations.html": {
+    "image": "https://www.google.com/s2/favicons?domain=www.rpgroup.caltech.edu&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:55:33.337Z"
+  },
+  "https://drive.google.com/drive/folders/1QvbA0hTVk68PrelvkASSU63WvDPs3PnU?usp=drive_link": {
+    "image": "https://www.google.com/s2/favicons?domain=drive.google.com&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:55:34.212Z"
+  },
+  "https://web.stanford.edu/~peastman/statmech/index.html": {
+    "image": "https://www.google.com/s2/favicons?domain=web.stanford.edu&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:55:34.949Z"
+  },
+  "https://www.roma1.infn.it/~sciortif/didattica/SIMATOM/SIMATOM/inizio-MD.pdf": {
+    "image": "https://www.google.com/s2/favicons?domain=www.roma1.infn.it&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:55:37.560Z"
+  },
+  "https://www.physics.rutgers.edu/grad/621/lectures/L14_LinearResponse.pdf": {
+    "image": "https://www.google.com/s2/favicons?domain=www.physics.rutgers.edu&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:55:38.921Z"
+  },
+  "https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Time_Dependent_Quantum_Mechanics_and_Spectroscopy_2014e_(Tokmakoff)": {
+    "image": "https://chem.libretexts.org/@public/production/site_4334/1641605566-social-share.png",
+    "source": "og",
+    "fetchedAt": "2026-09-18T15:55:40.979Z"
+  },
+  "https://www.cs.toronto.edu/~rjliao/notes/Notes_on_Rademacher_Complexity.pdf": {
+    "image": "https://www.google.com/s2/favicons?domain=www.cs.toronto.edu&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:55:42.199Z"
+  },
+  "https://misiakie.github.io/publications/Misiakiewicz_MeanFieldNNs_Simons.pdf": {
+    "image": "https://www.google.com/s2/favicons?domain=misiakie.github.io&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:55:43.033Z"
+  },
+  "https://rodrigopacios.github.io/mrpacios/download/Thomas_Calculus.pdf": {
+    "image": "https://www.google.com/s2/favicons?domain=rodrigopacios.github.io&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:55:43.927Z"
+  },
+  "https://www.rexresearch1.com/BohrPhysics/Atomic%20TheorYDescription%20Of%20NatureBohr.pdf": {
+    "image": "https://www.google.com/s2/favicons?domain=www.rexresearch1.com&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:55:45.441Z"
+  },
+  "https://www.scotchem.ac.uk/pldc/": {
+    "image": "https://www.scotchem.ac.uk/files/2023/05/cropped-scotchemlogocropped.gif",
+    "source": "og",
+    "fetchedAt": "2026-09-18T15:55:46.753Z"
+  },
+  "https://drive.google.com/file/d/1wGkx5pfuqTz7sxz-F_9yeLc_37U-k54o/view?usp=drive_link": {
+    "image": "https://www.google.com/s2/favicons?domain=drive.google.com&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:55:47.627Z"
+  },
+  "https://d2l.ai/index.html": {
+    "image": "https://www.google.com/s2/favicons?domain=d2l.ai&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:55:48.258Z"
+  },
+  "https://quantummechanics.ucsd.edu/ph130a/130_notes/node1.html": {
+    "image": "https://www.google.com/s2/favicons?domain=quantummechanics.ucsd.edu&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:55:49.176Z"
+  },
+  "https://deprincelab.github.io/tutorials/jupyter_notebooks/variation/variation.html": {
+    "image": "https://www.google.com/s2/favicons?domain=deprincelab.github.io&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:55:49.841Z"
+  },
+  "https://dl.konkur.in/2025/03/Analytical-Chemistry2021-%5Bwww.konkur.in%5D.pdf": {
+    "image": "https://www.google.com/s2/favicons?domain=dl.konkur.in&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:55:53.750Z"
+  },
+  "https://computecanada.github.io/molmodsim-md-theory-lesson-novice/index.html": {
+    "image": "https://www.google.com/s2/favicons?domain=computecanada.github.io&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:55:54.353Z"
+  },
+  "http://staff.ustc.edu.cn/~zqj/": {
+    "image": "https://www.google.com/s2/favicons?domain=staff.ustc.edu.cn&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:55:58.153Z"
+  },
+  "https://karpathy.github.io/2022/03/14/lecun1989/": {
+    "image": "https://www.google.com/s2/favicons?domain=karpathy.github.io&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:55:58.760Z"
+  },
+  "https://joshuagoings.com/2013/08/23/davidsons-method/": {
+    "image": "https://www.google.com/s2/favicons?domain=joshuagoings.com&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:55:59.477Z"
+  },
+  "https://www.wolframcloud.com/obj/microsites/summerschool/projects.html": {
+    "image": "https://www.google.com/s2/favicons?domain=www.wolframcloud.com&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:56:00.336Z"
+  },
+  "https://aritraroy.live/tutorial/blogs/2020/introduction-to-pes-and-saddle-point/": {
+    "image": "https://www.google.com/s2/favicons?domain=aritraroy.live&sz=128",
+    "source": "favicon",
+    "error": "HTTP 403",
+    "fetchedAt": "2026-09-18T15:56:00.979Z"
+  },
+  "https://demonstrations.wolfram.com/PolarizabilityOfHydrogenAtom/": {
+    "image": "https://www.google.com/s2/favicons?domain=demonstrations.wolfram.com&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:56:02.074Z"
+  },
+  "https://openmm.github.io/openmm-cookbook/latest/index.html": {
+    "image": "https://www.google.com/s2/favicons?domain=openmm.github.io&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:56:02.681Z"
+  },
+  "https://pennylane.ai/demos/tutorial_neutral_atoms": {
+    "image": "https://blog-assets.cloud.pennylane.ai/demos/tutorial_neutral_atoms/main/_assets/thumbnails/thumbnail.png",
+    "source": "og",
+    "fetchedAt": "2026-09-18T15:56:03.887Z"
+  },
+  "https://adambaskerville.github.io/posts/HartreeFockGuide/": {
+    "image": "https://www.google.com/s2/favicons?domain=adambaskerville.github.io&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:56:04.529Z"
+  },
+  "https://physics.stackexchange.com/questions/620877/how-does-the-approximate-energy-relate-with-the-trial-function-in-variational-me": {
+    "image": "https://www.google.com/s2/favicons?domain=physics.stackexchange.com&sz=128",
+    "source": "favicon",
+    "error": "HTTP 403",
+    "fetchedAt": "2026-09-18T15:56:05.134Z"
+  },
+  "https://vovchenko.net/computational-physics/intro.html": {
+    "image": "https://www.google.com/s2/favicons?domain=vovchenko.net&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:56:06.015Z"
+  },
+  "https://www.quantamagazine.org/tag/condensed-matter-physics/": {
+    "image": "https://www.google.com/s2/favicons?domain=www.quantamagazine.org&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:56:07.945Z"
+  },
+  "https://research.uni-leipzig.de/sum/files/magtheory-slides-2.pdf": {
+    "image": "https://www.google.com/s2/favicons?domain=research.uni-leipzig.de&sz=128",
+    "source": "favicon",
+    "error": "request to https://research.uni-leipzig.de/sum/files/magtheory-slides-2.pdf failed, reason: socket hang up",
+    "fetchedAt": "2026-09-18T15:56:09.340Z"
+  },
+  "https://www.lite.bio/research/litemol1": {
+    "image": "https://www.lite.bio/twitter-meta.webp",
+    "source": "og",
+    "fetchedAt": "2026-09-18T15:56:10.262Z"
+  },
+  "https://lorentz.leidenuniv.nl/history/spin/goudsmit.html": {
+    "image": "https://www.google.com/s2/favicons?domain=lorentz.leidenuniv.nl&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:56:11.588Z"
+  },
+  "https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/": {
+    "image": "https://www.google.com/s2/favicons?domain=betterexplained.com&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:56:12.378Z"
+  },
+  "https://tensorcookbook.com/": {
+    "image": "https://tensorcookbook.com/media/front.png",
+    "source": "og",
+    "fetchedAt": "2026-09-18T15:56:13.113Z"
+  },
+  "https://web1.eng.famu.fsu.edu/~dommelen/quantum/style_a/index.html": {
+    "image": "https://www.google.com/s2/favicons?domain=web1.eng.famu.fsu.edu&sz=128",
+    "source": "favicon",
+    "error": "request to https://web1.eng.famu.fsu.edu/~dommelen/quantum/style_a/index.html failed, reason: unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca",
+    "fetchedAt": "2026-09-18T15:56:13.756Z"
+  },
+  "https://personal.ems.psu.edu/~fkd/courses/EGEE520/2017Deliverables/SPH_2017.pdf": {
+    "image": "https://www.google.com/s2/favicons?domain=personal.ems.psu.edu&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:56:15.017Z"
+  },
+  "https://lilianweng.github.io/posts/2019-03-14-overfit/": {
+    "image": "https://www.google.com/s2/favicons?domain=lilianweng.github.io&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:56:15.611Z"
+  },
+  "https://distill.pub/2021/gnn-intro/": {
+    "image": "https://distill.pub/2021/gnn-intro/thumbnail.jpg",
+    "source": "og",
+    "fetchedAt": "2026-09-18T15:56:16.440Z"
+  },
+  "https://www.ebi.ac.uk/training/online/courses/alphafold/alphafold-3-and-alphafold-server/introducing-alphafold-3/what-alphafold-3-struggles-with/": {
+    "image": "https://www.google.com/s2/favicons?domain=www.ebi.ac.uk&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:56:18.325Z"
+  },
+  "https://xxl12.github.io/from_math_to_ml/": {
+    "image": "https://www.google.com/s2/favicons?domain=xxl12.github.io&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:56:19.104Z"
+  },
+  "https://en.wikipedia.org/wiki/Predictive_coding": {
+    "image": "https://www.google.com/s2/favicons?domain=en.wikipedia.org&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:56:19.801Z"
+  },
+  "https://phys.org/news/2026-05-thermodynamic-laws-ai-polymer.html": {
+    "image": "https://www.google.com/s2/favicons?domain=phys.org&sz=128",
+    "source": "favicon",
+    "error": "HTTP 403",
+    "fetchedAt": "2026-09-18T15:56:20.680Z"
+  },
+  "https://sites.google.com/view/smcb2021/seminar-series": {
+    "image": "https://sites.google.com/sitesv-images-rt/AMxu72seVaHqu9tYshzJasHINvFPqQLYG-dFzhRWvpBE3aSEDfyLHuOHlzcXHlfKsAwkT2L1YvyPxJZFhFvE3_iHmpT8-xjUTMlzcpyrdP4npSgm_yvA_On9u6VEJteoJCUAjHvtUNpFW3-tmyOksjovzhEEGX8FqetUcBhIppj3v5j_MET7Y-TF0YhqsBT3bO8=w16383",
+    "source": "og",
+    "fetchedAt": "2026-09-18T15:56:21.487Z"
+  },
+  "https://pyfock.bragitoff.com/": {
+    "image": "https://www.google.com/s2/favicons?domain=pyfock.bragitoff.com&sz=128",
+    "source": "favicon",
+    "error": "HTTP 403",
+    "fetchedAt": "2026-09-18T15:56:22.121Z"
+  },
+  "https://www.marcelswart.eu/": {
+    "image": "https://www.google.com/s2/favicons?domain=www.marcelswart.eu&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:56:23.677Z"
+  },
+  "https://writings.stephenwolfram.com/2023/02/a-50-year-quest-my-personal-journey-with-the-second-law-of-thermodynamics/#computational-irreducibility-and-rule-30": {
+    "image": "https://content.wolfram.com/sites/43/2023/02/sw-blog-journey-social2.png",
+    "source": "og",
+    "fetchedAt": "2026-09-18T15:56:24.361Z"
+  },
+  "https://www.cond-mat.de/events/correl20/talks/resta.pdf": {
+    "image": "https://www.google.com/s2/favicons?domain=www.cond-mat.de&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:56:27.162Z"
+  },
+  "https://www.anthropic.com/research/making-claude-a-chemist": {
+    "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20HeadCube&amp;backgroundColor=cactus",
+    "source": "og",
+    "fetchedAt": "2026-09-18T15:56:27.841Z"
+  },
+  "https://www.stat.cmu.edu/~larry/=sml/Opt.pdf": {
+    "image": "https://www.google.com/s2/favicons?domain=www.stat.cmu.edu&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:56:28.862Z"
+  },
+  "https://autochemy.xyz/": {
+    "image": "https://www.google.com/s2/favicons?domain=autochemy.xyz&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:56:29.624Z"
+  },
+  "https://tensorlab.cms.caltech.edu/users/anima/ks_fno.html": {
+    "image": "https://www.google.com/s2/favicons?domain=tensorlab.cms.caltech.edu&sz=128",
+    "source": "favicon",
+    "error": "request to https://tensorlab.cms.caltech.edu/users/anima/ks_fno.html failed, reason: unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca",
+    "fetchedAt": "2026-09-18T15:56:30.477Z"
+  },
+  "https://sander.ai/2026/05/06/flow-maps.html": {
+    "image": "https://sander.ai/images/map.jpg",
+    "source": "og",
+    "fetchedAt": "2026-09-18T15:56:31.168Z"
+  },
+  "https://www.deeplearning4astro.com/": {
+    "image": "https://www.google.com/s2/favicons?domain=www.deeplearning4astro.com&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:56:31.903Z"
+  },
+  "https://windowsontheory.org/2021/08/11/replica-method-for-the-machine-learning-theorist-part-1-of-2/": {
+    "image": "https://windowsontheory.org/wp-content/uploads/2021/08/replica_overview.png",
+    "source": "og",
+    "fetchedAt": "2026-09-18T15:56:33.002Z"
+  },
+  "https://www.lakernewhouse.com/writing/muon-1": {
+    "image": "https://www.google.com/s2/favicons?domain=www.lakernewhouse.com&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:56:33.807Z"
+  },
+  "https://aalok.uk/projects/lietheory/": {
+    "image": "https://aalok.uk/assets/img/card_lietheory.jpg",
+    "source": "og",
+    "fetchedAt": "2026-09-18T15:56:34.448Z"
+  },
+  "https://mmaaz.ca/writings/exactnn.html": {
+    "image": "https://www.mmaaz.ca/writings/media/cover.jpg",
+    "source": "og",
+    "fetchedAt": "2026-09-18T15:56:35.145Z"
+  },
+  "https://drscotthawley.github.io/blog/posts/2017-05-04-Learning-Room-Shapes.html": {
+    "image": "https://raw.githubusercontent.com/drscotthawley/room-shape/master/sample_mode_plot.png",
+    "source": "og",
+    "fetchedAt": "2026-09-18T15:56:35.751Z"
+  },
+  "https://francisbach.com/non-convex-quadratic-problems/": {
+    "image": "https://www.google.com/s2/favicons?domain=francisbach.com&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:56:37.784Z"
+  },
+  "https://www.onurtunali.com/ml/2019/02/01/empirical-rademacher-complexity-and-its-implications-to-deep-learning.html#widehatrad_nmathcalh-code-practice": {
+    "image": "https://www.google.com/s2/favicons?domain=www.onurtunali.com&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:56:38.486Z"
+  },
+  "https://jalammar.github.io/illustrated-transformer/": {
+    "image": "https://www.google.com/s2/favicons?domain=jalammar.github.io&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:56:39.077Z"
+  },
+  "http://phys.iit.edu/~segre/phys406/21S/modules_05.pdf": {
+    "image": "https://www.google.com/s2/favicons?domain=phys.iit.edu&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:56:39.953Z"
+  },
+  "https://en.wikipedia.org/wiki/Miedema%27s_model": {
+    "image": "https://www.google.com/s2/favicons?domain=en.wikipedia.org&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:56:40.546Z"
+  },
+  "https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=821693": {
+    "image": "https://www.google.com/s2/favicons?domain=tsapps.nist.gov&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:56:41.535Z"
+  },
+  "https://sites.google.com/view/molecvue/about": {
+    "image": "https://sites.google.com/sitesv-images-rt/AMxu72v-dnvmUFpoQ370gxeBuYK1MiihNow4ewraYuQ6q-dkPC7Ld8AhaDXzpp0bjybWPeDa_i5YWBj_o70CxLv3FC-p8rQ9VewofIDOPteYuYrlbAbSkRUAnWEnA8UbXcnLsbDOYGoKIw_1ZLNb-cjqntbbagK8KI1HinkT=w16383",
+    "source": "og",
+    "fetchedAt": "2026-09-18T15:56:42.285Z"
+  },
+  "https://www.lesswrong.com/posts/6hDvwJyrwLtxBLHWG/mechanisms-too-simple-for-humans-to-design": {
+    "image": "https://www.google.com/s2/favicons?domain=www.lesswrong.com&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:56:43.371Z"
+  },
+  "https://www.cs.ubc.ca/~schmidtm/Documents/2026_ICML_Tutorial.pdf": {
+    "image": "https://www.google.com/s2/favicons?domain=www.cs.ubc.ca&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:56:44.986Z"
+  },
+  "https://www.cs.toronto.edu/~hinton/nipstutorial/nipstut3.pdf": {
+    "image": "https://www.google.com/s2/favicons?domain=www.cs.toronto.edu&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:56:46.278Z"
+  },
+  "https://valencelabs.substack.com/p/i-ran-boltz-2-100-million-times-to?r=hwlvk": {
+    "image": "https://www.google.com/s2/favicons?domain=valencelabs.substack.com&sz=128",
+    "source": "favicon",
+    "error": "HTTP 403",
+    "fetchedAt": "2026-09-18T15:56:46.843Z"
+  },
+  "https://madrona.ca/e/corerope/index.html": {
+    "image": "https://www.google.com/s2/favicons?domain=madrona.ca&sz=128",
+    "source": "favicon",
+    "error": "The user aborted a request.",
+    "fetchedAt": "2026-09-18T15:56:57.347Z"
+  },
+  "https://mattermodeling.stackexchange.com/questions/3942/is-it-right-to-neglect-very-small-imaginary-frequencies": {
+    "image": "https://www.google.com/s2/favicons?domain=mattermodeling.stackexchange.com&sz=128",
+    "source": "favicon",
+    "error": "HTTP 403",
+    "fetchedAt": "2026-09-18T15:56:58.030Z"
+  },
+  "https://wildtypehuman.substack.com/p/a-roadmap-for-techbio-disruption": {
+    "image": "https://www.google.com/s2/favicons?domain=wildtypehuman.substack.com&sz=128",
+    "source": "favicon",
+    "error": "HTTP 403",
+    "fetchedAt": "2026-09-18T15:56:58.589Z"
+  },
+  "https://gdmarmerola.github.io/risk-and-uncertainty-deep-learning/": {
+    "image": "https://gdmarmerola.github.io/assets/img/posts/risk_uncertainty_cover.jpg",
+    "source": "og",
+    "fetchedAt": "2026-09-18T15:56:59.230Z"
+  },
+  "https://e-baumer.github.io/2020-04-03-model-risk-uncertainty/": {
+    "image": "https://www.google.com/s2/favicons?domain=e-baumer.github.io&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:56:59.863Z"
+  },
+  "https://bindome.epfl.ch/static/index.html": {
+    "image": "https://bindome.epfl.ch/static/assets/images/BindomeGuell.png",
+    "source": "og",
+    "fetchedAt": "2026-09-18T15:57:01.761Z"
+  },
+  "https://dibyaghosh.com/blog/probability/highdimensionalgeometry/": {
+    "image": "https://www.google.com/s2/favicons?domain=dibyaghosh.com&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:57:02.449Z"
+  },
+  "https://colah.github.io/posts/2014-03-NN-Manifolds-Topology/": {
+    "image": "https://www.google.com/s2/favicons?domain=colah.github.io&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:57:03.055Z"
+  },
+  "https://pubs.acs.org/orgnd7/article/41/22/3073/396830/Maurice-Brookhart-A-Legacy-to-Organometallic": {
+    "image": "https://www.google.com/s2/favicons?domain=pubs.acs.org&sz=128",
+    "source": "favicon",
+    "error": "HTTP 403",
+    "fetchedAt": "2026-09-18T15:57:03.709Z"
+  },
+  "https://matsci.org/t/the-theory-calculation-behind-energy-above-hull-how-to-calculate-for-quarternary-structures/59743": {
+    "image": "https://matsci.org/uploads/default/original/1X/862454b9cebddc5b492248e2dd214a33ff311524.png",
+    "source": "og",
+    "fetchedAt": "2026-09-18T15:57:05.070Z"
+  },
+  "https://www.beren.io/2026-07-26-How-Can-LLM-RL-Work-Despite-Information-Theoretic-Inefficiency/": {
+    "image": "https://www.google.com/s2/favicons?domain=www.beren.io&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:57:05.756Z"
+  },
+  "https://jax-ml.github.io/scaling-book/roofline/": {
+    "image": "https://jax-ml.github.io/scaling-book/assets/img/dragon.png",
+    "source": "og",
+    "fetchedAt": "2026-09-18T15:57:06.403Z"
+  },
+  "https://neherlab.org/20171128_theoretical_biophysics.html": {
+    "image": "https://www.google.com/s2/favicons?domain=neherlab.org&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:57:07.293Z"
+  },
+  "https://en.wikipedia.org/wiki/Flory%E2%80%93Stockmayer_theory": {
+    "image": "https://www.google.com/s2/favicons?domain=en.wikipedia.org&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:57:07.983Z"
+  },
+  "https://www.iclimbtrees.com/courses": {
+    "image": "https://www.google.com/s2/favicons?domain=www.iclimbtrees.com&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:57:08.867Z"
+  },
+  "https://roaldhoffmann.com/sites/default/files/fromd6/how_should_chemists_think.pdf": {
+    "image": "https://www.google.com/s2/favicons?domain=roaldhoffmann.com&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:57:09.855Z"
+  },
+  "https://apps.dtic.mil/sti/tr/pdf/AD0614563.pdf": {
+    "image": "https://www.google.com/s2/favicons?domain=apps.dtic.mil&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:57:11.107Z"
+  },
+  "https://www.cce.tsinghua.edu.cn/2021_Tomlin.pdf": {
+    "image": "https://www.google.com/s2/favicons?domain=www.cce.tsinghua.edu.cn&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:57:17.652Z"
+  },
+  "https://www.physics.rutgers.edu/~friedan/physics_readings/": {
+    "image": "https://www.google.com/s2/favicons?domain=www.physics.rutgers.edu&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:57:18.359Z"
+  },
+  "https://www.ias.ac.in/article/fulltext/reso/013/05/0420-0429": {
+    "image": "https://www.google.com/s2/favicons?domain=www.ias.ac.in&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:57:22.381Z"
+  },
+  "https://youtu.be/ameqTFF7Q9g?si=dHzVVXU_inhhkUet": {
+    "image": "https://i.ytimg.com/vi/ameqTFF7Q9g/hqdefault.jpg",
+    "source": "youtube-thumbnail",
+    "fetchedAt": "2026-09-18T15:57:23.024Z"
+  },
+  "https://youtu.be/kELQAG-c_o8?si=rd6tqr49j_MMGNYu": {
+    "image": "https://i.ytimg.com/vi/kELQAG-c_o8/hqdefault.jpg",
+    "source": "youtube-thumbnail",
+    "fetchedAt": "2026-09-18T15:57:23.614Z"
+  },
+  "https://figshare.com/articles/dataset/Materials_Project_Trajectory_Dataset_of_r_sup_2_sup_SCAN_MPr_sup_2_sup_SCAN_/28245650?file=51832613": {
+    "image": "https://www.google.com/s2/favicons?domain=figshare.com&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:57:25.334Z"
+  },
+  "https://projectbrahmagupta.github.io/": {
+    "image": "https://www.google.com/s2/favicons?domain=projectbrahmagupta.github.io&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:57:25.954Z"
+  },
+  "https://youtu.be/uY-u1qyRM5w?si=iJfNuatBY6W9ZVwC": {
+    "image": "https://i.ytimg.com/vi/uY-u1qyRM5w/hqdefault.jpg",
+    "source": "youtube-thumbnail",
+    "fetchedAt": "2026-09-18T15:57:26.490Z"
+  },
+  "https://youtu.be/-pb3z2w9gDg?si=XtpB4o5N6brsZkRl": {
+    "image": "https://i.ytimg.com/vi/-pb3z2w9gDg/hqdefault.jpg",
+    "source": "youtube-thumbnail",
+    "fetchedAt": "2026-09-18T15:57:27.021Z"
+  },
+  "https://loc.closertotruth.com/landscape/exploring-consciousness": {
+    "image": "https://www.google.com/s2/favicons?domain=loc.closertotruth.com&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:57:28.164Z"
+  },
+  "https://rico.ibs.fr/helixplorer/resolution/": {
+    "image": "https://www.google.com/s2/favicons?domain=rico.ibs.fr&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:57:29.554Z"
+  },
+  "https://arxiv.org/abs/2408.10234": {
+    "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "source": "og",
+    "fetchedAt": "2026-09-18T15:57:30.162Z"
+  },
+  "https://learnaifromscratch.github.io/taocp.html": {
+    "image": "https://www.google.com/s2/favicons?domain=learnaifromscratch.github.io&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:57:30.789Z"
+  },
+  "https://scichemcode.github.io/alam-website/": {
+    "image": "https://www.google.com/s2/favicons?domain=scichemcode.github.io&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:57:31.427Z"
+  },
+  "https://thechipletter.substack.com/p/floating-point-the-origin-story?r=hwlvk&triedRedirect=true": {
+    "image": "https://www.google.com/s2/favicons?domain=thechipletter.substack.com&sz=128",
+    "source": "favicon",
+    "error": "HTTP 403",
+    "fetchedAt": "2026-09-18T15:57:32.004Z"
+  },
+  "https://youtu.be/GY4yN4cROE8?si=qvtemzCASiLuQVPl": {
+    "image": "https://i.ytimg.com/vi/GY4yN4cROE8/hqdefault.jpg",
+    "source": "youtube-thumbnail",
+    "fetchedAt": "2026-09-18T15:57:32.585Z"
+  },
+  "https://youtu.be/d9s9bQuG1qk?si=XkUThjWPdyQWflRl": {
+    "image": "https://i.ytimg.com/vi/d9s9bQuG1qk/hqdefault.jpg",
+    "source": "youtube-thumbnail",
+    "fetchedAt": "2026-09-18T15:57:33.112Z"
+  },
+  "https://groups.csail.mit.edu/medg/people/psz/Licklider.html": {
+    "image": "https://www.google.com/s2/favicons?domain=groups.csail.mit.edu&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:57:33.930Z"
+  },
+  "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology": {
+    "image": "https://www.google.com/s2/favicons?domain=newsroom.ibm.com&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:57:34.627Z"
+  },
+  "https://www-zeus.roma1.infn.it/~dagos/history/Orear_Fermi_master.pdf": {
+    "image": "https://www.google.com/s2/favicons?domain=www-zeus.roma1.infn.it&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:57:37.795Z"
+  },
+  "https://www.math.purdue.edu/~eremenko/bernoulli.html": {
+    "image": "https://www.google.com/s2/favicons?domain=www.math.purdue.edu&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:57:38.414Z"
+  },
+  "https://youtu.be/TfyPshgMbug?si=MxWHXiaxwl7wFF4z": {
+    "image": "https://i.ytimg.com/vi/TfyPshgMbug/hqdefault.jpg",
+    "source": "youtube-thumbnail",
+    "fetchedAt": "2026-09-18T15:57:38.979Z"
+  },
+  "https://www.sidhantbansal.com/2025/When-is-a-deck-truly-shuffled/": {
+    "image": "https://sidhantbansal.com/",
+    "source": "og",
+    "fetchedAt": "2026-09-18T15:57:39.663Z"
+  },
+  "https://github.com/Robbyant/lingbot-map": {
+    "image": "https://opengraph.githubassets.com/cd53e5edf98db0b7729e75fa98f7415e98b18cce67fc982b8a3e59e4f2d438da/Robbyant/lingbot-map",
+    "source": "og",
+    "fetchedAt": "2026-09-18T15:57:40.800Z"
+  },
+  "https://aldousdj.medium.com/doing-research-mathematics-is-like-aaf4ff0d9235": {
+    "image": "https://www.google.com/s2/favicons?domain=aldousdj.medium.com&sz=128",
+    "source": "favicon",
+    "error": "HTTP 403",
+    "fetchedAt": "2026-09-18T15:57:41.374Z"
+  },
+  "https://jsomers.net/e-coli-chemotaxis/": {
+    "image": "https://jsomers.net/e-coli-chemotaxis/articleImages/hero.jpg",
+    "source": "og",
+    "fetchedAt": "2026-09-18T15:57:42.227Z"
+  },
+  "https://youtu.be/Chy0k1GiNmY?si=oLKOsxysrwbab3ak": {
+    "image": "https://i.ytimg.com/vi/Chy0k1GiNmY/hqdefault.jpg",
+    "source": "youtube-thumbnail",
+    "fetchedAt": "2026-09-18T15:57:42.809Z"
+  },
+  "https://www.ias.ac.in/article/fulltext/reso/011/06/0008-0025": {
+    "image": "https://www.google.com/s2/favicons?domain=www.ias.ac.in&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:57:46.308Z"
+  },
+  "https://piyushastrocat.substack.com/p/rabbit-holes-terence-tao": {
+    "image": "https://www.google.com/s2/favicons?domain=piyushastrocat.substack.com&sz=128",
+    "source": "favicon",
+    "error": "HTTP 403",
+    "fetchedAt": "2026-09-18T15:57:46.876Z"
+  },
+  "https://piyushastrocat.substack.com/p/rabbit-holes-demis-hassabis": {
+    "image": "https://www.google.com/s2/favicons?domain=piyushastrocat.substack.com&sz=128",
+    "source": "favicon",
+    "error": "HTTP 403",
+    "fetchedAt": "2026-09-18T15:57:47.422Z"
+  },
+  "https://youtu.be/c-cSeTz3dMg?si=zMyzkzDXfJ1Zj2i7": {
+    "image": "https://i.ytimg.com/vi/c-cSeTz3dMg/hqdefault.jpg",
+    "source": "youtube-thumbnail",
+    "fetchedAt": "2026-09-18T15:57:48.023Z"
+  },
+  "https://youtu.be/glWvwvhZkQ8?si=5IqFGC6DvgT5zrD6": {
+    "image": "https://i.ytimg.com/vi/glWvwvhZkQ8/hqdefault.jpg",
+    "source": "youtube-thumbnail",
+    "fetchedAt": "2026-09-18T15:57:48.556Z"
+  },
+  "https://jino-rohit.github.io/blogs/05_softmax.html": {
+    "image": "https://www.google.com/s2/favicons?domain=jino-rohit.github.io&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:57:49.197Z"
+  },
+  "https://ia800902.us.archive.org/4/items/aircraftpropulsion2ed_201907/Aircraft%20Propulsion%202ed.pdf": {
+    "image": "https://www.google.com/s2/favicons?domain=ia800902.us.archive.org&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:57:50.573Z"
+  },
+  "https://link.springer.com/article/10.1007/s11224-022-02011-0": {
+    "image": "https://www.google.com/s2/favicons?domain=link.springer.com&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:57:51.208Z"
+  },
+  "https://icm.museum/": {
+    "image": "https://www.google.com/s2/favicons?domain=icm.museum&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:57:52.599Z"
+  },
+  "https://www.youtube.com/live/k_N3PFMUxPc": {
+    "image": "https://www.google.com/s2/favicons?domain=www.youtube.com&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:57:53.797Z"
+  },
+  "https://people-lux.obspm.fr/gourgoulhon/fr/present_rec/bhthermo_X24.pdf": {
+    "image": "https://www.google.com/s2/favicons?domain=people-lux.obspm.fr&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:57:56.227Z"
+  },
+  "https://teorth.github.io/tao-web/slides/age-of-ai-icm-2026.pdf": {
+    "image": "https://www.google.com/s2/favicons?domain=teorth.github.io&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:57:57.262Z"
+  },
+  "https://www.greene.sh/compression-and-intelligence/": {
+    "image": "https://www.greene.sh/social/compression-and-intelligence.png",
+    "source": "og",
+    "fetchedAt": "2026-09-18T15:57:58.115Z"
+  },
+  "https://bdt.semi.ac.cn/library/upload/files/2022/3/3165512406.pdf": {
+    "image": "https://www.google.com/s2/favicons?domain=bdt.semi.ac.cn&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:58:04.204Z"
+  },
+  "https://www.newtinteractive.com/essays/hemoglobin": {
+    "image": "https://www.newtinteractive.com/images/hemoglobin-illustration-red.png",
+    "source": "og",
+    "fetchedAt": "2026-09-18T15:58:04.979Z"
+  },
+  "https://www.owlposting.com/p/why-havent-organoids-solved-all-of": {
+    "image": "https://substackcdn.com/image/fetch/$s_!xiz8!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F084e32b2-4300-4518-9e0d-a624a07de4bd_2912x1632.png",
+    "source": "og",
+    "fetchedAt": "2026-09-18T15:58:05.730Z"
+  },
+  "https://www.lesswrong.com/posts/75dnjiD8kv2khe9eQ/measuring-hardware-overhang": {
+    "image": "https://www.google.com/s2/favicons?domain=www.lesswrong.com&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:58:06.690Z"
+  },
+  "https://web.archive.org/web/20201105122829/https://tor-lattimore.com/downloads/book/book.pdf": {
+    "image": "https://www.google.com/s2/favicons?domain=web.archive.org&sz=128",
+    "source": "favicon",
+    "error": "The user aborted a request.",
+    "fetchedAt": "2026-09-18T15:58:17.193Z"
+  },
+  "https://iopscience.iop.org/article/10.1088/2632-072X/acb8a1": {
+    "image": "https://www.google.com/s2/favicons?domain=iopscience.iop.org&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:58:18.596Z"
+  },
+  "https://anatomy-livid.vercel.app/en": {
+    "image": "https://www.google.com/s2/favicons?domain=anatomy-livid.vercel.app&sz=128",
+    "source": "favicon",
+    "error": "HTTP 503",
+    "fetchedAt": "2026-09-18T15:58:20.795Z"
+  },
+  "https://physics.lnu.edu.ua/jps/2017/3/pdf/3002-19.pdf": {
+    "image": "https://www.google.com/s2/favicons?domain=physics.lnu.edu.ua&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:58:23.318Z"
+  },
+  "https://diffuse.one/p/d1-012": {
+    "image": "https://www.google.com/s2/favicons?domain=diffuse.one&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:58:23.977Z"
+  },
+  "https://pypi.org/project/fanos/": {
+    "image": "https://www.google.com/s2/favicons?domain=pypi.org&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:58:24.580Z"
+  },
+  "https://terrytao.wordpress.com/career-advice/theres-more-to-mathematics-than-rigour-and-proofs/": {
+    "image": "https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=200&#038;ts=1789747105",
+    "source": "og",
+    "fetchedAt": "2026-09-18T15:58:25.485Z"
+  },
+  "https://nightingal3.github.io/blog/2026/08/09/research-retrospective/": {
+    "image": "https://nightingal3.github.io/blog/assets/images/social-card.png",
+    "source": "og",
+    "fetchedAt": "2026-09-18T15:58:26.134Z"
+  },
+  "https://www.dwarkesh.com/p/openai-huggingface": {
+    "image": "https://substackcdn.com/image/fetch/$s_!UZLs!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F30186662-5010-4c83-a672-e33c53deeaa3_1080x669.webp",
+    "source": "og",
+    "fetchedAt": "2026-09-18T15:58:28.560Z"
+  },
+  "https://www.owlposting.com/p/how-to-build-a-cancer-vaccine-and": {
+    "image": "https://substackcdn.com/image/fetch/$s_!sYF-!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F40bff812-01a1-419b-ae49-cda5d12440a8_2944x1648.png",
+    "source": "og",
+    "fetchedAt": "2026-09-18T15:58:29.388Z"
+  },
+  "https://youtu.be/YFiQIZOM2fw": {
+    "image": "https://i.ytimg.com/vi/YFiQIZOM2fw/hqdefault.jpg",
+    "source": "youtube-thumbnail",
+    "fetchedAt": "2026-09-18T15:58:29.986Z"
+  },
+  "https://tadaoyamaoka.hatenablog.com/entry/2024/09/29/163801": {
+    "image": "https://cdn.image.st-hatena.com/image/scale/7e47e687eb2372821091fc0b6bb3d4f99eea16a7/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2FT%2FTadaoYamaoka%2F20240929%2F20240929154635.png",
+    "source": "og",
+    "fetchedAt": "2026-09-18T15:58:31.321Z"
+  },
+  "https://arxiv.org/pdf/2603.29996": {
+    "image": "https://www.google.com/s2/favicons?domain=arxiv.org&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:58:32.820Z"
+  },
+  "https://www.statnews.com/2019/06/25/alzheimers-cabal-thwarted-progress-toward-cure/": {
+    "image": "https://www.statnews.com/wp-content/uploads/2019/06/AlzheimerDrugResearch_v2_Illustration_MollyFerguson_061919-1024x576.jpg",
+    "source": "og",
+    "fetchedAt": "2026-09-18T15:58:33.478Z"
+  },
+  "https://www.princeton.edu/~wbialek/rome/refs/shannon_51.pdf": {
+    "image": "https://www.google.com/s2/favicons?domain=www.princeton.edu&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:58:34.659Z"
+  },
+  "https://youtu.be/tMhp4-ylrdE?si=Max4BVnylwookvit": {
+    "image": "https://i.ytimg.com/vi/tMhp4-ylrdE/hqdefault.jpg",
+    "source": "youtube-thumbnail",
+    "fetchedAt": "2026-09-18T15:58:35.269Z"
+  },
+  "https://www.jacobpeake.com/ai-chip-architectures": {
+    "image": "https://www.jepeake.com/og/ai-chip-architectures.png",
+    "source": "og",
+    "fetchedAt": "2026-09-18T15:58:36.225Z"
+  },
+  "https://youtu.be/ZSECCauVFA8?si=a9cTI4hNYR3GVyDQ": {
+    "image": "https://i.ytimg.com/vi/ZSECCauVFA8/hqdefault.jpg",
+    "source": "youtube-thumbnail",
+    "fetchedAt": "2026-09-18T15:58:36.762Z"
+  },
+  "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.24.829": {
+    "image": "https://www.google.com/s2/favicons?domain=journals.aps.org&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-18T15:58:37.658Z"
   }
 }
