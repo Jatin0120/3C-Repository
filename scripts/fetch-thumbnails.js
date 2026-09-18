@@ -6,7 +6,7 @@
  * results in thumbnails.json (so re-runs only scrape NEW urls), and
  * writes the merged result back to thumbnails.json.
  *
- * Usage: node scripts/fetch-thumbnails_v2.js
+ * Usage: node scripts/fetch-thumbnails.js
  *
  * Exit code is always 0 even if individual scrapes fail — a single
  * unreachable site should never fail the whole build. Only a totally
