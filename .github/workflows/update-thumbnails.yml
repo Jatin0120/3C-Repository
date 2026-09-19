@@ -65,28 +65,6 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Install Playwright's Chromium browser
-        # This downloads the actual browser binary + required system
-        # libraries - the npm package alone (installed above) only
-        # provides the automation API, not a real browser to drive.
-        # Needed for the headless-render fallback tier in
-        # fetch-thumbnails.js; if this step is ever skipped or fails,
-        # the scraper detects that and simply skips that tier rather
-        # than crashing (see the try/catch around `require("playwright")`
-        # and the `if (!browser)` guard in tryHeadlessRender).
-        #
-        # KNOWN RISK (as of testing, Aug 2026): --with-deps occasionally
-        # hangs on GitHub's Azure-hosted runners due to apt-mirror
-        # flakiness (see github.com/microsoft/playwright issues). If this
-        # step starts hanging/timing out, the documented workaround is to
-        # drop --with-deps and install the handful of system libraries
-        # Chromium needs directly instead:
-        #   npx playwright install chromium
-        #   sudo apt-get update && sudo apt-get install -y libnss3 \
-        #     libatk-bridge2.0-0 libdrm2 libxcomposite1 libxdamage1 \
-        #     libxrandr2 libgbm1
-        run: npx playwright install --with-deps chromium
-
       - name: Run thumbnail scraper
         run: node scripts/fetch-thumbnails.js
 
