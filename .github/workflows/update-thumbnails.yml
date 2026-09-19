@@ -5,15 +5,14 @@
 #      (this fires automatically right after the Apps Script pushes).
 #   2. Spins up a fresh Ubuntu runner (a temporary, disposable machine).
 #   3. Downloads this repo's files onto that machine.
-#   4. Installs Node.js, the node-fetch/playwright dependencies, and a
-#      real headless Chromium browser (see the dedicated step below for
-#      why this is needed).
+#   4. Installs Node.js and the node-fetch dependency.
 #   5. Runs fetch-thumbnails.js, which reads data.json, scrapes any
 #      NEW urls not already in thumbnails.json, and updates
-#      thumbnails.json. For URLs a plain HTTP fetch can't get real
-#      metadata from (some sites return different/blocked responses to
-#      non-browser requests), it falls back to rendering the page with
-#      the real headless browser before giving up to a favicon.
+#      thumbnails.json. YouTube links go straight to YouTube's own
+#      thumbnail CDN (see PLATFORM_STRATEGIES in the script) rather
+#      than scraping the watch page, since that page is confirmed to
+#      omit its og:image tag specifically when fetched from GitHub
+#      Actions' network.
 #   6. Commits thumbnails.json back to the repo, but ONLY if it
 #      actually changed (so we don't create empty commits every time).
 #
@@ -65,60 +64,79 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Install Playwright's Chromium browser
-        # This downloads the actual browser binary + required system
-        # libraries - the npm package alone (installed above) only
-        # provides the automation API, not a real browser to drive.
-        # Needed for the headless-render fallback tier in
-        # fetch-thumbnails.js; if this step is ever skipped or fails,
-        # the scraper detects that and simply skips that tier rather
-        # than crashing (see the try/catch around `require("playwright")`
-        # and the `if (!browser)` guard in tryHeadlessRender).
-        #
-        # KNOWN RISK (as of testing, Aug 2026): --with-deps occasionally
-        # hangs on GitHub's Azure-hosted runners due to apt-mirror
-        # flakiness (see github.com/microsoft/playwright issues). If this
-        # step starts hanging/timing out, the documented workaround is to
-        # drop --with-deps and install the handful of system libraries
-        # Chromium needs directly instead:
-        #   npx playwright install chromium
-        #   sudo apt-get update && sudo apt-get install -y libnss3 \
-        #     libatk-bridge2.0-0 libdrm2 libxcomposite1 libxdamage1 \
-        #     libxrandr2 libgbm1
-        run: npx playwright install --with-deps chromium
-
       - name: Run thumbnail scraper
-        run: node scripts/fetch-thumbnails.js
+        run: |
+          cp thumbnails.json /tmp/thumbnails-before.json 2>/dev/null || echo '{}' > /tmp/thumbnails-before.json
+          node scripts/fetch-thumbnails.js
 
       - name: Commit updated thumbnails.json (if changed)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add thumbnails.json
-          if git diff --staged --quiet; then
+
+          # Push to whichever branch actually triggered this run - not
+          # a hardcoded "main" - so manual test runs on other branches
+          # never touch main.
+          
+          TARGET_BRANCH="${GITHUB_REF_NAME}"
+
+          # Compute exactly what THIS run changed (new/updated cache
+          # entries), then merge that delta onto whatever is CURRENTLY
+          # on the target branch, as plain JS objects - rather than
+          # relying on git's line-based text merge for this file.
+          # thumbnails.json is a keyed JSON cache; two processes
+          # rebuilding it from different starting points can produce a
+          # file that looks totally different line-by-line even when
+          # the underlying data doesn't conflict at all. That mismatch
+          # caused a real, CI-unresolvable rebase conflict once already.
+          
+          cp thumbnails.json /tmp/thumbnails-after.json
+          node -e "
+            const fs = require('fs');
+            const before = JSON.parse(fs.readFileSync('/tmp/thumbnails-before.json', 'utf8'));
+            const after = JSON.parse(fs.readFileSync('/tmp/thumbnails-after.json', 'utf8'));
+            const delta = {};
+            for (const [url, entry] of Object.entries(after)) {
+              if (JSON.stringify(before[url]) !== JSON.stringify(entry)) {
+                delta[url] = entry;
+              }
+            }
+            fs.writeFileSync('/tmp/thumbnails-delta.json', JSON.stringify(delta));
+            console.log('This run changed ' + Object.keys(delta).length + ' cache entries.');
+          "
+
+          delta_count=$(node -e "console.log(Object.keys(JSON.parse(require('fs').readFileSync('/tmp/thumbnails-delta.json'))).length)")
+          if [ "$delta_count" = "0" ]; then
             echo "No changes to thumbnails.json - skipping commit"
             exit 0
           fi
-          git commit -m "Update thumbnails.json [automated]"
- 
-          # main can move between this job's checkout and its push - e.g.
-          # a manual commit or PR merge landing while the scraper was
-          # running (scraping many URLs with the headless-browser tier
-          # can take several minutes, a real window for this to happen -
-          # this is exactly what caused a real failed push once already).
-          # Retry with a fresh rebase + backoff rather than a single
-          # attempt, since a single retry could itself lose a second race
-          # if something else pushes again in that same short window.
+
           max_attempts=5
           attempt=1
-          until git push origin HEAD:main; do
+          while true; do
+            git fetch origin "$TARGET_BRANCH"
+            git show "origin/$TARGET_BRANCH:thumbnails.json" > /tmp/thumbnails-remote.json 2>/dev/null || echo '{}' > /tmp/thumbnails-remote.json
+            node -e "
+              const fs = require('fs');
+              const remote = JSON.parse(fs.readFileSync('/tmp/thumbnails-remote.json', 'utf8'));
+              const delta = JSON.parse(fs.readFileSync('/tmp/thumbnails-delta.json', 'utf8'));
+              const merged = { ...remote, ...delta };
+              fs.writeFileSync('thumbnails.json', JSON.stringify(merged, null, 2));
+            "
+
+            git reset --soft "origin/$TARGET_BRANCH"
+            git add thumbnails.json
+            git commit -m "Update thumbnails.json [automated]"
+
+            if git push origin HEAD:"$TARGET_BRANCH"; then
+              break
+            fi
+
             if [ "$attempt" -ge "$max_attempts" ]; then
               echo "Push still failing after $max_attempts attempts - giving up."
               exit 1
             fi
-            echo "Push rejected (attempt $attempt/$max_attempts) - main moved, rebasing and retrying..."
-            git fetch origin main
-            git rebase origin/main
-            sleep $((attempt * 2))
+            echo "Push rejected (attempt $attempt/$max_attempts) - retrying with a fresh merge..."
             attempt=$((attempt + 1))
+            sleep $((attempt * 2))
           done
