@@ -1,0 +1,13 @@
+name: Diagnose Thumbnail Failures
+on:
+  workflow_dispatch:
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+      - run: npm install
+      - run: node scripts/diagnose-thumbnail.js
