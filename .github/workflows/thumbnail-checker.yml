@@ -10,4 +10,4 @@ jobs:
         with:
           node-version: "24"
       - run: npm install
-      - run: node scripts/diagnose-thumbnail.js
+      - run: node scripts/diagnose-thumbnail-failures.js
