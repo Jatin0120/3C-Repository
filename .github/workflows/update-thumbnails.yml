@@ -30,6 +30,12 @@ on:
       - main
     paths:
       - "data.json" # only run when data.json actually changes
+  # Allows manually triggering this workflow from the Actions tab,
+  # against ANY branch you choose in the "Run workflow" dropdown - not
+  # just main. Useful for testing changes to the scraper itself (e.g.
+  # verifying real behavior against a specific site) without needing to
+  # touch data.json or push to main at all.
+  workflow_dispatch:
 
 # Gives this workflow permission to commit back to the repo.
 # Without this, the "commit thumbnails.json" step would fail with a
