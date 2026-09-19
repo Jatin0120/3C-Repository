@@ -82,6 +82,95 @@ function faviconUrlFor(pageUrl) {
 }
 
 /**
+ * PLATFORM-SPECIFIC THUMBNAIL STRATEGIES
+ *
+ * Confirmed via a direct diagnostic (raw-substring search on real
+ * Actions output): GitHub Actions' network receives a complete-looking
+ * YouTube watch page that specifically lacks the entire Open Graph
+ * block - most likely a consent/region-variant page served to
+ * cookie-less, first-visit traffic. Every other tested site (GitHub,
+ * arxiv, Wikipedia, LessWrong, an ordinary personal blog) behaved
+ * identically in both environments - this is a genuine, narrow,
+ * YouTube-specific issue, not a general network problem, so it gets a
+ * targeted fix.
+ */
+const PLATFORM_STRATEGIES = [
+  {
+    name: "YouTube",
+    matches(url) {
+      return extractYouTubeVideoId(url) !== null;
+    },
+    async getThumbnail(url) {
+      const videoId = extractYouTubeVideoId(url);
+      return getYouTubeThumbnail(videoId);
+    }
+  }
+];
+
+/**
+ * Extracts a YouTube video ID from any common URL shape:
+ *   - youtube.com/watch?v=ID (v param can be anywhere in the query string)
+ *   - youtu.be/ID (the short-link redirector domain)
+ *   - youtube.com/shorts/ID
+ *   - youtube.com/embed/ID
+ * Returns null for anything else, including non-YouTube URLs.
+ */
+function extractYouTubeVideoId(pageUrl) {
+  try {
+    const u = new URL(pageUrl);
+    const host = u.hostname.replace(/^www\.|^m\./, "");
+
+    if (host === "youtu.be") {
+      return u.pathname.slice(1).split("/")[0] || null;
+    }
+
+    if (host === "youtube.com") {
+      if (u.pathname === "/watch") {
+        return u.searchParams.get("v");
+      }
+      const shortsMatch = u.pathname.match(/^\/shorts\/([^/]+)/);
+      if (shortsMatch) return shortsMatch[1];
+      const embedMatch = u.pathname.match(/^\/embed\/([^/]+)/);
+      if (embedMatch) return embedMatch[1];
+    }
+
+    return null;
+  } catch (e) {
+    return null;
+  }
+}
+
+/**
+ * Builds a YouTube thumbnail URL directly from a video ID, bypassing the
+ * need to fetch/parse the video's HTML page at all - confirmed via a
+ * real diagnostic that i.ytimg.com returns a valid 200 + real JPEG from
+ * GitHub Actions' network, unaffected by the consent-variant issue that
+ * hits the watch page itself.
+ *
+ * hqdefault.jpg (not maxresdefault.jpg) is used deliberately: maxres
+ * only exists for videos uploaded at sufficient source resolution, and
+ * YouTube silently serves a small gray placeholder (still HTTP 200) when
+ * it doesn't - which would trick this into treating a placeholder as a
+ * real thumbnail. hqdefault has existed for virtually every video since
+ * YouTube's early years and is never a placeholder.
+ */
+async function getYouTubeThumbnail(videoId) {
+  const thumbnailUrl = `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`;
+  try {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
+    const res = await fetch(thumbnailUrl, { method: "HEAD", signal: controller.signal });
+    clearTimeout(timeout);
+    if (res.ok) {
+      return { image: thumbnailUrl, source: "youtube-thumbnail" };
+    }
+    return null;
+  } catch (e) {
+    return null;
+  }
+}
+
+/**
  * Central "og:image didn't work" handler used by every failure path in
  * scrapeOne. Tries the domain favicon as a second tier before finally
  * falling back to the fully generic placeholder (only reached if the
@@ -100,6 +189,14 @@ function fallbackFor(pageUrl, errorReason) {
  * Returns { image: string, source: "og"|"fallback", error?: string }
  */
 async function scrapeOne(url, isRetry = false) {
+  for (const strategy of PLATFORM_STRATEGIES) {
+    if (strategy.matches(url)) {
+      const result = await strategy.getThumbnail(url);
+      if (result) return result;
+      break;
+    }
+  }
+
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
 
@@ -215,6 +312,7 @@ async function main() {
   );
 
   let scraped = 0;
+  let usedYoutubeThumbnail = 0;
   let usedFavicon = 0;
   let failed = 0;
 
@@ -227,6 +325,9 @@ async function main() {
     if (result.source === "og") {
       scraped++;
       console.log(`✅ ${url} -> ${result.image}`);
+    } else if (result.source === "youtube-thumbnail") {
+      usedYoutubeThumbnail++;
+      console.log(`▶️  ${url} -> YouTube thumbnail CDN -> ${result.image}`);
     } else if (result.source === "favicon") {
       usedFavicon++;
       console.log(`🔹 ${url} -> favicon fallback (${result.error})`);
@@ -243,7 +344,8 @@ async function main() {
 
   fs.writeFileSync(THUMBNAILS_JSON_PATH, JSON.stringify(cache, null, 2));
   console.log(
-    `\nDone. ${scraped} real thumbnails found, ${usedFavicon} used a site favicon, ` +
+    `\nDone. ${scraped} real thumbnails found, ${usedYoutubeThumbnail} used YouTube's thumbnail CDN, ` +
+    `${usedFavicon} used a site favicon, ` +
     `${failed} fell back to fully generic, ` +
     `${allUrls.length - urlsToScrape.length} already cached.`
   );
