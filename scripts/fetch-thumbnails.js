@@ -155,20 +155,36 @@ function extractYouTubeVideoId(pageUrl) {
  * YouTube's early years and is never a placeholder.
  */
 async function getYouTubeThumbnail(videoId) {
-  const thumbnailUrl = `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`;
-  try {
-    const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
-    const res = await fetch(thumbnailUrl, { method: "HEAD", signal: controller.signal });
-    clearTimeout(timeout);
-    if (res.ok) {
-      return { image: thumbnailUrl, source: "youtube-thumbnail" };
+  const resolutions = ["maxresdefault.jpg", "sddefault.jpg", "hqdefault.jpg"];
+  // The known placeholder is a tiny, fixed-size 120px-wide JPEG - real
+  // thumbnails at even the lowest tier are tens of KB. 2000 bytes is a
+  // safely conservative cutoff between the two.
+  const PLACEHOLDER_MAX_BYTES = 2000;
+
+  for (const resolution of resolutions) {
+    const thumbnailUrl = `https://i.ytimg.com/vi/${videoId}/${resolution}`;
+    try {
+      const controller = new AbortController();
+      const timeout = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
+      const res = await fetch(thumbnailUrl, { signal: controller.signal });
+      clearTimeout(timeout);
+
+      if (!res.ok) continue; // try the next, lower resolution
+
+      const buffer = await res.buffer();
+      if (buffer.length > PLACEHOLDER_MAX_BYTES) {
+        return { image: thumbnailUrl, source: "youtube-thumbnail" };
+      }
+      // Otherwise this was the placeholder - try the next resolution
+      // down rather than accepting it.
+    } catch (e) {
+      // network error on this resolution - try the next one
     }
-    return null;
-  } catch (e) {
-    return null;
   }
+
+  return null; // every resolution came back as the placeholder or failed
 }
+      
 
 /**
  * Central "og:image didn't work" handler used by every failure path in
