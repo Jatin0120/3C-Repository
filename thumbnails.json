@@ -1210,5 +1210,29 @@
     "source": "favicon",
     "error": "no og:image found",
     "fetchedAt": "2026-09-18T20:13:39.052Z"
+  },
+  "https://www.youtube.com/watch?v=pu4uL7deCNw": {
+    "image": "https://www.google.com/s2/favicons?domain=www.youtube.com&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-19T08:21:21.077Z"
+  },
+  "https://youtu.be/uKxYdMODRSU?si=ny4j2YRvkOCkCrdq": {
+    "image": "https://www.google.com/s2/favicons?domain=youtu.be&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-19T08:21:22.246Z"
+  },
+  "https://youtu.be/E9_kyXjtRHc?si=hwDPxTUFtZjlaVje": {
+    "image": "https://www.google.com/s2/favicons?domain=youtu.be&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-19T08:21:23.274Z"
+  },
+  "https://scichemcode.github.io/alam-website/": {
+    "image": "https://www.google.com/s2/favicons?domain=scichemcode.github.io&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-09-19T08:21:23.838Z"
   }
 }
