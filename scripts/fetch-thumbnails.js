@@ -132,8 +132,13 @@ function extractYouTubeVideoId(pageUrl) {
       if (shortsMatch) return shortsMatch[1];
       const embedMatch = u.pathname.match(/^\/embed\/([^/]+)/);
       if (embedMatch) return embedMatch[1];
+      // /live/VIDEO_ID - YouTube Live broadcast URLs (confirmed missing
+      // via a real thumbnails.json entry that silently fell through to
+      // the generic scraper instead of the YouTube-CDN shortcut).
+      const liveMatch = u.pathname.match(/^\/live\/([^/]+)/);
+      if (liveMatch) return liveMatch[1];
     }
-
+    
     return null;
   } catch (e) {
     return null;
