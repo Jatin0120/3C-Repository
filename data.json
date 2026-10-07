@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T20:18:38.034Z",
+  "generatedAt": "2026-10-07T20:23:00.984Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -233,11 +233,11 @@
           "rawText": "metal2D ー Readable 2D depictions of coordination and organometallic complexes for RDKit"
         },
         {
-          "title": "Evolutionary Scale Modeling ESM ー model for protein biology",
-          "description": null,
-          "primaryUrl": null,
+          "title": "ESM",
+          "description": "Evolutionary Scale Modeling for protein biology",
+          "primaryUrl": "https://github.com/Biohub/esm",
           "links": [],
-          "rawText": "Evolutionary Scale Modeling ESM ー model for protein biology"
+          "rawText": "ESM ー Evolutionary Scale Modeling for protein biology"
         }
       ]
     },
@@ -1155,6 +1155,13 @@
           "rawText": "AutoChemy ー Computational Chemistry Assistant"
         },
         {
+          "title": "Sloppy Models",
+          "description": "Multiparameter models for systems biology",
+          "primaryUrl": "https://sethna.lassp.cornell.edu/Sloppy/",
+          "links": [],
+          "rawText": "Sloppy Models ー Multiparameter models for systems biology"
+        },
+        {
           "title": "Linear-Scaling Density Functional Theory with Neural Operators",
           "description": null,
           "primaryUrl": "https://tensorlab.cms.caltech.edu/users/anima/ks_fno.html",
@@ -1405,6 +1412,13 @@
           "primaryUrl": "https://en.wikipedia.org/wiki/Oxygen-free_copper?wprov=sfla1",
           "links": [],
           "rawText": "Oxygen-free copper ー Wikipedia Page"
+        },
+        {
+          "title": "Biological Circuit Design",
+          "description": null,
+          "primaryUrl": "https://biocircuits.github.io/",
+          "links": [],
+          "rawText": "Biological Circuit Design"
         }
       ]
     },
