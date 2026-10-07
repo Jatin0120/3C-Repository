@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T19:08:13.112Z",
+  "generatedAt": "2026-10-07T19:14:43.550Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -726,6 +726,13 @@
           "primaryUrl": "https://dl.konkur.in/2025/03/Analytical-Chemistry2021-%5Bwww.konkur.in%5D.pdf",
           "links": [],
           "rawText": "Fundamentals of Analytical Chemistry"
+        },
+        {
+          "title": "The Mechanics of the Atom",
+          "description": "(M. Born)",
+          "primaryUrl": "https://archive.org/details/mechanicsoftheat029637mbp",
+          "links": [],
+          "rawText": "The Mechanics of the Atom (M. Born)"
         }
       ]
     },
@@ -1928,9 +1935,17 @@
             {
               "label": "paper",
               "url": "https://www.nature.com/articles/s41598-023-49960-y"
+            },
+            {
+              "label": "Exec results",
+              "url": "https://www.asahi-net.or.jp/~KC2H-MSM/mathland/math04/math0403.htm"
+            },
+            {
+              "label": "optimisation paper",
+              "url": "https://arxiv.org/abs/2005.09710"
             }
           ],
-          "rawText": "Number Theory Seminar 2020 ー Sum of 3 cubes (paper)"
+          "rawText": "Number Theory Seminar 2020 ー Sum of 3 cubes (paper) (Exec results) (optimisation paper)"
         },
         {
           "title": "Bartosz Ciechanowski’s Webpage",
