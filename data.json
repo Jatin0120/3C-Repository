@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T19:58:00.546Z",
+  "generatedAt": "2026-10-07T20:04:16.577Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -1794,6 +1794,13 @@
           "rawText": "Fermi Explorer"
         },
         {
+          "title": "From Noise to Images: Flow Matching Explained",
+          "description": null,
+          "primaryUrl": "https://huggingface.co/spaces/ariG23498/flow-matching",
+          "links": [],
+          "rawText": "From Noise to Images: Flow Matching Explained"
+        },
+        {
           "title": "Mathematics in the Age of AI ー Terrance Tao",
           "description": null,
           "primaryUrl": "https://teorth.github.io/tao-web/slides/age-of-ai-icm-2026.pdf",
@@ -1904,6 +1911,13 @@
           "primaryUrl": "https://nightingal3.github.io/blog/2026/08/09/research-retrospective/",
           "links": [],
           "rawText": "When We Did Research by Hand"
+        },
+        {
+          "title": "Hyperaccumulator",
+          "description": "Wikipage",
+          "primaryUrl": "https://en.wikipedia.org/wiki/Hyperaccumulator?wprov=sfla1",
+          "links": [],
+          "rawText": "Hyperaccumulator ー Wikipage"
         },
         {
           "title": "The Rise and Fall of Agent Civilizations",
@@ -2081,6 +2095,13 @@
           "primaryUrl": "https://suveenellawela.com/thoughts/robot-learning-2026-spring-eth-zurich",
           "links": [],
           "rawText": "Robot Learning Course Notes ー ETH Zürich"
+        },
+        {
+          "title": "The Dawn of Energy Abundance",
+          "description": null,
+          "primaryUrl": "https://youtu.be/YfApATdLnoI",
+          "links": [],
+          "rawText": "The Dawn of Energy Abundance"
         }
       ]
     }
