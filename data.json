@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T16:28:24.263Z",
+  "generatedAt": "2026-10-07T16:35:34.046Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -954,6 +954,13 @@
           "rawText": "Teaching thermodynamic laws to AI unlocks a polymer modeling challenge (Physorg)"
         },
         {
+          "title": "Stunning Percolation Proof Solves Decades-Old Puzzle About Phase Transitions",
+          "description": null,
+          "primaryUrl": "https://www.quantamagazine.org/stunning-percolation-proof-solves-decades-old-puzzle-about-phase-transitions-20260831/",
+          "links": [],
+          "rawText": "Stunning Percolation Proof Solves Decades-Old Puzzle About Phase Transitions"
+        },
+        {
           "title": "SMCB ー Seminar Series",
           "description": null,
           "primaryUrl": "https://sites.google.com/view/smcb2021/seminar-series",
@@ -1356,6 +1363,13 @@
             }
           ],
           "rawText": "Los Alamos from Below (Feynman Lecture) (caltech_lib)"
+        },
+        {
+          "title": "Can AI Learn Mathematical intution",
+          "description": null,
+          "primaryUrl": "https://youtu.be/tQI35CSNB08",
+          "links": [],
+          "rawText": "Can AI Learn Mathematical intution"
         },
         {
           "title": "Introduction to the Society of Mind",
@@ -1781,6 +1795,13 @@
           "rawText": "Why Are Rivers So Mathematical? (Quanta Magazine)"
         },
         {
+          "title": "How does a Telescope Mirror creates an image?",
+          "description": null,
+          "primaryUrl": "https://youtu.be/n5YpxFiJf7k",
+          "links": [],
+          "rawText": "How does a Telescope Mirror creates an image?"
+        },
+        {
           "title": "Aelita ー The Hardest Soviet Mission in History",
           "description": null,
           "primaryUrl": "https://youtu.be/ZSECCauVFA8?si=a9cTI4hNYR3GVyDQ",
@@ -1800,6 +1821,13 @@
           "primaryUrl": "https://youtu.be/NJHRvs7cGJI",
           "links": [],
           "rawText": "How Quarks were discovered?"
+        },
+        {
+          "title": "LZ’s surprising results in search of DM",
+          "description": null,
+          "primaryUrl": "https://newscenter.lbl.gov/2026/09/01/lz-sees-surprising-result-in-search-for-dark-matter/",
+          "links": [],
+          "rawText": "LZ’s surprising results in search of DM"
         }
       ]
     }
