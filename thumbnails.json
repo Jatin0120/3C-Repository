@@ -1238,5 +1238,10 @@
     "source": "favicon",
     "error": "HTTP 403",
     "fetchedAt": "2026-10-05T22:08:40.024Z"
+  },
+  "https://youtu.be/NJHRvs7cGJI": {
+    "image": "https://i.ytimg.com/vi/NJHRvs7cGJI/maxresdefault.jpg",
+    "source": "youtube-thumbnail",
+    "fetchedAt": "2026-10-07T16:28:35.502Z"
   }
 }
