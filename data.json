@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T19:43:43.932Z",
+  "generatedAt": "2026-10-07T19:52:59.702Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -557,7 +557,7 @@
         {
           "title": "Accessible hybrid DFT-quality NMR crystallography via gas-phase machine learning interatomic potentials",
           "description": null,
-          "primaryUrl": null,
+          "primaryUrl": "https://pubs.rsc.org/sc/article/doi/10.1039/d6sc04941a/1356737/Accessible-hybrid-DFT-quality-NMR-crystallography",
           "links": [],
           "rawText": "Accessible hybrid DFT-quality NMR crystallography via gas-phase machine learning interatomic potentials"
         }
@@ -754,6 +754,20 @@
           "primaryUrl": "https://archive.org/details/0244-pdf-atomic-structure-and-spectral-lines-arnold-sommerfeld-2",
           "links": [],
           "rawText": "Atomic Structure And Spectral Lines (A. Sommerfeld)"
+        },
+        {
+          "title": "Chemical Engineering Design",
+          "description": "(Towler & Sinnott)",
+          "primaryUrl": "https://elmoukrie.com/wp-content/uploads/2022/06/chemical-engineering-design-principles-practice-and-economics-of-plant-and-process-design-gavin-towler-ray-sinnott-3edition.pdf",
+          "links": [],
+          "rawText": "Chemical Engineering Design (Towler & Sinnott)"
+        },
+        {
+          "title": "Introduction to Numerical Methods in Chemical Engineering",
+          "description": "(P. Ahuja)",
+          "primaryUrl": "https://nirmt.com/storage/uploads/E-BOOK_BE-CHEMICAL/Introduction%20to%20Numerical%20Methods%20in%20Chemical%20Engineering.pdf",
+          "links": [],
+          "rawText": "Introduction to Numerical Methods in Chemical Engineering (P. Ahuja)"
         }
       ]
     },
@@ -876,6 +890,13 @@
           "rawText": "Computational Physics"
         },
         {
+          "title": "Ullmann’s Chemical Engineering & Plant Design",
+          "description": null,
+          "primaryUrl": "https://elmoukrie.com/wp-content/uploads/2022/06/ullmanns-chemical-engineering-and-plant-design-wiley-vch-2005.pdf",
+          "links": [],
+          "rawText": "Ullmann’s Chemical Engineering & Plant Design"
+        },
+        {
           "title": "Condensed matter physics",
           "description": null,
           "primaryUrl": "https://www.quantamagazine.org/tag/condensed-matter-physics/",
@@ -928,6 +949,13 @@
           "primaryUrl": "https://web1.eng.famu.fsu.edu/~dommelen/quantum/style_a/index.html",
           "links": [],
           "rawText": "Quantum Mechanics for Engineers"
+        },
+        {
+          "title": "A Masterful Spirit ー Homi J. Bhabha",
+          "description": null,
+          "primaryUrl": "https://archive.org/details/AMasterfulSpirit-HomiJ.Bhabha",
+          "links": [],
+          "rawText": "A Masterful Spirit ー Homi J. Bhabha"
         },
         {
           "title": "Smooth Particle Hydrodynamics",
@@ -1440,6 +1468,13 @@
             }
           ],
           "rawText": "Los Alamos from Below (Feynman Lecture) (caltech_lib)"
+        },
+        {
+          "title": "Survival with AI",
+          "description": null,
+          "primaryUrl": "https://youtu.be/4mzFqy8EywQ",
+          "links": [],
+          "rawText": "Survival with AI"
         },
         {
           "title": "Open AI’s solution on NSE",
