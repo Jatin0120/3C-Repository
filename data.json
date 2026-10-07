@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T19:52:59.702Z",
+  "generatedAt": "2026-10-07T19:58:00.546Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -1076,6 +1076,22 @@
           "rawText": "PyFock (website) (repo) (Chemrxiv) (paper)"
         },
         {
+          "title": "Skala integration with PyFock",
+          "description": null,
+          "primaryUrl": "https://www.kaggle.com/code/ducktape07/skala-pyfock-vs-pyscf",
+          "links": [
+            {
+              "label": "Benchmarking NB",
+              "url": "https://www.kaggle.com/code/ducktape07/skala-pyfock-vs-pyscf"
+            },
+            {
+              "label": "Example Code",
+              "url": "https://github.com/manassharma07/PyFock/blob/main/examples/ex44_Skala_neural_functional.py"
+            }
+          ],
+          "rawText": "Skala integration with PyFock (Benchmarking NB) (Example Code)"
+        },
+        {
           "title": "Swart Lab ー Theoretical Chemistry",
           "description": null,
           "primaryUrl": "https://www.marcelswart.eu/",
@@ -1151,6 +1167,13 @@
           "primaryUrl": "https://windowsontheory.org/2021/08/11/replica-method-for-the-machine-learning-theorist-part-1-of-2/",
           "links": [],
           "rawText": "Replica Method for the Machine Learning Theorist"
+        },
+        {
+          "title": "Augmented Lagrangian Predictive Coding",
+          "description": null,
+          "primaryUrl": "https://pub.sakana.ai/pc-alm/",
+          "links": [],
+          "rawText": "Augmented Lagrangian Predictive Coding"
         },
         {
           "title": "Understanding Muon (MomentUm Orthogonalized by Newton-Schulz)",
