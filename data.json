@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T18:58:09.149Z",
+  "generatedAt": "2026-10-07T19:02:58.685Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -396,6 +396,13 @@
           "primaryUrl": "https://www.youtube.com/watch?v=YbGjrfvzj90",
           "links": [],
           "rawText": "ML Workshop by David Baker"
+        },
+        {
+          "title": "AI Biodesign",
+          "description": null,
+          "primaryUrl": "https://youtu.be/UYOGzk6oEO4",
+          "links": [],
+          "rawText": "AI Biodesign"
         }
       ]
     },
@@ -1395,7 +1402,7 @@
         {
           "title": "Visual Notes on Spherical Harmonics",
           "description": null,
-          "primaryUrl": null,
+          "primaryUrl": "https://irhum.github.io/blog/spherical-harmonics/",
           "links": [],
           "rawText": "Visual Notes on Spherical Harmonics"
         },
@@ -1905,6 +1912,20 @@
           "primaryUrl": "https://couteiral.substack.com/p/miniproteins-are-the-tikz-unicorn",
           "links": [],
           "rawText": "Miniproteins are the TikZ unicorn of biology"
+        },
+        {
+          "title": "3 as sum of 3 cubes",
+          "description": "Numberphile",
+          "primaryUrl": "https://youtu.be/GXhzZAem7k0",
+          "links": [],
+          "rawText": "3 as sum of 3 cubes ー Numberphile"
+        },
+        {
+          "title": "Bartosz Ciechanowski’s Webpage",
+          "description": null,
+          "primaryUrl": "https://ciechanow.ski/",
+          "links": [],
+          "rawText": "Bartosz Ciechanowski’s Webpage"
         }
       ]
     }
