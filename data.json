@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T18:53:01.698Z",
+  "generatedAt": "2026-10-07T18:58:09.149Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -1393,6 +1393,13 @@
           "rawText": "Introduction to the Society of Mind"
         },
         {
+          "title": "Visual Notes on Spherical Harmonics",
+          "description": null,
+          "primaryUrl": null,
+          "links": [],
+          "rawText": "Visual Notes on Spherical Harmonics"
+        },
+        {
           "title": "Exploring Consciousness",
           "description": null,
           "primaryUrl": "https://loc.closertotruth.com/landscape/exploring-consciousness",
@@ -1487,6 +1494,13 @@
           "primaryUrl": "https://youtu.be/TfyPshgMbug?si=MxWHXiaxwl7wFF4z",
           "links": [],
           "rawText": "AI and the future of Math"
+        },
+        {
+          "title": "Caltech Mathathon",
+          "description": null,
+          "primaryUrl": "https://mathathonchallenge.com/",
+          "links": [],
+          "rawText": "Caltech Mathathon"
         },
         {
           "title": "Markov Chains 101",
@@ -1610,11 +1624,25 @@
           "rawText": "David Harker—a life for crystallography"
         },
         {
+          "title": "Formalising Fermat’s Last Theorem",
+          "description": null,
+          "primaryUrl": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+          "links": [],
+          "rawText": "Formalising Fermat’s Last Theorem"
+        },
+        {
           "title": "The Interim Computer Museum",
           "description": null,
           "primaryUrl": "https://icm.museum/",
           "links": [],
           "rawText": "The Interim Computer Museum"
+        },
+        {
+          "title": "The Space Data Centre",
+          "description": null,
+          "primaryUrl": "https://youtu.be/KxKVGj7Mmdg",
+          "links": [],
+          "rawText": "The Space Data Centre"
         },
         {
           "title": "Beyond Darkness (Public Lecture Programme on Black Holes)",
