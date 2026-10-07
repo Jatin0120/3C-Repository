@@ -1370,5 +1370,28 @@
     "image": "https://archive.org/services/img/0244-pdf-atomic-structure-and-spectral-lines-arnold-sommerfeld-2",
     "source": "og",
     "fetchedAt": "2026-10-07T19:27:23.071Z"
+  },
+  "https://molssi-ai.github.io/e3nn-course/book/intro.html": {
+    "image": "https://www.google.com/s2/favicons?domain=molssi-ai.github.io&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-10-07T19:38:32.157Z"
+  },
+  "https://cbe.osu.edu/sites/default/files/uploads/unsolved_problems_high.pdf": {
+    "image": "https://www.google.com/s2/favicons?domain=cbe.osu.edu&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-10-07T19:38:33.339Z"
+  },
+  "https://openai.com/index/navier-stokes-solution/": {
+    "image": "https://www.google.com/s2/favicons?domain=openai.com&sz=128",
+    "source": "favicon",
+    "error": "HTTP 403",
+    "fetchedAt": "2026-10-07T19:38:33.892Z"
+  },
+  "https://youtu.be/0a3xg4M9Oa8": {
+    "image": "https://i.ytimg.com/vi/0a3xg4M9Oa8/sddefault.jpg",
+    "source": "youtube-thumbnail",
+    "fetchedAt": "2026-10-07T19:38:35.862Z"
   }
 }
