@@ -1243,5 +1243,25 @@
     "image": "https://i.ytimg.com/vi/NJHRvs7cGJI/maxresdefault.jpg",
     "source": "youtube-thumbnail",
     "fetchedAt": "2026-10-07T16:28:35.502Z"
+  },
+  "https://www.quantamagazine.org/stunning-percolation-proof-solves-decades-old-puzzle-about-phase-transitions-20260831/": {
+    "image": "https://www.quantamagazine.org/wp-content/uploads/2026/08/Percolation-cr-DVDP-Social.jpg",
+    "source": "og",
+    "fetchedAt": "2026-10-07T16:35:46.150Z"
+  },
+  "https://youtu.be/tQI35CSNB08": {
+    "image": "https://i.ytimg.com/vi/tQI35CSNB08/maxresdefault.jpg",
+    "source": "youtube-thumbnail",
+    "fetchedAt": "2026-10-07T16:35:46.878Z"
+  },
+  "https://youtu.be/n5YpxFiJf7k": {
+    "image": "https://i.ytimg.com/vi/n5YpxFiJf7k/maxresdefault.jpg",
+    "source": "youtube-thumbnail",
+    "fetchedAt": "2026-10-07T16:35:47.412Z"
+  },
+  "https://newscenter.lbl.gov/2026/09/01/lz-sees-surprising-result-in-search-for-dark-matter/": {
+    "image": "https://newscenter.lbl.gov/wp-content/uploads/2026/08/95_1DA_4975195_3831490054_6.jpg",
+    "source": "og",
+    "fetchedAt": "2026-10-07T16:35:48.250Z"
   }
 }
