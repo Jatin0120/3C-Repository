@@ -1486,5 +1486,27 @@
     "source": "favicon",
     "error": "HTTP 403",
     "fetchedAt": "2026-10-07T20:08:43.515Z"
+  },
+  "https://notebook.link/blog/the-last-mile-faster-numpy/": {
+    "image": "https://notebook.link/blog/img/og-image.png",
+    "source": "og",
+    "fetchedAt": "2026-10-07T20:13:37.625Z"
+  },
+  "https://thechipletter.substack.com/p/the-air-computer": {
+    "image": "https://www.google.com/s2/favicons?domain=thechipletter.substack.com&sz=128",
+    "source": "favicon",
+    "error": "HTTP 403",
+    "fetchedAt": "2026-10-07T20:13:38.158Z"
+  },
+  "https://www.nature.com/articles/218663b0": {
+    "image": "https://www.google.com/s2/favicons?domain=www.nature.com&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-10-07T20:13:39.707Z"
+  },
+  "https://youtu.be/zaXKQ70q4KQ": {
+    "image": "https://i.ytimg.com/vi/zaXKQ70q4KQ/maxresdefault.jpg",
+    "source": "youtube-thumbnail",
+    "fetchedAt": "2026-10-07T20:13:40.250Z"
   }
 }
