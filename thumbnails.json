@@ -1343,5 +1343,16 @@
     "source": "favicon",
     "error": "no og:image found",
     "fetchedAt": "2026-10-07T19:03:11.185Z"
+  },
+  "https://math.mit.edu/~drew/NTW2020.pdf": {
+    "image": "https://www.google.com/s2/favicons?domain=math.mit.edu&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-10-07T19:08:25.364Z"
+  },
+  "https://suveenellawela.com/thoughts/robot-learning-2026-spring-eth-zurich": {
+    "image": "https://suveenellawela.com/og/robot-learning-notes.png",
+    "source": "og",
+    "fetchedAt": "2026-10-07T19:08:26.023Z"
   }
 }
