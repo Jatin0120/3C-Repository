@@ -1393,5 +1393,15 @@
     "image": "https://i.ytimg.com/vi/0a3xg4M9Oa8/sddefault.jpg",
     "source": "youtube-thumbnail",
     "fetchedAt": "2026-10-07T19:38:35.862Z"
+  },
+  "https://folding.baulab.info/": {
+    "image": "https://folding.baulab.info/images/Folding.png",
+    "source": "og",
+    "fetchedAt": "2026-10-07T19:43:54.709Z"
+  },
+  "https://darioamodei.com/post/we-must-pace-the-frontier": {
+    "image": "https://cdn.prod.website-files.com/67ecbba31246a69e485fdd4b/6aa5311897ee19af5d9f2cd9_og_we-must-pace-the-frontier.jpg",
+    "source": "og",
+    "fetchedAt": "2026-10-07T19:43:55.330Z"
   }
 }
