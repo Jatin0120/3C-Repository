@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T19:17:58.414Z",
+  "generatedAt": "2026-10-07T19:27:11.255Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -630,6 +630,13 @@
           "rawText": "3C directory ー Directory holding additional PDFs"
         },
         {
+          "title": "ML in Chemical Physics",
+          "description": "(Princeton University)",
+          "primaryUrl": "https://jacob-votava.github.io/ml4chemphys",
+          "links": [],
+          "rawText": "ML in Chemical Physics (Princeton University)"
+        },
+        {
           "title": "Introduction to Statistical Mechanics",
           "description": null,
           "primaryUrl": "https://web.stanford.edu/~peastman/statmech/index.html",
@@ -733,6 +740,13 @@
           "primaryUrl": "https://archive.org/details/mechanicsoftheat029637mbp",
           "links": [],
           "rawText": "The Mechanics of the Atom (M. Born)"
+        },
+        {
+          "title": "Atomic Structure And Spectral Lines",
+          "description": "(A. Sommerfeld)",
+          "primaryUrl": "https://archive.org/details/0244-pdf-atomic-structure-and-spectral-lines-arnold-sommerfeld-2",
+          "links": [],
+          "rawText": "Atomic Structure And Spectral Lines (A. Sommerfeld)"
         }
       ]
     },
