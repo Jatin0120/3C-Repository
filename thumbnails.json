@@ -1288,5 +1288,11 @@
     "image": "https://substackcdn.com/image/fetch/$s_!VuhR!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7f152c92-416d-41a1-b633-f3ca69c6f9bc_899x405.png",
     "source": "og",
     "fetchedAt": "2026-10-07T16:43:16.979Z"
+  },
+  "https://www.kellogg.northwestern.edu/faculty/jones-ben/htm/BurdenOfKnowledge.pdf": {
+    "image": "https://www.google.com/s2/favicons?domain=www.kellogg.northwestern.edu&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-10-07T16:48:57.308Z"
   }
 }
