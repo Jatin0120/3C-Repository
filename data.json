@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T18:43:22.366Z",
+  "generatedAt": "2026-10-07T18:53:01.698Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -1870,6 +1870,13 @@
           "primaryUrl": "https://www.kellogg.northwestern.edu/faculty/jones-ben/htm/BurdenOfKnowledge.pdf",
           "links": [],
           "rawText": "The Burden of Knowledge and the ëDeath of the Renaissance Maní: Is Innovation Getting Harder?"
+        },
+        {
+          "title": "Miniproteins are the TikZ unicorn of biology",
+          "description": null,
+          "primaryUrl": "https://couteiral.substack.com/p/miniproteins-are-the-tikz-unicorn",
+          "links": [],
+          "rawText": "Miniproteins are the TikZ unicorn of biology"
         }
       ]
     }
