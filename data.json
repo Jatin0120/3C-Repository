@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T16:35:34.046Z",
+  "generatedAt": "2026-10-07T16:43:00.385Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -1027,6 +1027,13 @@
           "rawText": "Optimal Transport and Wasserstein Distance"
         },
         {
+          "title": "A brief review about beryllium-copper alloys and their Formula One applications",
+          "description": null,
+          "primaryUrl": "https://automotivepapers.com/2024/04/11/a-brief-review-about-beryllium-copper-alloys-and-their-formula-one-applications/",
+          "links": [],
+          "rawText": "A brief review about beryllium-copper alloys and their Formula One applications"
+        },
+        {
           "title": "AutoChemy",
           "description": "Computational Chemistry Assistant",
           "primaryUrl": "https://autochemy.xyz/",
@@ -1270,6 +1277,13 @@
           "primaryUrl": "https://www.iclimbtrees.com/courses",
           "links": [],
           "rawText": "IClimbTrees ー Free Courses on Advanced Mathematics, ML, Optimisations and more."
+        },
+        {
+          "title": "Oxygen-free copper",
+          "description": "Wikipedia Page",
+          "primaryUrl": "https://en.wikipedia.org/wiki/Oxygen-free_copper?wprov=sfla1",
+          "links": [],
+          "rawText": "Oxygen-free copper ー Wikipedia Page"
         }
       ]
     },
@@ -1365,11 +1379,11 @@
           "rawText": "Los Alamos from Below (Feynman Lecture) (caltech_lib)"
         },
         {
-          "title": "Can AI Learn Mathematical intution",
+          "title": "Can AI Learn Mathematical Intuition?",
           "description": null,
           "primaryUrl": "https://youtu.be/tQI35CSNB08",
           "links": [],
-          "rawText": "Can AI Learn Mathematical intution"
+          "rawText": "Can AI Learn Mathematical Intuition?"
         },
         {
           "title": "Introduction to the Society of Mind",
@@ -1617,6 +1631,13 @@
           "rawText": "Black Hole Thermodynamics ー Lecture slide"
         },
         {
+          "title": "Fermi Explorer",
+          "description": null,
+          "primaryUrl": "https://www.fermiexplorer.org/",
+          "links": [],
+          "rawText": "Fermi Explorer"
+        },
+        {
           "title": "Mathematics in the Age of AI ー Terrance Tao",
           "description": null,
           "primaryUrl": "https://teorth.github.io/tao-web/slides/age-of-ai-icm-2026.pdf",
@@ -1657,6 +1678,13 @@
           "primaryUrl": "https://www.lesswrong.com/posts/75dnjiD8kv2khe9eQ/measuring-hardware-overhang",
           "links": [],
           "rawText": "Measuring hardware overhang"
+        },
+        {
+          "title": "Inside Moderna’s Biggest mRNA test since Covid",
+          "description": null,
+          "primaryUrl": "https://youtu.be/yTNMEYeCgWw?si=-HBlBS2nn9Kqsu61",
+          "links": [],
+          "rawText": "Inside Moderna’s Biggest mRNA test since Covid"
         },
         {
           "title": "Bandit Algorithms",
@@ -1828,6 +1856,13 @@
           "primaryUrl": "https://newscenter.lbl.gov/2026/09/01/lz-sees-surprising-result-in-search-for-dark-matter/",
           "links": [],
           "rawText": "LZ’s surprising results in search of DM"
+        },
+        {
+          "title": "Should Robots Run Like Humans or Ostriches?",
+          "description": null,
+          "primaryUrl": "https://www.avikde.me/p/should-robots-run-like-humans-or",
+          "links": [],
+          "rawText": "Should Robots Run Like Humans or Ostriches?"
         }
       ]
     }
