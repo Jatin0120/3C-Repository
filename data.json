@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T19:27:11.255Z",
+  "generatedAt": "2026-10-07T19:38:21.753Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -834,6 +834,20 @@
           "rawText": "HF Theory in 100 lines"
         },
         {
+          "title": "Equivariant Graph Neural Networks with e3nn",
+          "description": null,
+          "primaryUrl": "https://molssi-ai.github.io/e3nn-course/book/intro.html",
+          "links": [],
+          "rawText": "Equivariant Graph Neural Networks with e3nn"
+        },
+        {
+          "title": "Unsolved Problems in Chemical Engineering",
+          "description": null,
+          "primaryUrl": "https://cbe.osu.edu/sites/default/files/uploads/unsolved_problems_high.pdf",
+          "links": [],
+          "rawText": "Unsolved Problems in Chemical Engineering"
+        },
+        {
           "title": "How does the approximate energy relate with the trial function in variational method?",
           "description": null,
           "primaryUrl": "https://physics.stackexchange.com/questions/620877/how-does-the-approximate-energy-relate-with-the-trial-function-in-variational-me",
@@ -1407,6 +1421,13 @@
           "rawText": "Los Alamos from Below (Feynman Lecture) (caltech_lib)"
         },
         {
+          "title": "Open AI’s solution on NSE",
+          "description": null,
+          "primaryUrl": "https://openai.com/index/navier-stokes-solution/",
+          "links": [],
+          "rawText": "Open AI’s solution on NSE"
+        },
+        {
           "title": "Can AI Learn Mathematical Intuition?",
           "description": null,
           "primaryUrl": "https://youtu.be/tQI35CSNB08",
@@ -1748,6 +1769,13 @@
           "primaryUrl": "https://web.archive.org/web/20201105122829/https://tor-lattimore.com/downloads/book/book.pdf",
           "links": [],
           "rawText": "Bandit Algorithms"
+        },
+        {
+          "title": "Hidden Intelligence - Can Cells Think?",
+          "description": null,
+          "primaryUrl": "https://youtu.be/0a3xg4M9Oa8",
+          "links": [],
+          "rawText": "Hidden Intelligence - Can Cells Think?"
         },
         {
           "title": "A scientific portrait of Giorgio Parisi: complex systems and much more",
