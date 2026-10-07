@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T19:38:21.753Z",
+  "generatedAt": "2026-10-07T19:43:43.932Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -553,6 +553,13 @@
           "primaryUrl": "https://pubs.acs.org/jacsat/article/148/35/38153/5348920/Biphasic-Solar-Reforming-of-Lignin-to-Aromatics",
           "links": [],
           "rawText": "Biphasic Solar Reforming of Lignin to Aromatics and CO for In Situ Carbonylation of Organics"
+        },
+        {
+          "title": "Accessible hybrid DFT-quality NMR crystallography via gas-phase machine learning interatomic potentials",
+          "description": null,
+          "primaryUrl": null,
+          "links": [],
+          "rawText": "Accessible hybrid DFT-quality NMR crystallography via gas-phase machine learning interatomic potentials"
         }
       ]
     },
@@ -846,6 +853,13 @@
           "primaryUrl": "https://cbe.osu.edu/sites/default/files/uploads/unsolved_problems_high.pdf",
           "links": [],
           "rawText": "Unsolved Problems in Chemical Engineering"
+        },
+        {
+          "title": "Two Stages of Folding: Convergent Mechanisms in AI Protein Folding Trunks",
+          "description": null,
+          "primaryUrl": "https://folding.baulab.info/",
+          "links": [],
+          "rawText": "Two Stages of Folding: Convergent Mechanisms in AI Protein Folding Trunks"
         },
         {
           "title": "How does the approximate energy relate with the trial function in variational method?",
@@ -1380,6 +1394,13 @@
           "primaryUrl": "https://youtu.be/kELQAG-c_o8?si=rd6tqr49j_MMGNYu",
           "links": [],
           "rawText": "Steels: characteristics of martensite"
+        },
+        {
+          "title": "We Must Pace the AI Frontier",
+          "description": "Blog",
+          "primaryUrl": "https://darioamodei.com/post/we-must-pace-the-frontier",
+          "links": [],
+          "rawText": "We Must Pace the AI Frontier ー Blog"
         },
         {
           "title": "DFT Trajectory Dataset",
