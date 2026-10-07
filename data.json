@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T20:08:30.461Z",
+  "generatedAt": "2026-10-07T20:13:24.209Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -2130,6 +2130,34 @@
           "primaryUrl": "https://piyushastrocat.substack.com/p/can-we-reach-the-island-of-stability",
           "links": [],
           "rawText": "Can we reach the island of stability?"
+        },
+        {
+          "title": "Emscripten-forge",
+          "description": "The last mile of a long road: faster NumPy in the browser",
+          "primaryUrl": "https://notebook.link/blog/the-last-mile-faster-numpy/",
+          "links": [],
+          "rawText": "Emscripten-forge ー The last mile of a long road: faster NumPy in the browser"
+        },
+        {
+          "title": "The Air Computer",
+          "description": null,
+          "primaryUrl": "https://thechipletter.substack.com/p/the-air-computer",
+          "links": [],
+          "rawText": "The Air Computer"
+        },
+        {
+          "title": "Cosmological Significance of Time Reversal",
+          "description": null,
+          "primaryUrl": "https://www.nature.com/articles/218663b0",
+          "links": [],
+          "rawText": "Cosmological Significance of Time Reversal"
+        },
+        {
+          "title": "The Man Who Took LSD & Changed the World",
+          "description": null,
+          "primaryUrl": "https://youtu.be/zaXKQ70q4KQ",
+          "links": [],
+          "rawText": "The Man Who Took LSD & Changed the World"
         }
       ]
     }
