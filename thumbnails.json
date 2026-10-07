@@ -1508,5 +1508,11 @@
     "image": "https://i.ytimg.com/vi/zaXKQ70q4KQ/maxresdefault.jpg",
     "source": "youtube-thumbnail",
     "fetchedAt": "2026-10-07T20:13:40.250Z"
+  },
+  "https://institute.deepmind.com/": {
+    "image": "https://www.google.com/s2/favicons?domain=institute.deepmind.com&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-10-07T20:18:48.466Z"
   }
 }
