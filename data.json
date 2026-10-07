@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T20:04:16.577Z",
+  "generatedAt": "2026-10-07T20:08:30.461Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -855,6 +855,13 @@
           "rawText": "HF Theory in 100 lines"
         },
         {
+          "title": "Fold on Tight - 10 lessons on AI structure prediction",
+          "description": "Blog",
+          "primaryUrl": "https://kamounlab.medium.com/fold-on-tight-10-lessons-on-ai-structure-prediction-f231cf882585",
+          "links": [],
+          "rawText": "Fold on Tight - 10 lessons on AI structure prediction ー Blog"
+        },
+        {
           "title": "Equivariant Graph Neural Networks with e3nn",
           "description": null,
           "primaryUrl": "https://molssi-ai.github.io/e3nn-course/book/intro.html",
@@ -1507,6 +1514,13 @@
           "rawText": "Open AI’s solution on NSE"
         },
         {
+          "title": "Spend 15 million dollars to win 1",
+          "description": "Blog",
+          "primaryUrl": "https://pratyakshpatel.me/navier_stokes_option_c.html",
+          "links": [],
+          "rawText": "Spend 15 million dollars to win 1 ー Blog"
+        },
+        {
           "title": "Can AI Learn Mathematical Intuition?",
           "description": null,
           "primaryUrl": "https://youtu.be/tQI35CSNB08",
@@ -2102,6 +2116,20 @@
           "primaryUrl": "https://youtu.be/YfApATdLnoI",
           "links": [],
           "rawText": "The Dawn of Energy Abundance"
+        },
+        {
+          "title": "Public Data for Health",
+          "description": null,
+          "primaryUrl": "https://openaifoundation.org/news/public-data-for-health",
+          "links": [],
+          "rawText": "Public Data for Health"
+        },
+        {
+          "title": "Can we reach the island of stability?",
+          "description": null,
+          "primaryUrl": "https://piyushastrocat.substack.com/p/can-we-reach-the-island-of-stability",
+          "links": [],
+          "rawText": "Can we reach the island of stability?"
         }
       ]
     }
