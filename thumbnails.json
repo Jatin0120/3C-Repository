@@ -1322,5 +1322,26 @@
     "image": "https://i.ytimg.com/vi/KxKVGj7Mmdg/maxresdefault.jpg",
     "source": "youtube-thumbnail",
     "fetchedAt": "2026-10-07T18:58:21.310Z"
+  },
+  "https://youtu.be/UYOGzk6oEO4": {
+    "image": "https://i.ytimg.com/vi/UYOGzk6oEO4/maxresdefault.jpg",
+    "source": "youtube-thumbnail",
+    "fetchedAt": "2026-10-07T19:03:08.923Z"
+  },
+  "https://irhum.github.io/blog/spherical-harmonics/": {
+    "image": "https://irhum.github.io/blog/spherical-harmonics/assets/intro.png",
+    "source": "og",
+    "fetchedAt": "2026-10-07T19:03:09.683Z"
+  },
+  "https://youtu.be/GXhzZAem7k0": {
+    "image": "https://i.ytimg.com/vi/GXhzZAem7k0/maxresdefault.jpg",
+    "source": "youtube-thumbnail",
+    "fetchedAt": "2026-10-07T19:03:10.274Z"
+  },
+  "https://ciechanow.ski/": {
+    "image": "https://www.google.com/s2/favicons?domain=ciechanow.ski&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-10-07T19:03:11.185Z"
   }
 }
