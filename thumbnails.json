@@ -1403,5 +1403,39 @@
     "image": "https://cdn.prod.website-files.com/67ecbba31246a69e485fdd4b/6aa5311897ee19af5d9f2cd9_og_we-must-pace-the-frontier.jpg",
     "source": "og",
     "fetchedAt": "2026-10-07T19:43:55.330Z"
+  },
+  "https://pubs.rsc.org/sc/article/doi/10.1039/d6sc04941a/1356737/Accessible-hybrid-DFT-quality-NMR-crystallography": {
+    "image": "https://www.google.com/s2/favicons?domain=pubs.rsc.org&sz=128",
+    "source": "favicon",
+    "error": "HTTP 403",
+    "fetchedAt": "2026-10-07T19:53:11.887Z"
+  },
+  "https://elmoukrie.com/wp-content/uploads/2022/06/chemical-engineering-design-principles-practice-and-economics-of-plant-and-process-design-gavin-towler-ray-sinnott-3edition.pdf": {
+    "image": "https://www.google.com/s2/favicons?domain=elmoukrie.com&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-10-07T19:53:12.881Z"
+  },
+  "https://nirmt.com/storage/uploads/E-BOOK_BE-CHEMICAL/Introduction%20to%20Numerical%20Methods%20in%20Chemical%20Engineering.pdf": {
+    "image": "https://www.google.com/s2/favicons?domain=nirmt.com&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-10-07T19:53:22.990Z"
+  },
+  "https://elmoukrie.com/wp-content/uploads/2022/06/ullmanns-chemical-engineering-and-plant-design-wiley-vch-2005.pdf": {
+    "image": "https://www.google.com/s2/favicons?domain=elmoukrie.com&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-10-07T19:53:24.015Z"
+  },
+  "https://archive.org/details/AMasterfulSpirit-HomiJ.Bhabha": {
+    "image": "https://archive.org/services/img/AMasterfulSpirit-HomiJ.Bhabha",
+    "source": "og",
+    "fetchedAt": "2026-10-07T19:53:24.791Z"
+  },
+  "https://youtu.be/4mzFqy8EywQ": {
+    "image": "https://i.ytimg.com/vi/4mzFqy8EywQ/maxresdefault.jpg",
+    "source": "youtube-thumbnail",
+    "fetchedAt": "2026-10-07T19:53:25.420Z"
   }
 }
