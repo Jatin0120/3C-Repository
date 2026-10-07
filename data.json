@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T20:42:57.790Z",
+  "generatedAt": "2026-10-07T16:28:24.263Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -1793,6 +1793,13 @@
           "primaryUrl": "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.24.829",
           "links": [],
           "rawText": "Perturbation of the de Sitter-Schwarzschild universe with massless fields"
+        },
+        {
+          "title": "How Quarks were discovered?",
+          "description": null,
+          "primaryUrl": "https://youtu.be/NJHRvs7cGJI",
+          "links": [],
+          "rawText": "How Quarks were discovered?"
         }
       ]
     }
