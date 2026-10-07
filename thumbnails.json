@@ -1463,5 +1463,28 @@
     "image": "https://i.ytimg.com/vi/YfApATdLnoI/maxresdefault.jpg",
     "source": "youtube-thumbnail",
     "fetchedAt": "2026-10-07T20:04:28.125Z"
+  },
+  "https://kamounlab.medium.com/fold-on-tight-10-lessons-on-ai-structure-prediction-f231cf882585": {
+    "image": "https://www.google.com/s2/favicons?domain=kamounlab.medium.com&sz=128",
+    "source": "favicon",
+    "error": "HTTP 403",
+    "fetchedAt": "2026-10-07T20:08:41.561Z"
+  },
+  "https://pratyakshpatel.me/navier_stokes_option_c.html": {
+    "image": "https://www.google.com/s2/favicons?domain=pratyakshpatel.me&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-10-07T20:08:42.184Z"
+  },
+  "https://openaifoundation.org/news/public-data-for-health": {
+    "image": "https://images.ctfassets.net/otoa9rt8o2ha/19JI7xZrIjo4i6n8MtHmf5/940f835c43cf91c06736e1cfd5a655cb/public-data-for-health-OAIF-meta.png",
+    "source": "og",
+    "fetchedAt": "2026-10-07T20:08:42.988Z"
+  },
+  "https://piyushastrocat.substack.com/p/can-we-reach-the-island-of-stability": {
+    "image": "https://www.google.com/s2/favicons?domain=piyushastrocat.substack.com&sz=128",
+    "source": "favicon",
+    "error": "HTTP 403",
+    "fetchedAt": "2026-10-07T20:08:43.515Z"
   }
 }
