@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T20:13:24.209Z",
+  "generatedAt": "2026-10-07T20:18:38.034Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -231,6 +231,13 @@
           "primaryUrl": "https://github.com/levakrasnovs/metal2d",
           "links": [],
           "rawText": "metal2D ー Readable 2D depictions of coordination and organometallic complexes for RDKit"
+        },
+        {
+          "title": "Evolutionary Scale Modeling ESM ー model for protein biology",
+          "description": null,
+          "primaryUrl": null,
+          "links": [],
+          "rawText": "Evolutionary Scale Modeling ESM ー model for protein biology"
         }
       ]
     },
@@ -1726,9 +1733,13 @@
             {
               "label": "William Harvey",
               "url": "https://krutikamaharana.substack.com/p/rabbit-holes-william-harvey?utm_source=share&utm_medium=android&r=8svft3"
+            },
+            {
+              "label": "Kary Mullis",
+              "url": "https://kritialam.substack.com/p/rabbit-holes-kary-mullis"
             }
           ],
-          "rawText": "Rabbit Holes-II (Demis Hassabis) (Enrico Fermi) (William Harvey)"
+          "rawText": "Rabbit Holes-II (Demis Hassabis) (Enrico Fermi) (William Harvey) (Kary Mullis)"
         },
         {
           "title": "The Research Lab The US Government Shutdown in 1984",
@@ -1736,6 +1747,13 @@
           "primaryUrl": "https://youtu.be/c-cSeTz3dMg?si=zMyzkzDXfJ1Zj2i7",
           "links": [],
           "rawText": "The Research Lab The US Government Shutdown in 1984"
+        },
+        {
+          "title": "The DeepMind Institute",
+          "description": null,
+          "primaryUrl": "https://institute.deepmind.com/",
+          "links": [],
+          "rawText": "The DeepMind Institute"
         },
         {
           "title": "What Did Ilya See?",
