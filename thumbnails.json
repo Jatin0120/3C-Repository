@@ -1359,5 +1359,16 @@
     "image": "https://archive.org/services/img/mechanicsoftheat029637mbp",
     "source": "og",
     "fetchedAt": "2026-10-07T19:14:57.027Z"
+  },
+  "https://jacob-votava.github.io/ml4chemphys": {
+    "image": "https://www.google.com/s2/favicons?domain=jacob-votava.github.io&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-10-07T19:27:22.429Z"
+  },
+  "https://archive.org/details/0244-pdf-atomic-structure-and-spectral-lines-arnold-sommerfeld-2": {
+    "image": "https://archive.org/services/img/0244-pdf-atomic-structure-and-spectral-lines-arnold-sommerfeld-2",
+    "source": "og",
+    "fetchedAt": "2026-10-07T19:27:23.071Z"
   }
 }
