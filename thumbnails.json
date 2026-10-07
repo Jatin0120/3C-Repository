@@ -1437,5 +1437,16 @@
     "image": "https://i.ytimg.com/vi/4mzFqy8EywQ/maxresdefault.jpg",
     "source": "youtube-thumbnail",
     "fetchedAt": "2026-10-07T19:53:25.420Z"
+  },
+  "https://www.kaggle.com/code/ducktape07/skala-pyfock-vs-pyscf": {
+    "image": "https://www.kaggle.com/open-graph/images/Notebooks/134303721",
+    "source": "og",
+    "fetchedAt": "2026-10-07T19:58:11.299Z"
+  },
+  "https://pub.sakana.ai/pc-alm/": {
+    "image": "https://www.google.com/s2/favicons?domain=pub.sakana.ai&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-10-07T19:58:12.067Z"
   }
 }
