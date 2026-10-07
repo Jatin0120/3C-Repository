@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T19:02:58.685Z",
+  "generatedAt": "2026-10-07T19:08:13.112Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -1921,11 +1921,30 @@
           "rawText": "3 as sum of 3 cubes ー Numberphile"
         },
         {
+          "title": "Number Theory Seminar 2020",
+          "description": "Sum of 3 cubes",
+          "primaryUrl": "https://math.mit.edu/~drew/NTW2020.pdf",
+          "links": [
+            {
+              "label": "paper",
+              "url": "https://www.nature.com/articles/s41598-023-49960-y"
+            }
+          ],
+          "rawText": "Number Theory Seminar 2020 ー Sum of 3 cubes (paper)"
+        },
+        {
           "title": "Bartosz Ciechanowski’s Webpage",
           "description": null,
           "primaryUrl": "https://ciechanow.ski/",
           "links": [],
           "rawText": "Bartosz Ciechanowski’s Webpage"
+        },
+        {
+          "title": "Robot Learning Course Notes",
+          "description": "ETH Zürich",
+          "primaryUrl": "https://suveenellawela.com/thoughts/robot-learning-2026-spring-eth-zurich",
+          "links": [],
+          "rawText": "Robot Learning Course Notes ー ETH Zürich"
         }
       ]
     }
