@@ -1300,5 +1300,11 @@
     "source": "favicon",
     "error": "HTTP 403",
     "fetchedAt": "2026-10-07T18:43:34.108Z"
+  },
+  "https://couteiral.substack.com/p/miniproteins-are-the-tikz-unicorn": {
+    "image": "https://www.google.com/s2/favicons?domain=couteiral.substack.com&sz=128",
+    "source": "favicon",
+    "error": "HTTP 403",
+    "fetchedAt": "2026-10-07T18:53:13.207Z"
   }
 }
