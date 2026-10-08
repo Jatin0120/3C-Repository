@@ -1613,5 +1613,23 @@
     "source": "favicon",
     "error": "HTTP 401",
     "fetchedAt": "2026-10-08T19:33:50.880Z"
+  },
+  "https://francisbach.com/spectral_log_density_estimation/": {
+    "image": "https://www.google.com/s2/favicons?domain=francisbach.com&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-10-08T19:42:25.327Z"
+  },
+  "https://amateurgods.substack.com/p/josies-list-of-bio-millenium-problems": {
+    "image": "https://www.google.com/s2/favicons?domain=amateurgods.substack.com&sz=128",
+    "source": "favicon",
+    "error": "HTTP 403",
+    "fetchedAt": "2026-10-08T19:42:25.853Z"
+  },
+  "https://johnsalvatier.org/blog/2017/reality-has-a-surprising-amount-of-detail": {
+    "image": "https://www.google.com/s2/favicons?domain=johnsalvatier.org&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-10-08T19:42:26.658Z"
   }
 }
