@@ -1810,5 +1810,21 @@
     "image": "https://jlevy.github.io/squares/social-card.png",
     "source": "og",
     "fetchedAt": "2026-10-08T21:03:18.291Z"
+  },
+  "https://github.com/openai/math": {
+    "image": "https://opengraph.githubassets.com/06f2f09f852f1a3c5dfc2e1b420a4004a21fe0e0c79cd2beb7d321c987f26979/openai/math",
+    "source": "og",
+    "fetchedAt": "2026-10-08T21:13:19.682Z"
+  },
+  "https://arxiv.org/pdf/2609.00488": {
+    "image": "https://www.google.com/s2/favicons?domain=arxiv.org&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-10-08T21:13:20.773Z"
+  },
+  "https://youtu.be/oS8m9fSk-Wk?si=sg4t1_eFZHBC_G8g": {
+    "image": "https://i.ytimg.com/vi/oS8m9fSk-Wk/maxresdefault.jpg",
+    "source": "youtube-thumbnail",
+    "fetchedAt": "2026-10-08T21:13:21.532Z"
   }
 }
