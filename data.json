@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T19:53:11.945Z",
+  "generatedAt": "2026-10-08T20:08:17.265Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -932,6 +932,13 @@
           "rawText": "Two Stages of Folding: Convergent Mechanisms in AI Protein Folding Trunks"
         },
         {
+          "title": "ORCA MD Module",
+          "description": null,
+          "primaryUrl": "https://brehm-research.de/orcamd.php",
+          "links": [],
+          "rawText": "ORCA MD Module"
+        },
+        {
           "title": "How does the approximate energy relate with the trial function in variational method?",
           "description": null,
           "primaryUrl": "https://physics.stackexchange.com/questions/620877/how-does-the-approximate-energy-relate-with-the-trial-function-in-variational-me",
@@ -1615,6 +1622,13 @@
           "rawText": "Los Alamos from Below (Feynman Lecture) (caltech_lib)"
         },
         {
+          "title": "Dust: Pretraining Transformers Without Backpropagation",
+          "description": "first zeroth-order method that is competitive with backprop at pretraining transformer language models",
+          "primaryUrl": "https://qlabs.sh/research/dust",
+          "links": [],
+          "rawText": "Dust: Pretraining Transformers Without Backpropagation ー first zeroth-order method that is competitive with backprop at pretraining transformer language models"
+        },
+        {
           "title": "Survival with AI",
           "description": null,
           "primaryUrl": "https://youtu.be/4mzFqy8EywQ",
@@ -1933,6 +1947,13 @@
           "rawText": "David Harker—a life for crystallography"
         },
         {
+          "title": "A tribute to Nobel Laureate Prof. R.A. Marcus",
+          "description": "Prof. Dasgupta TIFR",
+          "primaryUrl": "https://youtu.be/anr0fPNBEzc",
+          "links": [],
+          "rawText": "A tribute to Nobel Laureate Prof. R.A. Marcus ー Prof. Dasgupta TIFR"
+        },
+        {
           "title": "Formalising Fermat’s Last Theorem",
           "description": null,
           "primaryUrl": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
@@ -2146,6 +2167,13 @@
           "primaryUrl": "https://www.statnews.com/2019/06/25/alzheimers-cabal-thwarted-progress-toward-cure/",
           "links": [],
           "rawText": "The maddening saga of how an Alzheimer’s ‘cabal’ thwarted progress toward a cure for decades"
+        },
+        {
+          "title": "Are organoids useful for Alzheimer’s research?",
+          "description": null,
+          "primaryUrl": "https://www.owlposting.com/p/are-organoids-useful-for-alzheimers",
+          "links": [],
+          "rawText": "Are organoids useful for Alzheimer’s research?"
         },
         {
           "title": "Prediction and Entropy of Printed English",
@@ -2395,6 +2423,13 @@
           "primaryUrl": "https://youtu.be/0EP_t9yuBiQ",
           "links": [],
           "rawText": "How close are we to proving Yang-Mills and Mass Gap?"
+        },
+        {
+          "title": "What’s the Future for Pure Math Research in the Age of AI?",
+          "description": null,
+          "primaryUrl": "https://writings.stephenwolfram.com/2026/09/whats-the-future-for-pure-math-research-in-the-age-of-ai/",
+          "links": [],
+          "rawText": "What’s the Future for Pure Math Research in the Age of AI?"
         }
       ]
     }

@@ -1674,11 +1674,38 @@
   "https://dmol.pub/": {
     "image": "https://dmol.pub/_static/robot-chem.png",
     "source": "og",
-    "fetchedAt": "2026-10-08T19:58:32.883Z"
+    "fetchedAt": "2026-10-08T20:08:52.977Z"
   },
   "https://youtu.be/0EP_t9yuBiQ": {
     "image": "https://i.ytimg.com/vi/0EP_t9yuBiQ/maxresdefault.jpg",
     "source": "youtube-thumbnail",
-    "fetchedAt": "2026-10-08T19:58:40.183Z"
+    "fetchedAt": "2026-10-08T20:08:56.422Z"
+  },
+  "https://brehm-research.de/orcamd.php": {
+    "image": "https://www.google.com/s2/favicons?domain=brehm-research.de&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-10-08T20:08:53.985Z"
+  },
+  "https://qlabs.sh/research/dust": {
+    "image": "https://www.google.com/s2/favicons?domain=qlabs.sh&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-10-08T20:08:54.662Z"
+  },
+  "https://youtu.be/anr0fPNBEzc": {
+    "image": "https://i.ytimg.com/vi/anr0fPNBEzc/maxresdefault.jpg",
+    "source": "youtube-thumbnail",
+    "fetchedAt": "2026-10-08T20:08:55.252Z"
+  },
+  "https://www.owlposting.com/p/are-organoids-useful-for-alzheimers": {
+    "image": "https://substackcdn.com/image/fetch/$s_!wd4t!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F15c73b23-fd64-40ad-bc20-a60b0ed5aad6_2944x1648.png",
+    "source": "og",
+    "fetchedAt": "2026-10-08T20:08:55.846Z"
+  },
+  "https://writings.stephenwolfram.com/2026/09/whats-the-future-for-pure-math-research-in-the-age-of-ai/": {
+    "image": "https://content.wolfram.com/sites/43/2026/09/social-pure-math-v3.png",
+    "source": "og",
+    "fetchedAt": "2026-10-08T20:08:57.163Z"
   }
 }
