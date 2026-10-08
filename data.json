@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T19:22:57.579Z",
+  "generatedAt": "2026-10-08T19:28:45.351Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -951,6 +951,13 @@
           "rawText": "LiteMol1 ー A Multi Molecule Foundation Diffusion Language Model for Agents"
         },
         {
+          "title": "Generate RESP charges using Gaussian",
+          "description": null,
+          "primaryUrl": null,
+          "links": [],
+          "rawText": "Generate RESP charges using Gaussian"
+        },
+        {
           "title": "The discovery of the electron spin",
           "description": null,
           "primaryUrl": "https://lorentz.leidenuniv.nl/history/spin/goudsmit.html",
@@ -1547,6 +1554,13 @@
           "primaryUrl": "https://youtu.be/4mzFqy8EywQ",
           "links": [],
           "rawText": "Survival with AI"
+        },
+        {
+          "title": "Live-Cell Imaging and the limits of Structural Biology",
+          "description": null,
+          "primaryUrl": "https://youtu.be/RUB37QhWNkw",
+          "links": [],
+          "rawText": "Live-Cell Imaging and the limits of Structural Biology"
         },
         {
           "title": "Open AI’s solution on NSE",
@@ -2273,6 +2287,13 @@
           "primaryUrl": "https://deepmanifold.substack.com/p/ai-alignment-is-a-mathematical-problem",
           "links": [],
           "rawText": "AI Alignment Is a Mathematical Problem ー Blog"
+        },
+        {
+          "title": "An Observation on Generalisation",
+          "description": null,
+          "primaryUrl": "https://www.youtube.com/live/AKMuA_TVz3A",
+          "links": [],
+          "rawText": "An Observation on Generalisation"
         }
       ]
     }
