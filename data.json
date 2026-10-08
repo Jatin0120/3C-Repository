@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T19:28:45.351Z",
+  "generatedAt": "2026-10-08T19:33:38.608Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -951,11 +951,16 @@
           "rawText": "LiteMol1 ー A Multi Molecule Foundation Diffusion Language Model for Agents"
         },
         {
-          "title": "Generate RESP charges using Gaussian",
+          "title": "Generate RESP charges with Gaussian",
           "description": null,
-          "primaryUrl": null,
-          "links": [],
-          "rawText": "Generate RESP charges using Gaussian"
+          "primaryUrl": "https://pablito-playground.readthedocs.io/en/latest/tutorials/qmmm_amber_cpmd/RESP_charges.html",
+          "links": [
+            {
+              "label": "Tutorial on RESP calc.",
+              "url": "http://archive.ambermd.org/200812/att-0116/resp_fit.htm"
+            }
+          ],
+          "rawText": "Generate RESP charges with Gaussian (Tutorial on RESP calc.)"
         },
         {
           "title": "The discovery of the electron spin",
@@ -1447,6 +1452,13 @@
           "primaryUrl": "https://karthikvedula.com/2024/01/05/visualizing-the-perceptron-learning-algorithm/",
           "links": [],
           "rawText": "Visualising the Perceptron Learning Algorithm"
+        },
+        {
+          "title": "Network-Scale Electrophysiology: Measuring and Understanding the Collective Behavior of Neural Circuits",
+          "description": "Thesis",
+          "primaryUrl": "https://dataspace.princeton.edu/handle/88435/dsp013f462544k",
+          "links": [],
+          "rawText": "Network-Scale Electrophysiology: Measuring and Understanding the Collective Behavior of Neural Circuits ー Thesis"
         }
       ]
     },
