@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T20:34:18.229Z",
+  "generatedAt": "2026-10-08T20:38:15.095Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -595,6 +595,13 @@
           "primaryUrl": "https://arxiv.org/pdf/2603.18387",
           "links": [],
           "rawText": "Mathematical Foundations of Deep Learning: Theory & Algorithms"
+        },
+        {
+          "title": "PathFold: Predicting the Entire Protein Folding Pathway from Protein Sequence Alone",
+          "description": null,
+          "primaryUrl": null,
+          "links": [],
+          "rawText": "PathFold: Predicting the Entire Protein Folding Pathway from Protein Sequence Alone"
         }
       ]
     },
@@ -1522,9 +1529,9 @@
           "rawText": "Mineral Commodity Summaries (2026)"
         },
         {
-          "title": "Towards understanding glasses with graph neural networks ー Blog",
-          "description": null,
-          "primaryUrl": null,
+          "title": "Towards understanding glasses with graph neural networks",
+          "description": "Blog",
+          "primaryUrl": "https://deepmind.google/blog/towards-understanding-glasses-with-graph-neural-networks/",
           "links": [],
           "rawText": "Towards understanding glasses with graph neural networks ー Blog"
         }
@@ -2327,6 +2334,13 @@
           "rawText": "The Dawn of Energy Abundance"
         },
         {
+          "title": "The Boundary of Computation",
+          "description": null,
+          "primaryUrl": "https://youtu.be/kmAc1nDizu0",
+          "links": [],
+          "rawText": "The Boundary of Computation"
+        },
+        {
           "title": "Public Data for Health",
           "description": null,
           "primaryUrl": "https://openaifoundation.org/news/public-data-for-health",
@@ -2465,6 +2479,13 @@
           "primaryUrl": "https://en.wikipedia.org/wiki/Titanium-sapphire_laser?wprov=sfla1",
           "links": [],
           "rawText": "Titanium-sapphire laser ー Wikipage"
+        },
+        {
+          "title": "Figure 02 Robot Decommision",
+          "description": null,
+          "primaryUrl": "https://youtu.be/pfAh5oQDPDM",
+          "links": [],
+          "rawText": "Figure 02 Robot Decommision"
         }
       ]
     }
