@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T20:58:20.263Z",
+  "generatedAt": "2026-10-08T21:03:08.993Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -2572,6 +2572,18 @@
           "primaryUrl": "https://youtu.be/8i9WMD6xbuA",
           "links": [],
           "rawText": "Dragonflies hunt by predicting the future"
+        },
+        {
+          "title": "The Square Packing Problem",
+          "description": null,
+          "primaryUrl": "https://jlevy.github.io/squares/",
+          "links": [
+            {
+              "label": "n=11",
+              "url": "https://jlevy.github.io/squares/cases/11.html"
+            }
+          ],
+          "rawText": "The Square Packing Problem (n=11)"
         }
       ]
     }
