@@ -1785,5 +1785,25 @@
     "image": "https://i.ytimg.com/vi/YCGJtXTnemg/maxresdefault.jpg",
     "source": "youtube-thumbnail",
     "fetchedAt": "2026-10-08T20:53:45.561Z"
+  },
+  "https://github.com/daveyburke/picofold": {
+    "image": "https://opengraph.githubassets.com/0e62373fefc3a9d01db1b562c911abc310c3650ce3a53821281234ba707f1f22/daveyburke/picofold",
+    "source": "og",
+    "fetchedAt": "2026-10-08T20:58:30.483Z"
+  },
+  "https://youtu.be/gs38tMxZseA": {
+    "image": "https://i.ytimg.com/vi/gs38tMxZseA/maxresdefault.jpg",
+    "source": "youtube-thumbnail",
+    "fetchedAt": "2026-10-08T20:58:31.092Z"
+  },
+  "https://youtu.be/tqb2Bp5E330": {
+    "image": "https://i.ytimg.com/vi/tqb2Bp5E330/sddefault.jpg",
+    "source": "youtube-thumbnail",
+    "fetchedAt": "2026-10-08T20:58:32.696Z"
+  },
+  "https://youtu.be/8i9WMD6xbuA": {
+    "image": "https://i.ytimg.com/vi/8i9WMD6xbuA/maxresdefault.jpg",
+    "source": "youtube-thumbnail",
+    "fetchedAt": "2026-10-08T20:58:33.271Z"
   }
 }
