@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T19:13:32.269Z",
+  "generatedAt": "2026-10-08T19:17:58.298Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -1621,6 +1621,10 @@
             {
               "label": "Aritra",
               "url": "https://aritraroy.live/"
+            },
+            {
+              "label": "Piyush",
+              "url": "https://catastropiyush.github.io/"
             }
           ],
           "rawText": "Member Webpage & Github (Kriti) (Aritra) (Piyush)"
@@ -1638,6 +1642,13 @@
           "primaryUrl": "https://youtu.be/GY4yN4cROE8?si=qvtemzCASiLuQVPl",
           "links": [],
           "rawText": "Fermat’s Last Theorem"
+        },
+        {
+          "title": "Natural General Intelligence",
+          "description": null,
+          "primaryUrl": "https://naturalgeneralintelligence.ai/",
+          "links": [],
+          "rawText": "Natural General Intelligence"
         },
         {
           "title": "24 Hrs Inside a Silicon Valley Biotech Startup",
@@ -2234,6 +2245,13 @@
           "primaryUrl": "https://saweis.net/posts/rsa-896.html",
           "links": [],
           "rawText": "RSA-896 ー Author’s Insight"
+        },
+        {
+          "title": "Leonardo da Vinci's notebooks",
+          "description": null,
+          "primaryUrl": null,
+          "links": [],
+          "rawText": "Leonardo da Vinci's notebooks"
         }
       ]
     }
