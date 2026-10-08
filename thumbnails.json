@@ -1570,5 +1570,26 @@
     "image": "https://naturalgeneralintelligence.ai/assets/social/natural-general-intelligence.c8a82ae261dc0cb2.jpg",
     "source": "og",
     "fetchedAt": "2026-10-08T19:18:09.548Z"
+  },
+  "https://youtu.be/PmHCP_sLbGM": {
+    "image": "https://i.ytimg.com/vi/PmHCP_sLbGM/maxresdefault.jpg",
+    "source": "youtube-thumbnail",
+    "fetchedAt": "2026-10-08T19:23:09.574Z"
+  },
+  "https://youtu.be/XyHqqYuEbUo": {
+    "image": "https://i.ytimg.com/vi/XyHqqYuEbUo/maxresdefault.jpg",
+    "source": "youtube-thumbnail",
+    "fetchedAt": "2026-10-08T19:23:10.132Z"
+  },
+  "https://www.vam.ac.uk/articles/leonardo-da-vincis-notebooks": {
+    "image": "https://assets-cdn.vam.ac.uk/2016/07/26/15/10/57/2adb8f92-3935-48fe-a07c-c25cd671eca4/2008BU8078---leonardo-hero.jpg",
+    "source": "og",
+    "fetchedAt": "2026-10-08T19:23:12.908Z"
+  },
+  "https://deepmanifold.substack.com/p/ai-alignment-is-a-mathematical-problem": {
+    "image": "https://www.google.com/s2/favicons?domain=deepmanifold.substack.com&sz=128",
+    "source": "favicon",
+    "error": "HTTP 403",
+    "fetchedAt": "2026-10-08T19:23:13.500Z"
   }
 }
