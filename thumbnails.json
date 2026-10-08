@@ -1591,5 +1591,15 @@
     "source": "favicon",
     "error": "HTTP 403",
     "fetchedAt": "2026-10-08T19:23:13.500Z"
+  },
+  "https://youtu.be/RUB37QhWNkw": {
+    "image": "https://i.ytimg.com/vi/RUB37QhWNkw/maxresdefault.jpg",
+    "source": "youtube-thumbnail",
+    "fetchedAt": "2026-10-08T19:28:55.185Z"
+  },
+  "https://www.youtube.com/live/AKMuA_TVz3A": {
+    "image": "https://i.ytimg.com/vi/AKMuA_TVz3A/maxresdefault.jpg",
+    "source": "youtube-thumbnail",
+    "fetchedAt": "2026-10-08T19:28:55.752Z"
   }
 }
