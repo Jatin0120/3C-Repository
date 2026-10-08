@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T20:18:03.301Z",
+  "generatedAt": "2026-10-08T20:28:52.267Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -2430,6 +2430,13 @@
           "primaryUrl": "https://writings.stephenwolfram.com/2026/09/whats-the-future-for-pure-math-research-in-the-age-of-ai/",
           "links": [],
           "rawText": "What’s the Future for Pure Math Research in the Age of AI?"
+        },
+        {
+          "title": "How to Use a Research Rabbit to Explore a Research Field?",
+          "description": null,
+          "primaryUrl": null,
+          "links": [],
+          "rawText": "How to Use a Research Rabbit to Explore a Research Field?"
         }
       ]
     }
