@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T21:13:09.334Z",
+  "generatedAt": "2026-10-08T21:13:13.910Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -632,13 +632,6 @@
           "primaryUrl": "https://www.biorxiv.org/content/10.64898/2026.08.26.747321v1.full.pdf",
           "links": [],
           "rawText": "PathFold: Predicting the Entire Protein Folding Pathway from Protein Sequence Alone"
-        },
-        {
-          "title": "AdaptNTK: Adaptive Uncertainty Quantification and Active Learning for Neural Network Potentials",
-          "description": null,
-          "primaryUrl": "https://arxiv.org/pdf/2609.00488",
-          "links": [],
-          "rawText": "AdaptNTK: Adaptive Uncertainty Quantification and Active Learning for Neural Network Potentials"
         }
       ]
     },
@@ -2598,20 +2591,6 @@
             }
           ],
           "rawText": "The Square Packing Problem (n=11)"
-        },
-        {
-          "title": "What makes Mario NP-Hard?",
-          "description": null,
-          "primaryUrl": "https://youtu.be/oS8m9fSk-Wk?si=sg4t1_eFZHBC_G8g",
-          "links": [],
-          "rawText": "What makes Mario NP-Hard?"
-        },
-        {
-          "title": "Integer Multiplication Problem",
-          "description": null,
-          "primaryUrl": null,
-          "links": [],
-          "rawText": "Integer Multiplication Problem"
         }
       ]
     }
