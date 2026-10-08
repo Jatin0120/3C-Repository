@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T18:37:57.450Z",
+  "generatedAt": "2026-10-08T18:43:00.466Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -1426,6 +1426,13 @@
           "primaryUrl": "https://biocircuits.github.io/",
           "links": [],
           "rawText": "Biological Circuit Design"
+        },
+        {
+          "title": "Visualising the Perceptron Learning Algorithm",
+          "description": null,
+          "primaryUrl": "https://karthikvedula.com/2024/01/05/visualizing-the-perceptron-learning-algorithm/",
+          "links": [],
+          "rawText": "Visualising the Perceptron Learning Algorithm"
         }
       ]
     },
