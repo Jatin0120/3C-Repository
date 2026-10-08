@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T19:33:38.608Z",
+  "generatedAt": "2026-10-08T19:42:12.901Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -1258,6 +1258,13 @@
           "rawText": "ML Research Blog ー Non-convex quadratic optimization problems"
         },
         {
+          "title": "ML Research Blog ー Exploding variance of means of exponentials: least-squares to the rescue",
+          "description": null,
+          "primaryUrl": "https://francisbach.com/spectral_log_density_estimation/",
+          "links": [],
+          "rawText": "ML Research Blog ー Exploding variance of means of exponentials: least-squares to the rescue"
+        },
+        {
           "title": "Empirical Rademacher Complexity and Its Implications to Deep Learning",
           "description": null,
           "primaryUrl": "https://www.onurtunali.com/ml/2019/02/01/empirical-rademacher-complexity-and-its-implications-to-deep-learning.html#widehatrad_nmathcalh-code-practice",
@@ -1459,6 +1466,13 @@
           "primaryUrl": "https://dataspace.princeton.edu/handle/88435/dsp013f462544k",
           "links": [],
           "rawText": "Network-Scale Electrophysiology: Measuring and Understanding the Collective Behavior of Neural Circuits ー Thesis"
+        },
+        {
+          "title": "Josie's List of Bio Problems that need solving",
+          "description": "Blog",
+          "primaryUrl": "https://amateurgods.substack.com/p/josies-list-of-bio-millenium-problems",
+          "links": [],
+          "rawText": "Josie's List of Bio Problems that need solving ー Blog"
         }
       ]
     },
@@ -1731,6 +1745,13 @@
           "primaryUrl": "https://mathathonchallenge.com/",
           "links": [],
           "rawText": "Caltech Mathathon"
+        },
+        {
+          "title": "Reality has a surprising amount of detail",
+          "description": "Blog",
+          "primaryUrl": "https://johnsalvatier.org/blog/2017/reality-has-a-surprising-amount-of-detail",
+          "links": [],
+          "rawText": "Reality has a surprising amount of detail ー Blog"
         },
         {
           "title": "Markov Chains 101",
