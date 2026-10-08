@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T20:38:15.095Z",
+  "generatedAt": "2026-10-08T20:43:04.063Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -599,7 +599,7 @@
         {
           "title": "PathFold: Predicting the Entire Protein Folding Pathway from Protein Sequence Alone",
           "description": null,
-          "primaryUrl": null,
+          "primaryUrl": "https://www.biorxiv.org/content/10.64898/2026.08.26.747321v1.full.pdf",
           "links": [],
           "rawText": "PathFold: Predicting the Entire Protein Folding Pathway from Protein Sequence Alone"
         }
@@ -1242,6 +1242,13 @@
           "primaryUrl": "https://sander.ai/2026/05/06/flow-maps.html",
           "links": [],
           "rawText": "Learning the integral of a diffusion model"
+        },
+        {
+          "title": "Perspectives on diffusion",
+          "description": null,
+          "primaryUrl": "https://sander.ai/2023/07/20/perspectives.html",
+          "links": [],
+          "rawText": "Perspectives on diffusion"
         },
         {
           "title": "Deep Learning for Astrophysics",
@@ -2486,6 +2493,20 @@
           "primaryUrl": "https://youtu.be/pfAh5oQDPDM",
           "links": [],
           "rawText": "Figure 02 Robot Decommision"
+        },
+        {
+          "title": "The Insane Complexity of the Semiconductor Global Supply Chain",
+          "description": null,
+          "primaryUrl": "https://youtu.be/Gj5liYnpTeM",
+          "links": [],
+          "rawText": "The Insane Complexity of the Semiconductor Global Supply Chain"
+        },
+        {
+          "title": "Textile Materials",
+          "description": "YT Podcast",
+          "primaryUrl": "https://youtu.be/AwbFrritiyc",
+          "links": [],
+          "rawText": "Textile Materials ー YT Podcast"
         }
       ]
     }
