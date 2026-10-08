@@ -1531,5 +1531,22 @@
     "source": "favicon",
     "error": "no og:image found",
     "fetchedAt": "2026-10-07T20:23:14.908Z"
+  },
+  "https://deep-learning-alchemy.github.io/": {
+    "image": "https://www.google.com/s2/favicons?domain=deep-learning-alchemy.github.io&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-10-08T18:33:21.642Z"
+  },
+  "https://substack.com/@rishikarai/note/c-316583766?r=5wgt6f": {
+    "image": "https://www.google.com/s2/favicons?domain=substack.com&sz=128",
+    "source": "favicon",
+    "error": "HTTP 403",
+    "fetchedAt": "2026-10-08T18:33:22.238Z"
+  },
+  "https://www.taraprogram.org/": {
+    "image": "https://static.wixstatic.com/media/8e5533_62a1ea79f7c14ed3ac3797b8ac4cfff1~mv2.jpg/v1/fill/w_2500,h_1666,al_c/8e5533_62a1ea79f7c14ed3ac3797b8ac4cfff1~mv2.jpg",
+    "source": "og",
+    "fetchedAt": "2026-10-08T18:33:22.965Z"
   }
 }
