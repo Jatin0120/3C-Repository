@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T19:17:58.298Z",
+  "generatedAt": "2026-10-08T19:22:57.579Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -410,6 +410,13 @@
           "primaryUrl": "https://youtu.be/UYOGzk6oEO4",
           "links": [],
           "rawText": "AI Biodesign"
+        },
+        {
+          "title": "The Geometry of NNs",
+          "description": null,
+          "primaryUrl": "https://youtu.be/PmHCP_sLbGM",
+          "links": [],
+          "rawText": "The Geometry of NNs"
         }
       ]
     },
@@ -2087,6 +2094,13 @@
           "rawText": "How does a Telescope Mirror creates an image?"
         },
         {
+          "title": "How Photo and Cine lenses are manufactured?",
+          "description": null,
+          "primaryUrl": "https://youtu.be/XyHqqYuEbUo",
+          "links": [],
+          "rawText": "How Photo and Cine lenses are manufactured?"
+        },
+        {
           "title": "Aelita ー The Hardest Soviet Mission in History",
           "description": null,
           "primaryUrl": "https://youtu.be/ZSECCauVFA8?si=a9cTI4hNYR3GVyDQ",
@@ -2249,9 +2263,16 @@
         {
           "title": "Leonardo da Vinci's notebooks",
           "description": null,
-          "primaryUrl": null,
+          "primaryUrl": "https://www.vam.ac.uk/articles/leonardo-da-vincis-notebooks",
           "links": [],
           "rawText": "Leonardo da Vinci's notebooks"
+        },
+        {
+          "title": "AI Alignment Is a Mathematical Problem",
+          "description": "Blog",
+          "primaryUrl": "https://deepmanifold.substack.com/p/ai-alignment-is-a-mathematical-problem",
+          "links": [],
+          "rawText": "AI Alignment Is a Mathematical Problem ー Blog"
         }
       ]
     }
