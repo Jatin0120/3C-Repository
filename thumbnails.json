@@ -1727,5 +1727,21 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Titanium_sapphire_oscillator.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=index&amp;utm_content=thumbnail_unscaled",
     "source": "og",
     "fetchedAt": "2026-10-08T20:34:32.298Z"
+  },
+  "https://deepmind.google/blog/towards-understanding-glasses-with-graph-neural-networks/": {
+    "image": "https://www.google.com/s2/favicons?domain=deepmind.google&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-10-08T20:38:54.298Z"
+  },
+  "https://youtu.be/kmAc1nDizu0": {
+    "image": "https://i.ytimg.com/vi/kmAc1nDizu0/maxresdefault.jpg",
+    "source": "youtube-thumbnail",
+    "fetchedAt": "2026-10-08T20:38:54.995Z"
+  },
+  "https://youtu.be/pfAh5oQDPDM": {
+    "image": "https://i.ytimg.com/vi/pfAh5oQDPDM/maxresdefault.jpg",
+    "source": "youtube-thumbnail",
+    "fetchedAt": "2026-10-08T20:38:55.576Z"
   }
 }
