@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T19:53:11.945Z",
+  "generatedAt": "2026-10-08T19:47:59.050Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -810,13 +810,6 @@
           "primaryUrl": "https://deep-learning-alchemy.github.io/",
           "links": [],
           "rawText": "Deep Learning Alchemy ー CS-312 Stanford Course"
-        },
-        {
-          "title": "Deep Learning for Materials & Molecules",
-          "description": null,
-          "primaryUrl": "https://dmol.pub/",
-          "links": [],
-          "rawText": "Deep Learning for Materials & Molecules"
         }
       ]
     },
@@ -2388,13 +2381,6 @@
           "primaryUrl": "https://youtu.be/93PHxVpPLxA",
           "links": [],
           "rawText": "Relay computer compile, load & run"
-        },
-        {
-          "title": "How close are we to proving Yang-Mills and Mass Gap?",
-          "description": null,
-          "primaryUrl": "https://youtu.be/0EP_t9yuBiQ",
-          "links": [],
-          "rawText": "How close are we to proving Yang-Mills and Mass Gap?"
         }
       ]
     }

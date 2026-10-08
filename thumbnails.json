@@ -1631,5 +1631,44 @@
     "source": "favicon",
     "error": "no og:image found",
     "fetchedAt": "2026-10-08T19:42:26.658Z"
+  },
+  "https://nptel.ac.in/courses/103101568": {
+    "image": "https://www.google.com/s2/favicons?domain=nptel.ac.in&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-10-08T19:48:09.663Z"
+  },
+  "https://arxiv.org/pdf/2208.10230": {
+    "image": "https://www.google.com/s2/favicons?domain=arxiv.org&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-10-08T19:48:10.527Z"
+  },
+  "https://arxiv.org/pdf/2603.18387": {
+    "image": "https://www.google.com/s2/favicons?domain=arxiv.org&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-10-08T19:48:11.321Z"
+  },
+  "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf": {
+    "image": "https://www.google.com/s2/favicons?domain=pubs.usgs.gov&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-10-08T19:48:12.894Z"
+  },
+  "https://youtu.be/hV3_XZXeDQo": {
+    "image": "https://i.ytimg.com/vi/hV3_XZXeDQo/maxresdefault.jpg",
+    "source": "youtube-thumbnail",
+    "fetchedAt": "2026-10-08T19:48:13.504Z"
+  },
+  "https://youtu.be/dpIuNUn0PZc": {
+    "image": "https://i.ytimg.com/vi/dpIuNUn0PZc/maxresdefault.jpg",
+    "source": "youtube-thumbnail",
+    "fetchedAt": "2026-10-08T19:48:14.091Z"
+  },
+  "https://youtu.be/93PHxVpPLxA": {
+    "image": "https://i.ytimg.com/vi/93PHxVpPLxA/sddefault.jpg",
+    "source": "youtube-thumbnail",
+    "fetchedAt": "2026-10-08T19:48:15.543Z"
   }
 }
