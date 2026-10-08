@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T18:33:12.014Z",
+  "generatedAt": "2026-10-08T18:37:57.450Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -2207,10 +2207,17 @@
         },
         {
           "title": "TARA",
-          "description": null,
+          "description": "Technical Alignment Research Accelerator Programme for technical AI safety skills across Asia-Pacific.",
           "primaryUrl": "https://www.taraprogram.org/",
           "links": [],
-          "rawText": "TARA"
+          "rawText": "TARA ー Technical Alignment Research Accelerator Programme for technical AI safety skills across Asia-Pacific."
+        },
+        {
+          "title": "RSA-896",
+          "description": "Author’s Insight",
+          "primaryUrl": "https://saweis.net/posts/rsa-896.html",
+          "links": [],
+          "rawText": "RSA-896 ー Author’s Insight"
         }
       ]
     }
