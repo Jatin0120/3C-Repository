@@ -1707,5 +1707,25 @@
     "image": "https://content.wolfram.com/sites/43/2026/09/social-pure-math-v3.png",
     "source": "og",
     "fetchedAt": "2026-10-08T20:08:57.163Z"
+  },
+  "https://youtu.be/-spNwKVqi1k": {
+    "image": "https://i.ytimg.com/vi/-spNwKVqi1k/maxresdefault.jpg",
+    "source": "youtube-thumbnail",
+    "fetchedAt": "2026-10-08T20:34:29.313Z"
+  },
+  "https://youtu.be/KT18KJouHWg": {
+    "image": "https://i.ytimg.com/vi/KT18KJouHWg/sddefault.jpg",
+    "source": "youtube-thumbnail",
+    "fetchedAt": "2026-10-08T20:34:31.216Z"
+  },
+  "https://youtu.be/LXBrk0F7HC0": {
+    "image": "https://i.ytimg.com/vi/LXBrk0F7HC0/maxresdefault.jpg",
+    "source": "youtube-thumbnail",
+    "fetchedAt": "2026-10-08T20:34:31.769Z"
+  },
+  "https://en.wikipedia.org/wiki/Titanium-sapphire_laser?wprov=sfla1": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Titanium_sapphire_oscillator.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=index&amp;utm_content=thumbnail_unscaled",
+    "source": "og",
+    "fetchedAt": "2026-10-08T20:34:32.298Z"
   }
 }
