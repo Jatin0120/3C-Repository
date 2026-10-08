@@ -1548,5 +1548,11 @@
     "image": "https://static.wixstatic.com/media/8e5533_62a1ea79f7c14ed3ac3797b8ac4cfff1~mv2.jpg/v1/fill/w_2500,h_1666,al_c/8e5533_62a1ea79f7c14ed3ac3797b8ac4cfff1~mv2.jpg",
     "source": "og",
     "fetchedAt": "2026-10-08T18:33:22.965Z"
+  },
+  "https://saweis.net/posts/rsa-896.html": {
+    "image": "https://www.google.com/s2/favicons?domain=saweis.net&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-10-08T18:38:11.052Z"
   }
 }
