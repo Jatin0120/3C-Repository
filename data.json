@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T20:47:58.949Z",
+  "generatedAt": "2026-10-08T20:53:33.020Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -238,6 +238,22 @@
           "primaryUrl": "https://github.com/Biohub/esm",
           "links": [],
           "rawText": "ESM ー Evolutionary Scale Modeling for protein biology"
+        },
+        {
+          "title": "AlphaProtein Novo",
+          "description": "generative diffusion pipeline for de novo enzyme design via structural motif scaffolding",
+          "primaryUrl": "https://github.com/google-deepmind/alphaprotein-novo",
+          "links": [
+            {
+              "label": "paper I",
+              "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.756017v1.full.pdf"
+            },
+            {
+              "label": "paper II",
+              "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.754751v1.full.pdf"
+            }
+          ],
+          "rawText": "AlphaProtein Novo ー generative diffusion pipeline for de novo enzyme design via structural motif scaffolding (paper I)(paper II)"
         }
       ]
     },
@@ -2521,6 +2537,13 @@
           "primaryUrl": "https://youtu.be/wULlr9BiTVs",
           "links": [],
           "rawText": "Peter Norvig on the future of AI"
+        },
+        {
+          "title": "Is Reality too strange to narrate?",
+          "description": null,
+          "primaryUrl": "https://youtu.be/YCGJtXTnemg",
+          "links": [],
+          "rawText": "Is Reality too strange to narrate?"
         }
       ]
     }
