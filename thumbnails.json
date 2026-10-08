@@ -1565,5 +1565,10 @@
     "source": "favicon",
     "error": "HTTP 403",
     "fetchedAt": "2026-10-08T19:08:40.493Z"
+  },
+  "https://naturalgeneralintelligence.ai/": {
+    "image": "https://naturalgeneralintelligence.ai/assets/social/natural-general-intelligence.c8a82ae261dc0cb2.jpg",
+    "source": "og",
+    "fetchedAt": "2026-10-08T19:18:09.548Z"
   }
 }
