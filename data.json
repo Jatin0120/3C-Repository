@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T21:13:13.910Z",
+  "generatedAt": "2026-10-08T21:18:23.302Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -632,6 +632,13 @@
           "primaryUrl": "https://www.biorxiv.org/content/10.64898/2026.08.26.747321v1.full.pdf",
           "links": [],
           "rawText": "PathFold: Predicting the Entire Protein Folding Pathway from Protein Sequence Alone"
+        },
+        {
+          "title": "AdaptNTK: Adaptive Uncertainty Quantification and Active Learning for Neural Network Potentials",
+          "description": null,
+          "primaryUrl": "https://arxiv.org/pdf/2609.00488",
+          "links": [],
+          "rawText": "AdaptNTK: Adaptive Uncertainty Quantification and Active Learning for Neural Network Potentials"
         }
       ]
     },
@@ -1571,6 +1578,13 @@
           "primaryUrl": "https://deepmind.google/blog/towards-understanding-glasses-with-graph-neural-networks/",
           "links": [],
           "rawText": "Towards understanding glasses with graph neural networks ー Blog"
+        },
+        {
+          "title": "Chasing the Grail: A History of Binding Affinity Predictions in Drug Discovery",
+          "description": "Blog",
+          "primaryUrl": "https://valencelabs.substack.com/p/chasing-the-grail-a-history-of-binding",
+          "links": [],
+          "rawText": "Chasing the Grail: A History of Binding Affinity Predictions in Drug Discovery ー Blog"
         }
       ]
     },
@@ -2591,6 +2605,25 @@
             }
           ],
           "rawText": "The Square Packing Problem (n=11)"
+        },
+        {
+          "title": "What makes Mario NP-Hard?",
+          "description": null,
+          "primaryUrl": "https://youtu.be/oS8m9fSk-Wk?si=sg4t1_eFZHBC_G8g",
+          "links": [],
+          "rawText": "What makes Mario NP-Hard?"
+        },
+        {
+          "title": "Integer Multiplication Problem",
+          "description": null,
+          "primaryUrl": "https://github.com/openai/math/blob/main/preprints/Integer-multiplication-below-n-log-n-September-23-2026/paper.pdf",
+          "links": [
+            {
+              "label": "Progress",
+              "url": "https://github.com/CrocSwap/integer-mult-bounds"
+            }
+          ],
+          "rawText": "Integer Multiplication Problem (Progress)"
         }
       ]
     }
