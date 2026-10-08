@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T19:08:25.459Z",
+  "generatedAt": "2026-10-08T19:13:32.269Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -1610,11 +1610,20 @@
           "rawText": "Art of Computer Programming (webpage)"
         },
         {
-          "title": "Kriti’s Webpage",
+          "title": "Member Webpage & Github",
           "description": null,
           "primaryUrl": "https://scichemcode.github.io/alam-website/",
-          "links": [],
-          "rawText": "Kriti’s Webpage"
+          "links": [
+            {
+              "label": "Kriti",
+              "url": "https://scichemcode.github.io/alam-website/"
+            },
+            {
+              "label": "Aritra",
+              "url": "https://aritraroy.live/"
+            }
+          ],
+          "rawText": "Member Webpage & Github (Kriti) (Aritra) (Piyush)"
         },
         {
           "title": "Floating Point: The Origin Story",
@@ -1650,13 +1659,6 @@
           "primaryUrl": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
           "links": [],
           "rawText": "IBM Debuts World’s First Sub-1 Nanometer Chip Technology"
-        },
-        {
-          "title": "Aritra’s Webpage",
-          "description": null,
-          "primaryUrl": "https://aritraroy.live/",
-          "links": [],
-          "rawText": "Aritra’s Webpage"
         },
         {
           "title": "Story of Enrico Fermi",
