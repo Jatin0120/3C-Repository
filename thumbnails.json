@@ -1554,5 +1554,10 @@
     "source": "favicon",
     "error": "no og:image found",
     "fetchedAt": "2026-10-08T18:38:11.052Z"
+  },
+  "https://karthikvedula.com/2024/01/05/visualizing-the-perceptron-learning-algorithm/": {
+    "image": "https://karthikvedula.com/assets/images/2026/09/perceptron-card-light.jpg",
+    "source": "og",
+    "fetchedAt": "2026-10-08T18:43:15.910Z"
   }
 }
