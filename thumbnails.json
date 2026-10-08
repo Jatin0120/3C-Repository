@@ -1743,5 +1743,26 @@
     "image": "https://i.ytimg.com/vi/pfAh5oQDPDM/maxresdefault.jpg",
     "source": "youtube-thumbnail",
     "fetchedAt": "2026-10-08T20:38:55.576Z"
+  },
+  "https://www.biorxiv.org/content/10.64898/2026.08.26.747321v1.full.pdf": {
+    "image": "https://www.google.com/s2/favicons?domain=www.biorxiv.org&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-10-08T20:43:18.078Z"
+  },
+  "https://sander.ai/2023/07/20/perspectives.html": {
+    "image": "https://sander.ai/images/smoke.jpg",
+    "source": "og",
+    "fetchedAt": "2026-10-08T20:43:18.882Z"
+  },
+  "https://youtu.be/Gj5liYnpTeM": {
+    "image": "https://i.ytimg.com/vi/Gj5liYnpTeM/maxresdefault.jpg",
+    "source": "youtube-thumbnail",
+    "fetchedAt": "2026-10-08T20:43:19.435Z"
+  },
+  "https://youtu.be/AwbFrritiyc": {
+    "image": "https://i.ytimg.com/vi/AwbFrritiyc/maxresdefault.jpg",
+    "source": "youtube-thumbnail",
+    "fetchedAt": "2026-10-08T20:43:19.987Z"
   }
 }
