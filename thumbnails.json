@@ -1826,5 +1826,16 @@
     "image": "https://i.ytimg.com/vi/oS8m9fSk-Wk/maxresdefault.jpg",
     "source": "youtube-thumbnail",
     "fetchedAt": "2026-10-08T21:13:21.532Z"
+  },
+  "https://valencelabs.substack.com/p/chasing-the-grail-a-history-of-binding": {
+    "image": "https://www.google.com/s2/favicons?domain=valencelabs.substack.com&sz=128",
+    "source": "favicon",
+    "error": "HTTP 403",
+    "fetchedAt": "2026-10-08T21:18:35.402Z"
+  },
+  "https://github.com/openai/math/blob/main/preprints/Integer-multiplication-below-n-log-n-September-23-2026/paper.pdf": {
+    "image": "https://opengraph.githubassets.com/ef216fb98cc34372260fba3a2145e9ccb2fcbf725310ff27f44afa2edbde464d/openai/math",
+    "source": "og",
+    "fetchedAt": "2026-10-08T21:18:36.390Z"
   }
 }
