@@ -1764,5 +1764,16 @@
     "image": "https://i.ytimg.com/vi/AwbFrritiyc/maxresdefault.jpg",
     "source": "youtube-thumbnail",
     "fetchedAt": "2026-10-08T20:43:19.987Z"
+  },
+  "https://robonomics.substack.com/p/ai-drug-discovery-is-becoming-a-bottleneck": {
+    "image": "https://www.google.com/s2/favicons?domain=robonomics.substack.com&sz=128",
+    "source": "favicon",
+    "error": "HTTP 403",
+    "fetchedAt": "2026-10-08T20:48:07.981Z"
+  },
+  "https://youtu.be/wULlr9BiTVs": {
+    "image": "https://i.ytimg.com/vi/wULlr9BiTVs/maxresdefault.jpg",
+    "source": "youtube-thumbnail",
+    "fetchedAt": "2026-10-08T20:48:08.514Z"
   }
 }
