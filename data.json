@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T20:43:04.063Z",
+  "generatedAt": "2026-10-08T20:47:58.949Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -2507,6 +2507,20 @@
           "primaryUrl": "https://youtu.be/AwbFrritiyc",
           "links": [],
           "rawText": "Textile Materials ー YT Podcast"
+        },
+        {
+          "title": "AI Drug Discovery Is Becoming a Bottleneck Trade",
+          "description": "Blog",
+          "primaryUrl": "https://robonomics.substack.com/p/ai-drug-discovery-is-becoming-a-bottleneck",
+          "links": [],
+          "rawText": "AI Drug Discovery Is Becoming a Bottleneck Trade ー Blog"
+        },
+        {
+          "title": "Peter Norvig on the future of AI",
+          "description": null,
+          "primaryUrl": "https://youtu.be/wULlr9BiTVs",
+          "links": [],
+          "rawText": "Peter Norvig on the future of AI"
         }
       ]
     }
