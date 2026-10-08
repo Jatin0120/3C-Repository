@@ -1805,5 +1805,10 @@
     "image": "https://i.ytimg.com/vi/8i9WMD6xbuA/maxresdefault.jpg",
     "source": "youtube-thumbnail",
     "fetchedAt": "2026-10-08T20:58:33.271Z"
+  },
+  "https://jlevy.github.io/squares/": {
+    "image": "https://jlevy.github.io/squares/social-card.png",
+    "source": "og",
+    "fetchedAt": "2026-10-08T21:03:18.291Z"
   }
 }
