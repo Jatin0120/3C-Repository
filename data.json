@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T18:28:02.791Z",
+  "generatedAt": "2026-10-08T18:33:12.014Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -778,10 +778,10 @@
         },
         {
           "title": "Deep Learning Alchemy",
-          "description": null,
-          "primaryUrl": null,
+          "description": "CS-312 Stanford Course",
+          "primaryUrl": "https://deep-learning-alchemy.github.io/",
           "links": [],
-          "rawText": "Deep Learning Alchemy"
+          "rawText": "Deep Learning Alchemy ー CS-312 Stanford Course"
         }
       ]
     },
@@ -2197,6 +2197,20 @@
           "primaryUrl": "https://youtu.be/zaXKQ70q4KQ",
           "links": [],
           "rawText": "The Man Who Took LSD & Changed the World"
+        },
+        {
+          "title": "A Reflection on Cognitive Biophysics",
+          "description": "Blog",
+          "primaryUrl": "https://substack.com/@rishikarai/note/c-316583766?r=5wgt6f",
+          "links": [],
+          "rawText": "A Reflection on Cognitive Biophysics ー Blog"
+        },
+        {
+          "title": "TARA",
+          "description": null,
+          "primaryUrl": "https://www.taraprogram.org/",
+          "links": [],
+          "rawText": "TARA"
         }
       ]
     }
