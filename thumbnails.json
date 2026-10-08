@@ -1601,5 +1601,17 @@
     "image": "https://i.ytimg.com/vi/AKMuA_TVz3A/maxresdefault.jpg",
     "source": "youtube-thumbnail",
     "fetchedAt": "2026-10-08T19:28:55.752Z"
+  },
+  "https://pablito-playground.readthedocs.io/en/latest/tutorials/qmmm_amber_cpmd/RESP_charges.html": {
+    "image": "https://www.google.com/s2/favicons?domain=pablito-playground.readthedocs.io&sz=128",
+    "source": "favicon",
+    "error": "no og:image found",
+    "fetchedAt": "2026-10-08T19:33:49.792Z"
+  },
+  "https://dataspace.princeton.edu/handle/88435/dsp013f462544k": {
+    "image": "https://www.google.com/s2/favicons?domain=dataspace.princeton.edu&sz=128",
+    "source": "favicon",
+    "error": "HTTP 401",
+    "fetchedAt": "2026-10-08T19:33:50.880Z"
   }
 }
