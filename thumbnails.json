@@ -1559,5 +1559,11 @@
     "image": "https://karthikvedula.com/assets/images/2026/09/perceptron-card-light.jpg",
     "source": "og",
     "fetchedAt": "2026-10-08T18:43:15.910Z"
+  },
+  "https://aritraroy.live/": {
+    "image": "https://www.google.com/s2/favicons?domain=aritraroy.live&sz=128",
+    "source": "favicon",
+    "error": "HTTP 403",
+    "fetchedAt": "2026-10-08T19:08:40.493Z"
   }
 }
