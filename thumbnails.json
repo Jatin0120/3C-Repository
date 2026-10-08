@@ -1775,5 +1775,15 @@
     "image": "https://i.ytimg.com/vi/wULlr9BiTVs/maxresdefault.jpg",
     "source": "youtube-thumbnail",
     "fetchedAt": "2026-10-08T20:48:08.514Z"
+  },
+  "https://github.com/google-deepmind/alphaprotein-novo": {
+    "image": "https://opengraph.githubassets.com/5fce1c8ff44325b3ce606c089a4a4a00ac4217c4671c673b1f1023a121434583/google-deepmind/alphaprotein-novo",
+    "source": "og",
+    "fetchedAt": "2026-10-08T20:53:44.957Z"
+  },
+  "https://youtu.be/YCGJtXTnemg": {
+    "image": "https://i.ytimg.com/vi/YCGJtXTnemg/maxresdefault.jpg",
+    "source": "youtube-thumbnail",
+    "fetchedAt": "2026-10-08T20:53:45.561Z"
   }
 }
