@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T19:42:12.901Z",
+  "generatedAt": "2026-10-08T19:47:59.050Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -271,6 +271,13 @@
           "primaryUrl": "https://youtu.be/WTz8nr1abwc?si=UIfOJNm8xiIfQuEe",
           "links": [],
           "rawText": "The Hatree-Fock Algorithm"
+        },
+        {
+          "title": "Computational Quantum Chemistry Course",
+          "description": "NPTEL",
+          "primaryUrl": "https://nptel.ac.in/courses/103101568",
+          "links": [],
+          "rawText": "Computational Quantum Chemistry Course ー NPTEL"
         },
         {
           "title": "Molecular Dynamics: Basics",
@@ -574,6 +581,20 @@
           "primaryUrl": "https://pubs.rsc.org/sc/article/doi/10.1039/d6sc04941a/1356737/Accessible-hybrid-DFT-quality-NMR-crystallography",
           "links": [],
           "rawText": "Accessible hybrid DFT-quality NMR crystallography via gas-phase machine learning interatomic potentials"
+        },
+        {
+          "title": "From Static to Dynamic Structures: Improving Binding Affinity Prediction with Graph-Based Deep Learning",
+          "description": null,
+          "primaryUrl": "https://arxiv.org/pdf/2208.10230",
+          "links": [],
+          "rawText": "From Static to Dynamic Structures: Improving Binding Affinity Prediction with Graph-Based Deep Learning"
+        },
+        {
+          "title": "Mathematical Foundations of Deep Learning: Theory & Algorithms",
+          "description": null,
+          "primaryUrl": "https://arxiv.org/pdf/2603.18387",
+          "links": [],
+          "rawText": "Mathematical Foundations of Deep Learning: Theory & Algorithms"
         }
       ]
     },
@@ -1473,6 +1494,18 @@
           "primaryUrl": "https://amateurgods.substack.com/p/josies-list-of-bio-millenium-problems",
           "links": [],
           "rawText": "Josie's List of Bio Problems that need solving ー Blog"
+        },
+        {
+          "title": "Mineral Commodity Summaries",
+          "description": null,
+          "primaryUrl": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf",
+          "links": [
+            {
+              "label": "2026",
+              "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf"
+            }
+          ],
+          "rawText": "Mineral Commodity Summaries (2026)"
         }
       ]
     },
@@ -1629,6 +1662,13 @@
           "primaryUrl": "https://loc.closertotruth.com/landscape/exploring-consciousness",
           "links": [],
           "rawText": "Exploring Consciousness"
+        },
+        {
+          "title": "How Shell Works?",
+          "description": null,
+          "primaryUrl": "https://youtu.be/hV3_XZXeDQo",
+          "links": [],
+          "rawText": "How Shell Works?"
         },
         {
           "title": "Resolution Challenge",
@@ -2327,6 +2367,20 @@
           "primaryUrl": "https://www.youtube.com/live/AKMuA_TVz3A",
           "links": [],
           "rawText": "An Observation on Generalisation"
+        },
+        {
+          "title": "Why do computers look like this anyway?",
+          "description": null,
+          "primaryUrl": "https://youtu.be/dpIuNUn0PZc",
+          "links": [],
+          "rawText": "Why do computers look like this anyway?"
+        },
+        {
+          "title": "Relay computer compile, load & run",
+          "description": null,
+          "primaryUrl": "https://youtu.be/93PHxVpPLxA",
+          "links": [],
+          "rawText": "Relay computer compile, load & run"
         }
       ]
     }
