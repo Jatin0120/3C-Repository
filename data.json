@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T20:53:33.020Z",
+  "generatedAt": "2026-10-08T20:58:20.263Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -254,6 +254,13 @@
             }
           ],
           "rawText": "AlphaProtein Novo ー generative diffusion pipeline for de novo enzyme design via structural motif scaffolding (paper I)(paper II)"
+        },
+        {
+          "title": "PicoFold",
+          "description": "A minimal protein structure predictor written in PyTorch",
+          "primaryUrl": "https://github.com/daveyburke/picofold",
+          "links": [],
+          "rawText": "PicoFold ー A minimal protein structure predictor written in PyTorch"
         }
       ]
     },
@@ -2544,6 +2551,27 @@
           "primaryUrl": "https://youtu.be/YCGJtXTnemg",
           "links": [],
           "rawText": "Is Reality too strange to narrate?"
+        },
+        {
+          "title": "What is Intelligence?",
+          "description": null,
+          "primaryUrl": "https://youtu.be/gs38tMxZseA",
+          "links": [],
+          "rawText": "What is Intelligence?"
+        },
+        {
+          "title": "Breaking the Wall to Neuroengineering 2014",
+          "description": "Karl Deisseroth (Nobel Laureate)",
+          "primaryUrl": "https://youtu.be/tqb2Bp5E330",
+          "links": [],
+          "rawText": "Breaking the Wall to Neuroengineering 2014 ー Karl Deisseroth (Nobel Laureate)"
+        },
+        {
+          "title": "Dragonflies hunt by predicting the future",
+          "description": null,
+          "primaryUrl": "https://youtu.be/8i9WMD6xbuA",
+          "links": [],
+          "rawText": "Dragonflies hunt by predicting the future"
         }
       ]
     }
