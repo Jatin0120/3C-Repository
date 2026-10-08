@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T20:28:52.267Z",
+  "generatedAt": "2026-10-08T20:34:18.229Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -1520,6 +1520,13 @@
             }
           ],
           "rawText": "Mineral Commodity Summaries (2026)"
+        },
+        {
+          "title": "Towards understanding glasses with graph neural networks ー Blog",
+          "description": null,
+          "primaryUrl": null,
+          "links": [],
+          "rawText": "Towards understanding glasses with graph neural networks ー Blog"
         }
       ]
     },
@@ -2434,9 +2441,30 @@
         {
           "title": "How to Use a Research Rabbit to Explore a Research Field?",
           "description": null,
-          "primaryUrl": null,
+          "primaryUrl": "https://youtu.be/-spNwKVqi1k",
           "links": [],
           "rawText": "How to Use a Research Rabbit to Explore a Research Field?"
+        },
+        {
+          "title": "How did they Caught the Golden state killer?",
+          "description": null,
+          "primaryUrl": "https://youtu.be/KT18KJouHWg",
+          "links": [],
+          "rawText": "How did they Caught the Golden state killer?"
+        },
+        {
+          "title": "What if AI progress doesn't slow down?",
+          "description": null,
+          "primaryUrl": "https://youtu.be/LXBrk0F7HC0",
+          "links": [],
+          "rawText": "What if AI progress doesn't slow down?"
+        },
+        {
+          "title": "Titanium-sapphire laser",
+          "description": "Wikipage",
+          "primaryUrl": "https://en.wikipedia.org/wiki/Titanium-sapphire_laser?wprov=sfla1",
+          "links": [],
+          "rawText": "Titanium-sapphire laser ー Wikipage"
         }
       ]
     }
