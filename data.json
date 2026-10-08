@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T20:28:04.682Z",
+  "generatedAt": "2026-10-08T18:28:02.791Z",
   "sections": [
     {
       "title": "Github Repositories",
@@ -775,6 +775,13 @@
           "primaryUrl": "https://nirmt.com/storage/uploads/E-BOOK_BE-CHEMICAL/Introduction%20to%20Numerical%20Methods%20in%20Chemical%20Engineering.pdf",
           "links": [],
           "rawText": "Introduction to Numerical Methods in Chemical Engineering (P. Ahuja)"
+        },
+        {
+          "title": "Deep Learning Alchemy",
+          "description": null,
+          "primaryUrl": null,
+          "links": [],
+          "rawText": "Deep Learning Alchemy"
         }
       ]
     },
