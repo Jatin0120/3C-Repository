@@ -3,138 +3,780 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The 3C Repository · computational chemistry and the sciences around it</title>
-  <meta name="description" content="A shared reader of lectures, papers, code and essays for computational chemistry, materials science, and the sciences that surround them.">
-  <script>
-    // Apply a saved theme before first paint so there is no flash.
-    try { var t = localStorage.getItem('3c-theme'); if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t; } catch (e) {}
-  </script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@400;500;600;700;800&display=swap">
-  <link rel="stylesheet" href="css/tokens.css">
-  <link rel="stylesheet" href="css/base.css">
+  <title>3C Repository — Computational Chemistry & Materials Science Resources</title>
   <style>
-    /* Masthead: the front page gets the big version */
-    .masthead--front .masthead__logo span { font-size: clamp(56px, 8vw, 104px); }
-    .masthead--front .masthead__title .display { font-size: clamp(30px, 4vw, 52px); }
-
-    /* Lead */
-    .lead { display: flex; flex-wrap: wrap; gap: 32px; padding: 32px 0; border-bottom: var(--rule-section); }
-    .lead__main { flex: 3 1 520px; display: flex; flex-direction: column; gap: 14px; min-width: 0; }
-    .lead__kicker { align-self: flex-start; background: var(--ink); color: var(--paper); padding: 4px 8px; }
-    .lead__headline { font-size: clamp(48px, 7.4vw, 108px); }
-    .lead__headline em { font-style: normal; color: var(--red-text); }
-    .lead__dek { margin: 0; font-family: var(--font-body); font-size: clamp(18px, 1.6vw, 21px); line-height: 1.45; max-width: 760px; }
-    .lead .btn { align-self: flex-start; }
-    .inside { flex: 1 1 280px; display: flex; flex-direction: column; border: var(--rule-box); align-self: flex-start; }
-    .inside__head { background: var(--ink); color: var(--paper); padding: 8px 12px; }
-    .inside a { display: flex; flex-direction: column; gap: 4px; padding: 12px; border-bottom: var(--rule-hair); }
-    .inside a:last-child { border-bottom: 0; }
-    .inside__title { font-family: var(--font-body); font-size: 18px; line-height: 1.25; font-weight: 600; }
-
-    /* Index grid */
-    .index { padding: 28px 0 8px; }
-    .index__head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 12px; padding-bottom: 14px; }
-    .index__head h2 { font-size: clamp(42px, 4.6vw, 60px); }
-    .index__note { margin: 6px 0 0; font-family: var(--font-body); font-size: 17px; color: var(--muted); }
-    .group { padding: 10px 0 16px; }
-    .group__head { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; border-top: var(--rule-box); padding-top: 8px; margin-bottom: 8px; }
-    .group__head .display { font-size: 26px; line-height: 1; }
-    .tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 150px), 1fr)); gap: 6px; }
-    .tile {
-      display: flex; flex-direction: column; gap: 6px; padding: 9px 10px; min-height: 112px;
-      border: var(--rule-tile); background: var(--t1); color: var(--ink); text-align: left;
-      transition: transform .12s ease, box-shadow .12s ease;
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
     }
-    .tile--2 { background: var(--t2); }
-    .tile--3 { background: var(--t3); }
-    .tile--4 { background: var(--red); color: var(--on-red); }
-    .tile[aria-pressed="true"] { box-shadow: 6px 6px 0 var(--ink); transform: translate(-3px, -3px); }
-    .tile:hover { box-shadow: 3px 3px 0 var(--ink); }
-    .tile[aria-pressed="true"]:hover { box-shadow: 6px 6px 0 var(--ink); }
-    .tile__top { display: flex; justify-content: space-between; align-items: flex-start; }
-    .tile__num { font-size: 40px; }
-    .tile__n { font-weight: 800; font-size: 15px; }
-    .tile__name { font-weight: 700; font-size: 13.5px; line-height: 1.2; min-height: 34px; }
-    .bar { display: flex; height: 5px; gap: 2px; }
-    .bar span { min-width: 0; }
-    .bar .i { background: var(--bar-i); } .bar .c { background: var(--ink); } .bar .a { background: var(--red); }
-    .tile--4 .bar .i { background: rgba(255,255,255,.5); } .tile--4 .bar .c { background: #FFFFFF; } .tile--4 .bar .a { background: #111111; }
-    .legend { display: flex; flex-wrap: wrap; gap: 8px 22px; align-items: center; padding: 6px 0 18px; font-size: 13px; color: var(--muted); }
-    .legend i { display: inline-block; width: 20px; height: 12px; border: 1px solid var(--ink); vertical-align: -1px; margin-right: 4px; }
 
-    /* Story for the selected tile */
-    .story { display: flex; flex-wrap: wrap; gap: 32px; padding: 24px 0 8px; border-top: var(--rule-section); scroll-margin-top: 16px; }
-    .story__main { flex: 2 1 480px; display: flex; flex-direction: column; gap: 12px; min-width: 0; }
-    .story__main h2 { font-size: clamp(44px, 5vw, 64px); }
-    .story__blurb { margin: 0; font-family: var(--font-body); font-size: 21px; line-height: 1.45; }
-    .chips { display: flex; gap: 8px; flex-wrap: wrap; }
-    .chips span { border: var(--rule-tile); padding: 6px 10px; }
-    .chips span.solid { background: var(--ink); color: var(--paper); }
-    .readfirst { flex: 1 1 300px; display: flex; flex-direction: column; border: var(--rule-box); align-self: flex-start; }
-    .readfirst__head { background: var(--ink); color: var(--paper); padding: 8px 12px; }
-    .readfirst a.item { display: flex; flex-direction: column; gap: 4px; padding: 12px; border-bottom: var(--rule-hair); }
-    .readfirst a.item span:last-child { font-family: var(--font-body); font-size: 18px; font-weight: 600; line-height: 1.25; }
-    .readfirst a.all { padding: 12px; font-weight: 800; color: var(--red-text); letter-spacing: .04em; }
+    :root {
+      --bg-primary: #FFFFFF;
+      --bg-secondary: #F5F5F5;
+      --text-primary: #1A1A1A;
+      --text-secondary: #999999;
+      --accent: #0066CC;
+      --border: #EEEEEE;
+    }
+
+    html.dark-mode {
+      --bg-primary: #121212;
+      --bg-secondary: #1E1E1E;
+      --text-primary: #E8E8E8;
+      --text-secondary: #B0B0B0;
+      --accent: #4DA6FF;
+      --border: #2A2A2A;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background-color: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.6;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    /* Sticky wrapper - holds header + search bar as ONE sticky unit.
+       Previously these were two INDEPENDENTLY sticky elements, with the
+       search bar's "top" hardcoded to a guessed pixel value matching the
+       header's height. Any mismatch between that guess and the header's
+       real rendered height (which varies slightly across browsers, font
+       rendering, zoom level) caused a visible seam - a gap or overlap
+       between the two bars while scrolling. Wrapping them together in
+       one sticky container eliminates the guesswork entirely: the
+       browser handles their relative positioning as normal in-flow
+       content, and only the OUTER wrapper needs to stick to top: 0. */
+    .sticky-top {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    /* Header with dark mode toggle */
+    header {
+      background-color: var(--bg-primary);
+      border-bottom: 1px solid var(--border);
+      padding: 1.5rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .header-content {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+
+    .header-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+    }
+
+    .header-subtitle {
+      font-size: 0.875rem;
+      color: var(--text-secondary);
+    }
+
+    .toggle-container {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .toggle-label {
+      font-size: 0.875rem;
+      color: var(--text-secondary);
+      user-select: none;
+    }
+
+    .toggle-switch {
+      position: relative;
+      width: 44px;
+      height: 24px;
+      background-color: var(--border);
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      padding: 2px;
+      transition: background-color 0.3s ease;
+    }
+
+    .toggle-switch::after {
+      content: '';
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background-color: var(--bg-primary);
+      border-radius: 10px;
+      top: 2px;
+      left: 2px;
+      transition: left 0.3s ease;
+    }
+
+    html.dark-mode .toggle-switch {
+      background-color: var(--accent);
+    }
+
+    html.dark-mode .toggle-switch::after {
+      left: 22px;
+    }
+
+    /* Main content */
+    main {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 3rem 2rem;
+    }
+
+    .hero {
+      text-align: center;
+      margin-bottom: 4rem;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+    }
+
+    .hero p {
+      font-size: 1.125rem;
+      color: var(--text-secondary);
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    /* Sections */
+    section {
+      margin-bottom: 4rem;
+    }
+
+    .section-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 2px solid var(--accent);
+      display: inline-block;
+    }
+
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+
+    /* Card styling */
+    .card {
+      background-color: var(--bg-secondary);
+      border: 1px solid var(--border);
+      cursor: pointer;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    }
+
+    html.dark-mode .card:hover {
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    }
+
+    .card-thumbnail {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      background-color: var(--border);
+    }
+
+    .card-content {
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      flex: 1;
+    }
+
+    .card-title {
+      font-size: 1.125rem;
+      font-weight: 600;
+      color: var(--accent);
+      word-break: break-word;
+    }
+
+    .card-description {
+      font-size: 0.9375rem;
+      color: var(--text-secondary);
+      line-height: 1.5;
+      flex: 1;
+    }
+
+    .card-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: auto;
+    }
+
+    .card-link {
+      display: inline-block;
+      font-size: 0.8125rem;
+      padding: 0.5rem 0.75rem;
+      background-color: var(--border);
+      color: var(--text-primary);
+      text-decoration: none;
+      border: 1px solid var(--border);
+      cursor: pointer;
+      transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    .card-link:hover {
+      background-color: var(--accent);
+      color: white;
+      border-color: var(--accent);
+    }
+
+    .card-primary-link {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .card-primary-link:hover {
+      text-decoration: none;
+    }
+
+    /* Search bar */
+    .search-container {
+      background-color: var(--bg-primary);
+      border-bottom: 1px solid var(--border);
+      padding: 1rem 2rem;
+    }
+
+    .search-input-wrapper {
+      max-width: 1400px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .search-input {
+      flex: 1;
+      max-width: 500px;
+      padding: 0.625rem 1rem;
+      font-size: 0.9375rem;
+      font-family: inherit;
+      background-color: var(--bg-secondary);
+      border: 1px solid var(--border);
+      color: var(--text-primary);
+      outline: none;
+      transition: border-color 0.2s ease;
+    }
+
+    .search-input:focus {
+      border-color: var(--accent);
+    }
+
+    .search-input::placeholder {
+      color: var(--text-secondary);
+    }
+
+    .search-results-count {
+      font-size: 0.875rem;
+      color: var(--text-secondary);
+      white-space: nowrap;
+    }
+
+    /* Jump nav */
+    .jump-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      max-width: 1400px;
+      margin: 0.75rem auto 0;
+    }
+
+    .jump-nav-link {
+      font-size: 0.8125rem;
+      padding: 0.375rem 0.75rem;
+      background-color: var(--bg-secondary);
+      color: var(--text-secondary);
+      text-decoration: none;
+      border: 1px solid var(--border);
+      cursor: pointer;
+      transition: all 0.2s ease;
+      white-space: nowrap;
+    }
+
+    .jump-nav-link:hover {
+      color: var(--text-primary);
+      border-color: var(--accent);
+    }
+
+    .jump-nav-link.active {
+      background-color: var(--accent);
+      color: white;
+      border-color: var(--accent);
+    }
+
+    .jump-nav-link.hidden-by-search {
+      display: none;
+    }
+
+    .no-results {
+      text-align: center;
+      padding: 3rem;
+      color: var(--text-secondary);
+      font-size: 1rem;
+    }
+
+    section.hidden-by-search {
+      display: none;
+    }
+
+    .card.hidden-by-search {
+      display: none;
+    }
+
+    
+    .loading {
+      text-align: center;
+      padding: 3rem;
+      font-size: 1.125rem;
+      color: var(--text-secondary);
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: flex-start;
+      }
+
+      .toggle-container {
+        width: 100%;
+        justify-content: space-between;
+      }
+
+      .hero h1 {
+        font-size: 2rem;
+      }
+
+      .hero p {
+        font-size: 1rem;
+      }
+
+      .cards-grid {
+        grid-template-columns: 1fr;
+      }
+
+      main {
+        padding: 2rem 1rem;
+      }
+
+      .search-container {
+        padding: 1rem;
+      }
+
+      .search-input {
+        max-width: none;
+      }
+
+      .search-input-wrapper {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0.5rem;
+      }
+
+      .search-results-count {
+        text-align: right;
+      }
+    }
+
+    /* Reduced motion */
+    @media (prefers-reduced-motion: reduce) {
+      * {
+        transition: none !important;
+        animation: none !important;
+      }
+    }
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <header class="masthead masthead--front">
-      <a class="masthead__logo" href="index.html" aria-label="3C home"><span class="display">3C</span></a>
-      <div class="masthead__title">
-        <h1 class="display">The 3C Repository</h1>
-        <span class="label muted" id="stamp">Loading…</span>
+  <div class="sticky-top">
+    <header>
+      <div class="header-content">
+        <h1 class="header-title">3C Repository</h1>
+        <p class="header-subtitle">Curated resources for computational chemistry & materials science</p>
       </div>
-      <nav class="masthead__nav" aria-label="Primary">
-        <a href="#lead">Start here</a>
-        <a href="#index">Topics</a>
-        <a href="library.html">Library</a>
-        <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Switch colour theme">Dark</button>
-      </nav>
+      <div class="toggle-container">
+        <label class="toggle-label" for="dark-mode-toggle">Dark mode</label>
+        <button class="toggle-switch" id="dark-mode-toggle" aria-label="Toggle dark mode"></button>
+      </div>
     </header>
 
-    <main id="main">
-      <section class="lead" id="lead" aria-labelledby="lead-h">
-        <div class="lead__main">
-          <span class="label lead__kicker" id="lead-kicker">Start here</span>
-          <h2 class="display lead__headline" id="lead-h">…</h2>
-          <p class="lead__dek" id="lead-dek"></p>
-          <a class="btn" id="lead-cta" href="#" target="_blank" rel="noopener noreferrer">Open the guide →</a>
-        </div>
-        <aside class="inside" aria-labelledby="inside-h">
-          <span class="label inside__head" id="inside-h">Also inside</span>
-          <div id="inside"></div>
-        </aside>
-      </section>
-
-      <section class="index" id="index" aria-labelledby="index-h">
-        <div class="index__head">
-          <div>
-            <h2 class="display" id="index-h">Every topic, one grid</h2>
-            <p class="index__note" id="view-note"></p>
-          </div>
-          <div class="seg" role="group" aria-label="View the grid by" id="view-chips"></div>
-        </div>
-        <div id="groups"><p class="muted">Loading the index…</p></div>
-        <div class="legend" aria-hidden="true">
-          <span><i style="background: var(--t1)"></i>under 8</span>
-          <span><i style="background: var(--t2)"></i>8–12</span>
-          <span><i style="background: var(--t3)"></i>13–21</span>
-          <span><i style="background: var(--red)"></i>22+ entries</span>
-          <span>Bar: intro / core / advanced</span>
-        </div>
-      </section>
-
-      <article class="story" id="story" aria-live="polite"></article>
-    </main>
-
-    <footer class="site-footer">
-      Entries live in a shared Google Doc and sync here automatically. Subjects and levels are tagged in categories.json; the cover story and picks are chosen by hand.
-    </footer>
+    <div class="search-container">
+      <div class="search-input-wrapper">
+        <input
+          type="text"
+          id="search-input"
+          class="search-input"
+          placeholder="Search by title or description..."
+          aria-label="Search resources"
+        >
+        <span class="search-results-count" id="search-results-count"></span>
+      </div>
+      <nav class="jump-nav" id="jump-nav" aria-label="Jump to section"></nav>
+    </div>
   </div>
 
-  <script type="module" src="js/front.js"></script>
+  <main>
+    <div class="hero">
+      <h2>A shared repository of essential learning materials</h2>
+      <p>Explore papers, courses, code repositories, and more across computational chemistry, materials science, and related fields.</p>
+    </div>
+
+    <div id="sections-container">
+      <div class="loading">Loading resources...</div>
+    </div>
+  </main>
+
+  <script>
+    // Dark mode toggle
+    const darkModeToggle = document.getElementById('dark-mode-toggle');
+    const html = document.documentElement;
+
+    // Check for saved dark mode preference, or default to system preference
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const savedMode = localStorage.getItem('3c-dark-mode');
+    const isDark = savedMode !== null ? savedMode === 'true' : prefersDark;
+
+    if (isDark) {
+      html.classList.add('dark-mode');
+    }
+
+    darkModeToggle.addEventListener('click', () => {
+      html.classList.toggle('dark-mode');
+      localStorage.setItem('3c-dark-mode', html.classList.contains('dark-mode'));
+    });
+
+    // Load and render data
+    async function loadAndRender() {
+      try {
+        const [dataRes, thumbnailsRes] = await Promise.all([
+          fetch('data.json'),
+          fetch('thumbnails.json')
+        ]);
+
+        if (!dataRes.ok || !thumbnailsRes.ok) {
+          throw new Error('Failed to load data files');
+        }
+
+        const data = await dataRes.json();
+        const thumbnails = await thumbnailsRes.json();
+
+        renderSections(data, thumbnails);
+      } catch (err) {
+        document.getElementById('sections-container').innerHTML =
+          '<div class="loading">Error loading resources. Please check back soon.</div>';
+        console.error('Failed to load data:', err);
+      }
+    }
+
+    function renderSections(data, thumbnails) {
+      const container = document.getElementById('sections-container');
+      const jumpNav = document.getElementById('jump-nav');
+      container.innerHTML = '';
+      jumpNav.innerHTML = '';
+
+      // Track every card's searchable text alongside its DOM elements,
+      // so filtering later doesn't need to re-read the DOM on every
+      // keystroke - it just checks this array and toggles visibility.
+      window.__searchIndex = [];
+
+      for (const section of data.sections) {
+        const sectionId = slugify(section.title);
+
+        const sectionEl = document.createElement('section');
+        sectionEl.id = sectionId;
+
+        const titleEl = document.createElement('h2');
+        titleEl.className = 'section-title';
+        titleEl.textContent = section.title;
+        sectionEl.appendChild(titleEl);
+
+        const gridEl = document.createElement('div');
+        gridEl.className = 'cards-grid';
+
+        for (const item of section.items) {
+          const cardEl = createCard(item, thumbnails);
+          gridEl.appendChild(cardEl);
+
+          // Build the searchable text once, up front, rather than
+          // re-concatenating it on every keystroke later.
+          const searchableText = [item.title, item.description]
+            .filter(Boolean)
+            .join(' ')
+            .toLowerCase();
+
+          window.__searchIndex.push({
+            cardEl,
+            sectionEl,
+            searchableText
+          });
+        }
+
+        sectionEl.appendChild(gridEl);
+        container.appendChild(sectionEl);
+
+        // Jump nav link for this section
+        const navLink = document.createElement('a');
+        navLink.className = 'jump-nav-link';
+        navLink.href = '#' + sectionId;
+        navLink.textContent = section.title;
+        navLink.dataset.sectionId = sectionId;
+        navLink.addEventListener('click', (e) => {
+          e.preventDefault();
+          scrollToSection(sectionEl, navLink);
+        });
+        jumpNav.appendChild(navLink);
+      }
+
+      setupScrollSpy();
+    }
+
+    // Tracks whether a click-triggered scroll is currently in flight, so
+    // the IntersectionObserver-driven highlighting (setupScrollSpy) knows
+    // to stay out of the way rather than fight over which link is
+    // "active" while the browser is still animating toward a target -
+    // that fight was the actual cause of the flicker/glitch when
+    // clicking a second nav link before the first scroll finished.
+    let isManualScroll = false;
+    let manualScrollFallbackTimer = null;
+
+    /**
+     * Scrolls to a section, offsetting for the sticky top wrapper
+     * (header + search/jump-nav bar) so the section heading actually
+     * lands BELOW it, visible, rather than being hidden underneath. We
+     * measure the wrapper's real height at click-time instead of
+     * hardcoding a pixel value, since its height changes between
+     * desktop and mobile layouts (the search row wraps differently) -
+     * a fixed offset would only be correct at one screen size.
+     */
+    function scrollToSection(sectionEl, clickedLink) {
+      // Immediately lock in the clicked link as the active one,
+      // deterministically - don't wait for the scroll-position-based
+      // observer to figure it out, since it will fire repeatedly (and
+      // inconsistently) while the animation is still travelling through
+      // intermediate sections.
+      isManualScroll = true;
+      clearTimeout(manualScrollFallbackTimer);
+      if (clickedLink) {
+        document.querySelectorAll('.jump-nav-link').forEach(l => l.classList.remove('active'));
+        clickedLink.classList.add('active');
+      }
+
+      const stickyWrapper = document.querySelector('.sticky-top');
+      const stickyOffset = stickyWrapper.offsetHeight;
+
+      // A little extra breathing room below the sticky bar, so the
+      // heading isn't pressed flush against it.
+      const extraPadding = 16;
+
+      const targetY = sectionEl.getBoundingClientRect().top +
+        window.scrollY - stickyOffset - extraPadding;
+
+      window.scrollTo({ top: targetY, behavior: 'smooth' });
+
+      // Hand control back to the observer-driven highlighting once the
+      // scroll has genuinely settled. 'scrollend' is the correct, precise
+      // signal where supported; the timeout is a safety net for older
+      // browsers that don't yet support it, so the guard doesn't get
+      // stuck "on" forever if scrollend never fires.
+      manualScrollFallbackTimer = setTimeout(() => {
+        isManualScroll = false;
+      }, 1000);
+    }
+
+    window.addEventListener('scrollend', () => {
+      if (isManualScroll) {
+        clearTimeout(manualScrollFallbackTimer);
+        isManualScroll = false;
+      }
+    });
+
+    /**
+     * Converts a section title into a URL-safe id, e.g.
+     * "Github Repositories" -> "github-repositories". Used for both the
+     * section's own id attribute and the jump-nav link's href, so
+     * clicking a nav link (or visiting a #hash URL directly) scrolls to
+     * the right place regardless of what the section is actually named -
+     * this stays correct even if you rename a section in the doc later.
+     */
+    function slugify(text) {
+      return text
+        .toLowerCase()
+        .trim()
+        .replace(/[^\w\s-]/g, '')
+        .replace(/\s+/g, '-');
+    }
+
+    /**
+     * Highlights the jump-nav link for whichever section is currently
+     * scrolled into view, using IntersectionObserver rather than a
+     * manual scroll-position calculation (cheaper, and avoids jank).
+     */
+    function setupScrollSpy() {
+      const sections = document.querySelectorAll('#sections-container section');
+      const navLinks = document.querySelectorAll('.jump-nav-link');
+
+      if (sections.length === 0) return;
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          // While a click-triggered scroll is in flight, don't let the
+          // observer's own (transient, order-inconsistent) firings
+          // overwrite the deterministic highlight scrollToSection already
+          // set - that fight was the actual source of the flicker.
+          if (isManualScroll) return;
+
+          entries.forEach(entry => {
+            const link = document.querySelector(
+              `.jump-nav-link[data-section-id="${entry.target.id}"]`
+            );
+            if (!link) return;
+            if (entry.isIntersecting) {
+              navLinks.forEach(l => l.classList.remove('active'));
+              link.classList.add('active');
+            }
+          });
+        },
+        { rootMargin: '-20% 0px -70% 0px' } // roughly "near the top of the viewport"
+      );
+
+      sections.forEach(section => observer.observe(section));
+    }
+
+    /**
+     * Live search: filters cards by title+description match, hides
+     * sections that end up with zero visible cards, and dims out
+     * jump-nav links for sections that are fully filtered out.
+     */
+    function setupSearch() {
+      const searchInput = document.getElementById('search-input');
+      const resultsCount = document.getElementById('search-results-count');
+
+      searchInput.addEventListener('input', () => {
+        const query = searchInput.value.trim().toLowerCase();
+        const index = window.__searchIndex || [];
+
+        if (query === '') {
+          index.forEach(({ cardEl, sectionEl }) => {
+            cardEl.classList.remove('hidden-by-search');
+            sectionEl.classList.remove('hidden-by-search');
+          });
+          document.querySelectorAll('.jump-nav-link').forEach(link => {
+            link.classList.remove('hidden-by-search');
+          });
+          resultsCount.textContent = '';
+          return;
+        }
+
+        let matchCount = 0;
+        const sectionsWithMatches = new Set();
+
+        index.forEach(({ cardEl, sectionEl, searchableText }) => {
+          const matches = searchableText.includes(query);
+          cardEl.classList.toggle('hidden-by-search', !matches);
+          if (matches) {
+            matchCount++;
+            sectionsWithMatches.add(sectionEl.id);
+          }
+        });
+
+        // Hide whole sections with no matches, and correspondingly grey
+        // out their jump-nav links, so browsing while searching doesn't
+        // show a wall of empty section headers or dead nav links.
+        document.querySelectorAll('#sections-container section').forEach(sectionEl => {
+          sectionEl.classList.toggle('hidden-by-search', !sectionsWithMatches.has(sectionEl.id));
+        });
+        document.querySelectorAll('.jump-nav-link').forEach(link => {
+          link.classList.toggle(
+            'hidden-by-search',
+            !sectionsWithMatches.has(link.dataset.sectionId)
+          );
+        });
+
+        resultsCount.textContent = matchCount === 0
+          ? 'No matches'
+          : `${matchCount} match${matchCount === 1 ? '' : 'es'}`;
+      });
+    }
+
+    function createCard(item, thumbnails) {
+      // Items with no primaryUrl (the zero-link case parser.gs allows for
+      // future-proofing) should render as a plain, non-clickable card
+      // rather than a broken link pointing at the literal string "null".
+      const hasLink = !!item.primaryUrl;
+      const card = document.createElement(hasLink ? 'a' : 'div');
+      card.className = 'card card-primary-link';
+      if (hasLink) {
+        card.href = item.primaryUrl;
+        card.target = '_blank';
+        card.rel = 'noopener noreferrer';
+      }
+
+      // Get thumbnail
+      const thumbnail = thumbnails[item.primaryUrl];
+      const thumbnailUrl = thumbnail ? thumbnail.image : 'assets/generic-thumbnail.svg';
+
+      // Build card HTML
+      let linksHtml = '';
+      if (item.links && item.links.length > 0) {
+        linksHtml = '<div class="card-links">' +
+          item.links.map(link => 
+            `<a class="card-link" href="${escapeHtml(link.url)}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation();">${escapeHtml(link.label)}</a>`
+          ).join('') +
+          '</div>';
+      }
+
+      const description = item.description ? `<p class="card-description">${escapeHtml(item.description)}</p>` : '';
+
+      card.innerHTML = `
+        <img class="card-thumbnail" src="${escapeHtml(thumbnailUrl)}" alt="${escapeHtml(item.title)}" onerror="this.src='assets/generic-thumbnail.svg'">
+        <div class="card-content">
+          <h3 class="card-title">${escapeHtml(item.title)}</h3>
+          ${description}
+          ${linksHtml}
+        </div>
+      `;
+
+      return card;
+    }
+
+    function escapeHtml(text) {
+      const map = {
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        '"': '&quot;',
+        "'": '&#039;'
+      };
+      return text.replace(/[&<>"']/g, m => map[m]);
+    }
+
+    // Load on page load
+    loadAndRender();
+    setupSearch();
+  </script>
 </body>
 </html>
