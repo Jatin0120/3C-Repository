@@ -1,0 +1,100 @@
+{
+  "_readme": "Editorial layer for the 3C Repository site: the cover story, reading path, picks and archive. data.json is synced from the shared doc and must never be hand-edited; topics, levels and the Fields/Rings/Roles views live in categories.json. Items here are referenced by their primaryUrl.",
+  "masthead": {
+    "name": "3C",
+    "fullName": "The 3C Repository",
+    "tagline": "A reader for computational chemistry, materials science, and the sciences that surround them.",
+    "intro": "A shared commonplace book kept by a small group of researchers: the lectures, papers, code and essays we keep sending each other. Start with the path below if you are new to the field, or wander the departments if you are not."
+  },
+  "lead": {
+    "url": "https://github.com/mrauha/compchem_start",
+    "kicker": "Cover story",
+    "headline": "So you want to do computational chemistry",
+    "dek": "The getting-started guide we wish we had on day one: which textbooks to read, how to live on an HPC cluster with SSH and SLURM, and the codes you will actually meet: ORCA, Gaussian, NWChem, GROMACS and RDKit."
+  },
+  "path": {
+    "kicker": "Start here",
+    "title": "From one electron to a million atoms",
+    "dek": "Nine stops, in order. Each one assumes only the stops before it.",
+    "steps": [
+      {
+        "url": "https://www.youtube.com/watch?v=pu4uL7deCNw",
+        "note": "Everything in this field is a walk on an energy landscape. Learn what minima, saddle points and transition states are before anything else."
+      },
+      {
+        "url": "https://youtu.be/uKxYdMODRSU?si=ny4j2YRvkOCkCrdq",
+        "note": "The simplest molecule there is. Bonding, antibonding and your first variational calculation, all on one proton pair and one electron."
+      },
+      {
+        "url": "https://youtu.be/WTz8nr1abwc?si=UIfOJNm8xiIfQuEe",
+        "note": "The self-consistent field loop at the heart of quantum chemistry: build the Fock matrix, solve, repeat until nothing changes."
+      },
+      {
+        "url": "https://adambaskerville.github.io/posts/HartreeFockGuide/",
+        "note": "Now write it yourself. Restricted Hartree-Fock from scratch, with the equations sitting right next to the code."
+      },
+      {
+        "url": "https://pythonnumericalmethods.studentorg.berkeley.edu/notebooks/Index.html",
+        "note": "Shore up the numerics: linear algebra, root finding, ODEs and interpolation, as runnable notebooks."
+      },
+      {
+        "url": "https://youtu.be/bnGXwRIPICQ?si=XWU0J8_E6asGXdm7",
+        "note": "Change scale. Molecular dynamics trades electrons for force fields so you can follow thousands of atoms through time."
+      },
+      {
+        "url": "https://computecanada.github.io/molmodsim-md-theory-lesson-novice/index.html",
+        "note": "The practical side of MD: integrators, ensembles, solvent models and periodic boundaries, and the mistakes everyone makes once."
+      },
+      {
+        "url": "https://dmol.pub/",
+        "note": "Where the field is heading. A free, code-first book on deep learning for molecules: graph networks, equivariance and generative models."
+      },
+      {
+        "url": "https://arxiv.org/abs/2503.09814v1",
+        "note": "Arrive at the frontier. Machine-learned interatomic potentials join quantum accuracy to MD speed; this review shows how to train and trust them."
+      }
+    ]
+  },
+  "picks": {
+    "kicker": "Editor's picks",
+    "title": "Worth an evening",
+    "items": [
+      {
+        "url": "https://github.com/microsoft/skala",
+        "note": "A neural exchange-correlation functional that aims for hybrid-level DFT accuracy without paying the hybrid-level cost."
+      },
+      {
+        "url": "https://distill.pub/2021/gnn-intro/",
+        "note": "The clearest interactive explanation of message passing on graphs. Read it before any paper on molecular GNNs."
+      },
+      {
+        "url": "https://roaldhoffmann.com/sites/default/files/fromd6/how_should_chemists_think.pdf",
+        "note": "Roald Hoffmann on intuition versus calculation. Short, and a corrective for anyone who lives inside a simulation."
+      },
+      {
+        "url": "https://github.com/microsoft/mattergen",
+        "note": "Diffusion models, but for crystals: propose stable inorganic structures conditioned on the properties you want."
+      },
+      {
+        "url": "https://valencelabs.substack.com/p/chasing-the-grail-a-history-of-binding",
+        "note": "How binding-affinity prediction went from docking to free-energy methods to ML, and why it is still the grail."
+      },
+      {
+        "url": "https://ciechanow.ski/",
+        "note": "Interactive explainers on mechanics, optics and machines. The best argument we know for how science should be shown."
+      }
+    ]
+  },
+  "archive": {
+    "kicker": "From the archive",
+    "title": "Primary sources",
+    "dek": "The founding documents, in the founders' own words.",
+    "items": [
+      "https://www.gutenberg.org/cache/epub/72787/pg72787-images.html",
+      "https://lorentz.leidenuniv.nl/history/spin/goudsmit.html",
+      "https://www.princeton.edu/~wbialek/rome/refs/shannon_51.pdf",
+      "https://groups.csail.mit.edu/medg/people/psz/Licklider.html",
+      "https://youtu.be/uY-u1qyRM5w?si=iJfNuatBY6W9ZVwC"
+    ]
+  }
+}

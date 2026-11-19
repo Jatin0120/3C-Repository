@@ -1,0 +1,1995 @@
+{
+  "_readme": "Subject and level for every doc entry, keyed by primaryUrl. Edit topic/level here; titles are only a reading aid and are not used by the site. Entries missing from this file are auto-suggested and shown as unreviewed.",
+  "topics": {
+    "QC": {
+      "name": "Quantum chemistry & DFT",
+      "blurb": "Hartree-Fock, density functionals, basis sets, spectroscopy."
+    },
+    "MD": {
+      "name": "Molecular dynamics & force fields",
+      "blurb": "Simulating atoms in motion: GROMACS, OpenMM, integrators, water models."
+    },
+    "SM": {
+      "name": "Statistical mechanics & complex systems",
+      "blurb": "Ensembles, entropy, phase transitions, percolation."
+    },
+    "MLM": {
+      "name": "ML for molecules & materials",
+      "blurb": "Interatomic potentials, generative materials, cheminformatics, datasets."
+    },
+    "MAT": {
+      "name": "Materials science",
+      "blurb": "Alloys, crystals, polymers, stability of solids."
+    },
+    "CHE": {
+      "name": "Chemical engineering & applied chemistry",
+      "blurb": "Process design, combustion, analytical chemistry, lithography."
+    },
+    "PRO": {
+      "name": "Protein structure & design",
+      "blurb": "AlphaFold, ESM, de novo design, structural biology."
+    },
+    "DRUG": {
+      "name": "Drug discovery & medicine",
+      "blurb": "Binding affinity, docking, organoids, vaccines."
+    },
+    "BIO": {
+      "name": "Cells & biophysics",
+      "blurb": "Gene circuits, stochastic simulation, how cells compute."
+    },
+    "NEURO": {
+      "name": "Neuroscience & the brain",
+      "blurb": "Neural circuits, predictive coding, optogenetics."
+    },
+    "NUM": {
+      "name": "Numerical methods",
+      "blurb": "Linear algebra, Fourier, Monte Carlo, scientific computing courses."
+    },
+    "PDE": {
+      "name": "Fluids & differential equations",
+      "blurb": "CFD, spectral methods, physics-informed networks."
+    },
+    "DLT": {
+      "name": "Deep learning theory & optimization",
+      "blurb": "Generalization, SGD, mean-field and statistical-physics views of learning."
+    },
+    "MLF": {
+      "name": "Machine learning foundations & models",
+      "blurb": "Transformers, diffusion, GNN primers, uncertainty, textbooks."
+    },
+    "MATH": {
+      "name": "Mathematics",
+      "blurb": "Proofs, number theory, geometry, AI and mathematics."
+    },
+    "CS": {
+      "name": "Computing & hardware",
+      "blurb": "Architecture, chips, shells, and the history of the machines."
+    },
+    "QM": {
+      "name": "Quantum mechanics & atomic physics",
+      "blurb": "Wavefunctions, hydrogen, spin, Zeeman, time-dependent QM."
+    },
+    "QCOMP": {
+      "name": "Quantum computing",
+      "blurb": "Rydberg atoms, Qiskit, Hamiltonian simulation."
+    },
+    "CMP": {
+      "name": "Condensed matter physics",
+      "blurb": "Magnetism, linear response, topology in solids."
+    },
+    "COSMO": {
+      "name": "Particles, nuclei & the cosmos",
+      "blurb": "Black holes, dark matter, quarks, superheavy elements."
+    },
+    "OPT": {
+      "name": "Optics & lasers",
+      "blurb": "Laser cooling, telescopes, lenses, Ti:sapphire."
+    },
+    "HIST": {
+      "name": "History & people of science",
+      "blurb": "Primary sources, biographies, Los Alamos."
+    },
+    "RES": {
+      "name": "How research works",
+      "blurb": "Reading lists, research craft, measuring progress."
+    },
+    "AI": {
+      "name": "AI, mind & the future",
+      "blurb": "Intelligence, consciousness, AI policy and safety."
+    },
+    "IND": {
+      "name": "Engineering, industry & energy",
+      "blurb": "Supply chains, factories, robots, propulsion."
+    },
+    "MISC": {
+      "name": "Curiosities",
+      "blurb": "Hard to file, worth keeping."
+    }
+  },
+  "levels": {
+    "I": {
+      "name": "Intro",
+      "blurb": "No background needed: explainers, popular talks, essays, first tutorials."
+    },
+    "C": {
+      "name": "Core",
+      "blurb": "Standard coursework: textbooks, courses, reference material, widely used tools."
+    },
+    "A": {
+      "name": "Advanced",
+      "blurb": "Research level: papers, preprints, specialist code and graduate seminars."
+    }
+  },
+  "views": {
+    "default": "fields",
+    "fields": {
+      "name": "Fields",
+      "desc": "Six wings named after disciplines, the way a university or a bookshop shelves things.",
+      "bestFor": "People who already know which field they want to browse.",
+      "groups": [
+        {
+          "id": "molecules-materials",
+          "name": "Molecules & Materials",
+          "desc": "Electrons to engineered materials: the heart of computational chemistry.",
+          "topics": [
+            "QC",
+            "MLM",
+            "MAT",
+            "MD",
+            "CHE",
+            "SM"
+          ]
+        },
+        {
+          "id": "maths-computing",
+          "name": "Maths & Computing",
+          "desc": "The mathematics and machinery underneath every simulation.",
+          "topics": [
+            "MATH",
+            "CS",
+            "PDE",
+            "NUM"
+          ]
+        },
+        {
+          "id": "machine-learning",
+          "name": "Machine Learning",
+          "desc": "How learning machines work, from first principles to research.",
+          "topics": [
+            "DLT",
+            "MLF"
+          ]
+        },
+        {
+          "id": "life-medicine",
+          "name": "Life & Medicine",
+          "desc": "Proteins, cells, brains and the search for new medicines.",
+          "topics": [
+            "BIO",
+            "DRUG",
+            "PRO",
+            "NEURO"
+          ]
+        },
+        {
+          "id": "physics",
+          "name": "Physics",
+          "desc": "From the hydrogen atom to black holes, plus quantum computers.",
+          "topics": [
+            "QM",
+            "COSMO",
+            "QCOMP",
+            "CMP",
+            "OPT"
+          ]
+        },
+        {
+          "id": "science-society",
+          "name": "Science & Society",
+          "desc": "The people, history and big questions around the science.",
+          "topics": [
+            "HIST",
+            "AI",
+            "RES",
+            "IND",
+            "MISC"
+          ]
+        }
+      ]
+    },
+    "rings": {
+      "name": "Rings around the core",
+      "desc": "Computational chemistry sits at the centre; everything else is arranged by how close it is to that core.",
+      "bestFor": "First-time visitors who want to know what 3C is about.",
+      "groups": [
+        {
+          "id": "core",
+          "name": "The core: computational chemistry & materials",
+          "desc": "What 3C exists for: quantum chemistry, simulation and materials.",
+          "topics": [
+            "QC",
+            "MD",
+            "MLM",
+            "MAT",
+            "CHE",
+            "SM"
+          ]
+        },
+        {
+          "id": "methods",
+          "name": "The methods it borrows",
+          "desc": "Maths, numerics and machine learning that the core runs on.",
+          "topics": [
+            "MATH",
+            "NUM",
+            "PDE",
+            "DLT",
+            "MLF",
+            "CS"
+          ]
+        },
+        {
+          "id": "neighbours",
+          "name": "Neighbouring sciences",
+          "desc": "Physics on one side, biology and medicine on the other.",
+          "topics": [
+            "QM",
+            "QCOMP",
+            "CMP",
+            "COSMO",
+            "OPT",
+            "PRO",
+            "DRUG",
+            "BIO",
+            "NEURO"
+          ]
+        },
+        {
+          "id": "wider",
+          "name": "The wider view",
+          "desc": "History, research culture and where it is all heading.",
+          "topics": [
+            "HIST",
+            "RES",
+            "AI",
+            "IND",
+            "MISC"
+          ]
+        }
+      ]
+    },
+    "roles": {
+      "name": "Roles",
+      "desc": "Grouped by the kind of knowledge: the theory, the tools, what they are used for, and the story around them.",
+      "bestFor": "Students working through a subject in order.",
+      "groups": [
+        {
+          "id": "foundations",
+          "name": "Foundations",
+          "desc": "The theory everything else stands on.",
+          "topics": [
+            "QM",
+            "SM",
+            "MATH",
+            "DLT",
+            "CMP",
+            "COSMO"
+          ]
+        },
+        {
+          "id": "methods-tools",
+          "name": "Methods & tools",
+          "desc": "Techniques, codes and libraries you can run.",
+          "topics": [
+            "QC",
+            "MD",
+            "NUM",
+            "PDE",
+            "MLF",
+            "MLM",
+            "CS"
+          ]
+        },
+        {
+          "id": "applications",
+          "name": "Applications",
+          "desc": "Where the methods meet real materials, molecules and machines.",
+          "topics": [
+            "MAT",
+            "CHE",
+            "PRO",
+            "DRUG",
+            "BIO",
+            "NEURO",
+            "IND",
+            "OPT",
+            "QCOMP"
+          ]
+        },
+        {
+          "id": "context",
+          "name": "Context",
+          "desc": "History, research craft and the big questions.",
+          "topics": [
+            "HIST",
+            "RES",
+            "AI",
+            "MISC"
+          ]
+        }
+      ]
+    }
+  },
+  "entries": {
+    "https://github.com/mrauha/compchem_start": {
+      "topic": "QC",
+      "level": "I",
+      "title": "Introduction to Computational Chemistry"
+    },
+    "https://github.com/DrZGan/Python_CFD": {
+      "topic": "PDE",
+      "level": "C",
+      "title": "Computational Fluid Dynamics"
+    },
+    "https://computecanada.github.io/molmodsim-md-theory-lesson-novice/09-water_models/index.html": {
+      "topic": "MD",
+      "level": "C",
+      "title": "Water Models"
+    },
+    "https://github.com/bencbartlett/neural-maxwell": {
+      "topic": "PDE",
+      "level": "A",
+      "title": "Generative model for computing EM field solutions"
+    },
+    "https://msehabibur.github.io/blog": {
+      "topic": "MAT",
+      "level": "C",
+      "title": "Interactive Materials Science"
+    },
+    "https://github.com/pmocz/navier-stokes-spectral-python": {
+      "topic": "PDE",
+      "level": "C",
+      "title": "Navier-Stokes Spectral method simulation"
+    },
+    "https://gitlab.com/cbp-unitn/qcb19-20/-/tree/master/QCB?ref_type=heads": {
+      "topic": "MD",
+      "level": "C",
+      "title": "QCB Group"
+    },
+    "https://github.com/enjalot/algovis": {
+      "topic": "CS",
+      "level": "I",
+      "title": "Ian Johnson’s repository"
+    },
+    "https://github.com/tum-pbs/PhiFlow": {
+      "topic": "PDE",
+      "level": "A",
+      "title": "PhiFlow"
+    },
+    "https://qiskit-community.github.io/qiskit-nature/tutorials/index.html": {
+      "topic": "QCOMP",
+      "level": "C",
+      "title": "Qiskit Nature Tutorials"
+    },
+    "https://github.com/WanyuGroup/AI-for-Crystal-Materials": {
+      "topic": "MLM",
+      "level": "A",
+      "title": "AI for Crystal materials"
+    },
+    "https://github.com/rusty1s/deep-learning-cheatsheet": {
+      "topic": "MLF",
+      "level": "I",
+      "title": "ML-DL cheatsheet and visualisation"
+    },
+    "https://github.com/microsoft/mattergen": {
+      "topic": "MLM",
+      "level": "A",
+      "title": "MatterGen"
+    },
+    "https://github.com/rezaakb/pinns-torch": {
+      "topic": "PDE",
+      "level": "C",
+      "title": "PINN"
+    },
+    "https://github.com/NeuroDiffGym/neurodiffeq": {
+      "topic": "PDE",
+      "level": "C",
+      "title": "NeuroDiffGym"
+    },
+    "https://github.com/pasqal-io/qex": {
+      "topic": "QCOMP",
+      "level": "A",
+      "title": "Quantum-Enhanced DFT in JAX"
+    },
+    "https://github.com/slimeslab/ComProScanner": {
+      "topic": "MLM",
+      "level": "A",
+      "title": "ComProScanner"
+    },
+    "https://github.com/brian-hepler-phd/hamiltonian-simulation-tfim-trotter": {
+      "topic": "QCOMP",
+      "level": "C",
+      "title": "Hamiltonian Simulation: Transverse-Field Ising Model (TFIM) via Trotterization"
+    },
+    "https://algebrica.org/": {
+      "topic": "MATH",
+      "level": "I",
+      "title": "Algebrica"
+    },
+    "https://github.com/microsoft/skala": {
+      "topic": "QC",
+      "level": "A",
+      "title": "SKALA"
+    },
+    "https://github.com/Mayuri3498/Molecular-Dynamics-Simulation---Protein-in-Water": {
+      "topic": "MD",
+      "level": "C",
+      "title": "Molecular Dynamics Simulation: Protein-in-Water"
+    },
+    "https://github.com/blaiszik/awesome-matchem-datasets": {
+      "topic": "MLM",
+      "level": "C",
+      "title": "MatChem Datasets"
+    },
+    "https://github.com/ali1810/chempredict": {
+      "topic": "MLM",
+      "level": "C",
+      "title": "ChemPredict — AI for Chemistry"
+    },
+    "https://github.com/mlipstudio/MLIP-Studio": {
+      "topic": "MLM",
+      "level": "A",
+      "title": "MLIP Studio"
+    },
+    "https://github.com/SouravMal/mCGCNN": {
+      "topic": "MLM",
+      "level": "A",
+      "title": "mCGCNN"
+    },
+    "https://github.com/levakrasnovs/metal2d": {
+      "topic": "MLM",
+      "level": "C",
+      "title": "metal2D"
+    },
+    "https://github.com/Biohub/esm": {
+      "topic": "PRO",
+      "level": "A",
+      "title": "ESM"
+    },
+    "https://github.com/google-deepmind/alphaprotein-novo": {
+      "topic": "PRO",
+      "level": "A",
+      "title": "AlphaProtein Novo"
+    },
+    "https://github.com/daveyburke/picofold": {
+      "topic": "PRO",
+      "level": "C",
+      "title": "PicoFold"
+    },
+    "https://github.com/openai/math": {
+      "topic": "MATH",
+      "level": "A",
+      "title": "Open AI Math"
+    },
+    "https://www.youtube.com/watch?v=pu4uL7deCNw": {
+      "topic": "QC",
+      "level": "I",
+      "title": "Potential Energy Surface"
+    },
+    "https://youtu.be/uKxYdMODRSU?si=ny4j2YRvkOCkCrdq": {
+      "topic": "QC",
+      "level": "C",
+      "title": "The Hydrogen Molecule Ion"
+    },
+    "https://youtu.be/E9_kyXjtRHc?si=hwDPxTUFtZjlaVje": {
+      "topic": "PDE",
+      "level": "C",
+      "title": "The Finite Volume Method in CFD"
+    },
+    "https://youtu.be/WTz8nr1abwc?si=UIfOJNm8xiIfQuEe": {
+      "topic": "QC",
+      "level": "C",
+      "title": "The Hatree-Fock Algorithm"
+    },
+    "https://nptel.ac.in/courses/103101568": {
+      "topic": "QC",
+      "level": "C",
+      "title": "Computational Quantum Chemistry Course"
+    },
+    "https://youtu.be/bnGXwRIPICQ?si=XWU0J8_E6asGXdm7": {
+      "topic": "MD",
+      "level": "I",
+      "title": "Molecular Dynamics: Basics"
+    },
+    "https://youtu.be/hHIm4BvyUq8?si=GPRvc3bdYthh1eTF": {
+      "topic": "QC",
+      "level": "A",
+      "title": "SCAN functional (Prof. Jianwei Sun)"
+    },
+    "https://youtu.be/DvRzdCnsiYw?si=XA7MWr6-i_zt_k9a": {
+      "topic": "QM",
+      "level": "C",
+      "title": "Hydrogen atom wavefunctions"
+    },
+    "https://youtu.be/Ks1pw1X22y4?si=gdwu0Lkr9GQ0tsmN": {
+      "topic": "NUM",
+      "level": "I",
+      "title": "Random Numbers with LFSR"
+    },
+    "https://youtu.be/Z_VomhU7XH8?si=_ka7C6wD9eu6MNO_": {
+      "topic": "NUM",
+      "level": "C",
+      "title": "Sampling and Integration"
+    },
+    "https://youtu.be/5Di01Cpen_o?si=hzErsC-NkoRIUSkw": {
+      "topic": "NUM",
+      "level": "I",
+      "title": "Fourier Transform"
+    },
+    "https://youtu.be/mRo-NUGYZ9w?si=a0pEXTvqEsigFP6R": {
+      "topic": "NUM",
+      "level": "C",
+      "title": "Harvard AM 205: graduate-level course on scientific computing and numerical methods"
+    },
+    "https://youtu.be/xMAJc1zwyrs?si=nTQ9Gn51bR3NjL8S": {
+      "topic": "OPT",
+      "level": "I",
+      "title": "Freezing atoms with Lasers"
+    },
+    "https://youtu.be/KYX4cEG-Zag?si=uSpaUC77pDvnolUj": {
+      "topic": "QM",
+      "level": "C",
+      "title": "Physics Engine to simulate the TDSE"
+    },
+    "https://youtu.be/Dn0ZZRVuJcU?si=1rpFLxh407bk4zAS": {
+      "topic": "MATH",
+      "level": "I",
+      "title": "The meaning of Metric Tensor"
+    },
+    "https://youtu.be/Qgd3OK5DZWI?si=n8gAbWinvSR4Z9sI": {
+      "topic": "AI",
+      "level": "C",
+      "title": "A systems neuroscience approach to building AGI"
+    },
+    "https://www.youtube.com/watch?v=Bwvd3Qt3coY": {
+      "topic": "DLT",
+      "level": "A",
+      "title": "Optimal Learning Protocols Via Statistical Physics and Control Theory"
+    },
+    "https://www.youtube.com/live/_fF6z1wMhCI?si=bt3h_N0aMxYj3NjG": {
+      "topic": "DLT",
+      "level": "A",
+      "title": "The Mathematics of LLM models by Andrea Montanari (Stanford University, USA)"
+    },
+    "https://youtu.be/lfoxGYzdI0s?si=fVw-giEuUh7apF9M": {
+      "topic": "QCOMP",
+      "level": "C",
+      "title": "Neutral Atom Computers: The Physics of Rydberg Quantum Gates"
+    },
+    "https://youtu.be/JoO0qP1d4Do?si=RcyOn1zJeVRLIR1t": {
+      "topic": "NUM",
+      "level": "I",
+      "title": "QR Decomposition"
+    },
+    "https://www.youtube.com/watch?v=Pn4ZwlEh5nw": {
+      "topic": "CS",
+      "level": "I",
+      "title": "Computer Architecture, Processors, and more with David Patterson"
+    },
+    "https://www.youtube.com/watch?v=YbGjrfvzj90": {
+      "topic": "PRO",
+      "level": "C",
+      "title": "ML Workshop by David Baker"
+    },
+    "https://youtu.be/UYOGzk6oEO4": {
+      "topic": "PRO",
+      "level": "I",
+      "title": "AI Biodesign"
+    },
+    "https://youtu.be/PmHCP_sLbGM": {
+      "topic": "DLT",
+      "level": "C",
+      "title": "The Geometry of NNs"
+    },
+    "https://arxiv.org/abs/2407.15808": {
+      "topic": "QCOMP",
+      "level": "A",
+      "title": "Quantum Computing for Phonon Scattering Effects on Thermal Conductivity"
+    },
+    "https://arxiv.org/abs/2503.09814v1": {
+      "topic": "MLM",
+      "level": "C",
+      "title": "A practical guide to machine learning interatomic potentials -- Status and future"
+    },
+    "https://archive.computerhistory.org/resources/access/text/2020/05/102790971/Ritchie_dissertation.pdf": {
+      "topic": "HIST",
+      "level": "A",
+      "title": "Program Structure & Computational Complexity"
+    },
+    "https://www.pnas.org/doi/epdf/10.1073/pnas.2509612123": {
+      "topic": "MATH",
+      "level": "A",
+      "title": "Resolving Feynman’s restaurant problem reveals optimal solutions and human strategies"
+    },
+    "https://arxiv.org/abs/2606.00065": {
+      "topic": "MLM",
+      "level": "A",
+      "title": "Beyond Text and Tables: Vision-Language Model Integration in ComProScanner for Extracting Materials Data from Scientific Figures with High Accuracy"
+    },
+    "https://arxiv.org/abs/2112.10852": {
+      "topic": "DLT",
+      "level": "A",
+      "title": "The effective noise of Stochastic Gradient Descent"
+    },
+    "https://iopscience.iop.org/article/10.1088/1742-5468/ade137/pdf": {
+      "topic": "DLT",
+      "level": "A",
+      "title": "A phase transition between positional and semantic learning in a solvable model of dot product attention"
+    },
+    "https://arxiv.org/abs/1812.10004": {
+      "topic": "DLT",
+      "level": "A",
+      "title": "Overparameterized Nonlinear Learning: Gradient Descent Takes the Shortest Path?"
+    },
+    "https://arxiv.org/abs/2106.10165": {
+      "topic": "DLT",
+      "level": "A",
+      "title": "The principles of Deep Learning theory"
+    },
+    "https://drive.google.com/file/d/1Nlzrr7WGl0YjjMeqif7lUg5uBXvBdWcq/view?usp=drive_link": {
+      "topic": "QC",
+      "level": "A",
+      "title": "Electronic spectra of (H2S)n+(n = 2 – 6) and [(H2S)2– (H2O)m]+ (m = 1 – 2) in the gas phase"
+    },
+    "https://arxiv.org/abs/2508.01068": {
+      "topic": "MD",
+      "level": "A",
+      "title": "Learning the action for long-time-step simulations of molecular dynamics"
+    },
+    "https://arxiv.org/abs/2606.32005": {
+      "topic": "DLT",
+      "level": "A",
+      "title": "Random Reshuffling Dominates Stochastic Gradient Descent"
+    },
+    "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2026-56chp/v2": {
+      "topic": "QC",
+      "level": "A",
+      "title": "Self-Consistent DFT+U for CO Adsorption on Transition Metal Surfaces: A Practical Correction and Benchmark"
+    },
+    "https://arxiv.org/abs/2501.15699": {
+      "topic": "QC",
+      "level": "A",
+      "title": "Chemical bonding concepts emerge naturally from maximally entangled atomic orbitals"
+    },
+    "https://drive.google.com/file/d/1SsOMLnFN3xkei6j3CSDXdw_mHKImsG41/view?usp=drive_link": {
+      "topic": "SM",
+      "level": "A",
+      "title": "Machine-learning iterative calculation of entropy for physical systems"
+    },
+    "https://link.springer.com/article/10.1007/s10853-022-06915-4": {
+      "topic": "MAT",
+      "level": "A",
+      "title": "Review of computational approaches to predict the thermodynamic stability of inorganic solids"
+    },
+    "https://arxiv.org/abs/2305.01582": {
+      "topic": "MLF",
+      "level": "A",
+      "title": "Interpretable Machine Learning for Science with PySR and"
+    },
+    "https://web.archive.org/web/20190523190103/http://eaps4.mit.edu/research/Lorenz/The_Statistical_Prediction_of_Solutions_1962.pdf": {
+      "topic": "MATH",
+      "level": "A",
+      "title": "The Statistical Prediction of Solutions of Dynamic Equations"
+    },
+    "https://aocs.onlinelibrary.wiley.com/doi/10.1002/sfp2.70009": {
+      "topic": "BIO",
+      "level": "A",
+      "title": "Decoding the Taste of Peptides: Structure, Interactions With Taste Receptors, Bioactivities, and Applications"
+    },
+    "https://pubs.acs.org/jacsat/article/148/35/38153/5348920/Biphasic-Solar-Reforming-of-Lignin-to-Aromatics": {
+      "topic": "CHE",
+      "level": "A",
+      "title": "Biphasic Solar Reforming of Lignin to Aromatics and CO for In Situ Carbonylation of Organics"
+    },
+    "https://pubs.rsc.org/sc/article/doi/10.1039/d6sc04941a/1356737/Accessible-hybrid-DFT-quality-NMR-crystallography": {
+      "topic": "MLM",
+      "level": "A",
+      "title": "Accessible hybrid DFT-quality NMR crystallography via gas-phase machine learning interatomic potentials"
+    },
+    "https://arxiv.org/pdf/2208.10230": {
+      "topic": "DRUG",
+      "level": "A",
+      "title": "From Static to Dynamic Structures: Improving Binding Affinity Prediction with Graph-Based Deep Learning"
+    },
+    "https://arxiv.org/pdf/2603.18387": {
+      "topic": "DLT",
+      "level": "C",
+      "title": "Mathematical Foundations of Deep Learning: Theory & Algorithms"
+    },
+    "https://www.biorxiv.org/content/10.64898/2026.08.26.747321v1.full.pdf": {
+      "topic": "PRO",
+      "level": "A",
+      "title": "PathFold: Predicting the Entire Protein Folding Pathway from Protein Sequence Alone"
+    },
+    "https://arxiv.org/pdf/2609.00488": {
+      "topic": "MLM",
+      "level": "A",
+      "title": "AdaptNTK: Adaptive Uncertainty Quantification and Active Learning for Neural Network Potentials"
+    },
+    "https://ocw.mit.edu/courses/3-320-atomistic-computer-modeling-of-materials-sma-5107-spring-2005/": {
+      "topic": "MAT",
+      "level": "C",
+      "title": "Atomistic Computer Modelling of Materials"
+    },
+    "https://docs.google.com/document/d/1zKxHxnq4-u5cXJlEWjXYF_tDZP6yLbtqPVU9x-pRXHg/edit?usp=sharing": {
+      "topic": "PDE",
+      "level": "C",
+      "title": "Teaching Notes"
+    },
+    "https://www.hlevkin.com/hlevkin/90MathPhysBioBooks/Physics/Physics/Heizenberg/2015.166273.The-Physical-Principles-Of-The-Quantum-Theory.pdf": {
+      "topic": "QM",
+      "level": "C",
+      "title": "The Physical Principles of Quantum Theory"
+    },
+    "https://qc2-teaching.readthedocs.io/en/latest/": {
+      "topic": "QC",
+      "level": "A",
+      "title": "Advanced Quantum Chemistry Methods"
+    },
+    "https://av.tib.eu/media/18904": {
+      "topic": "QC",
+      "level": "C",
+      "title": "Optimising H2+ Molecular Orbital"
+    },
+    "https://pythonnumericalmethods.studentorg.berkeley.edu/notebooks/Index.html": {
+      "topic": "NUM",
+      "level": "I",
+      "title": "Python Programming and Numerical Methods"
+    },
+    "https://www.gutenberg.org/cache/epub/72787/pg72787-images.html": {
+      "topic": "HIST",
+      "level": "C",
+      "title": "On the constitution of atoms and molecules"
+    },
+    "http://be150.caltech.edu/2020/content/lessons/12_stochastic_simulation.html": {
+      "topic": "BIO",
+      "level": "C",
+      "title": "Stochastic simulation of biological circuits"
+    },
+    "https://www.rpgroup.caltech.edu/aph161/assets/tut/t3/t03_stochastic_simulations.html": {
+      "topic": "BIO",
+      "level": "C",
+      "title": "Stochastic simulation"
+    },
+    "https://drive.google.com/drive/folders/1QvbA0hTVk68PrelvkASSU63WvDPs3PnU?usp=drive_link": {
+      "topic": "QC",
+      "level": "C",
+      "title": "3C directory"
+    },
+    "https://jacob-votava.github.io/ml4chemphys": {
+      "topic": "MLM",
+      "level": "C",
+      "title": "ML in Chemical Physics"
+    },
+    "https://web.stanford.edu/~peastman/statmech/index.html": {
+      "topic": "SM",
+      "level": "C",
+      "title": "Introduction to Statistical Mechanics"
+    },
+    "https://www.roma1.infn.it/~sciortif/didattica/SIMATOM/SIMATOM/inizio-MD.pdf": {
+      "topic": "MD",
+      "level": "C",
+      "title": "Numerical Integrators"
+    },
+    "https://www.physics.rutgers.edu/grad/621/lectures/L14_LinearResponse.pdf": {
+      "topic": "CMP",
+      "level": "A",
+      "title": "Linear Response theory"
+    },
+    "https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Time_Dependent_Quantum_Mechanics_and_Spectroscopy_2014e_(Tokmakoff)": {
+      "topic": "QM",
+      "level": "C",
+      "title": "TD Quantum Mechanics & Spectroscopy"
+    },
+    "https://www.cs.toronto.edu/~rjliao/notes/Notes_on_Rademacher_Complexity.pdf": {
+      "topic": "DLT",
+      "level": "C",
+      "title": "Notes on Rademacher Complexity"
+    },
+    "https://misiakie.github.io/publications/Misiakiewicz_MeanFieldNNs_Simons.pdf": {
+      "topic": "DLT",
+      "level": "A",
+      "title": "Mean Field Theory of Two-layers NN"
+    },
+    "https://rodrigopacios.github.io/mrpacios/download/Thomas_Calculus.pdf": {
+      "topic": "MATH",
+      "level": "C",
+      "title": "Calculus Early Transcendentals"
+    },
+    "https://www.rexresearch1.com/BohrPhysics/Atomic%20TheorYDescription%20Of%20NatureBohr.pdf": {
+      "topic": "HIST",
+      "level": "C",
+      "title": "Atomic Theory and the Description of Nature by N. Bohr"
+    },
+    "https://www.scotchem.ac.uk/pldc/": {
+      "topic": "DRUG",
+      "level": "C",
+      "title": "ScotChem protein-ligand docking course"
+    },
+    "https://drive.google.com/file/d/1wGkx5pfuqTz7sxz-F_9yeLc_37U-k54o/view?usp=drive_link": {
+      "topic": "CHE",
+      "level": "C",
+      "title": "Computational Methods in Chemical Engineering"
+    },
+    "https://d2l.ai/index.html": {
+      "topic": "MLF",
+      "level": "I",
+      "title": "Dive Into Deep Learning"
+    },
+    "https://quantummechanics.ucsd.edu/ph130a/130_notes/node1.html": {
+      "topic": "QM",
+      "level": "C",
+      "title": "Quantum Physics Course"
+    },
+    "https://deprincelab.github.io/tutorials/jupyter_notebooks/variation/variation.html": {
+      "topic": "QM",
+      "level": "I",
+      "title": "Jupyter Notebook Tutorials: Introduction to Quantum Mechanics"
+    },
+    "https://dl.konkur.in/2025/03/Analytical-Chemistry2021-%5Bwww.konkur.in%5D.pdf": {
+      "topic": "CHE",
+      "level": "C",
+      "title": "Fundamentals of Analytical Chemistry"
+    },
+    "https://archive.org/details/mechanicsoftheat029637mbp": {
+      "topic": "HIST",
+      "level": "C",
+      "title": "The Mechanics of the Atom"
+    },
+    "https://archive.org/details/0244-pdf-atomic-structure-and-spectral-lines-arnold-sommerfeld-2": {
+      "topic": "HIST",
+      "level": "C",
+      "title": "Atomic Structure And Spectral Lines"
+    },
+    "https://elmoukrie.com/wp-content/uploads/2022/06/chemical-engineering-design-principles-practice-and-economics-of-plant-and-process-design-gavin-towler-ray-sinnott-3edition.pdf": {
+      "topic": "CHE",
+      "level": "C",
+      "title": "Chemical Engineering Design"
+    },
+    "https://nirmt.com/storage/uploads/E-BOOK_BE-CHEMICAL/Introduction%20to%20Numerical%20Methods%20in%20Chemical%20Engineering.pdf": {
+      "topic": "CHE",
+      "level": "C",
+      "title": "Introduction to Numerical Methods in Chemical Engineering"
+    },
+    "https://deep-learning-alchemy.github.io/": {
+      "topic": "DLT",
+      "level": "C",
+      "title": "Deep Learning Alchemy"
+    },
+    "https://dmol.pub/": {
+      "topic": "MLM",
+      "level": "C",
+      "title": "Deep Learning for Materials & Molecules"
+    },
+    "https://computecanada.github.io/molmodsim-md-theory-lesson-novice/index.html": {
+      "topic": "MD",
+      "level": "I",
+      "title": "Practical considerations for Molecular Dynamics"
+    },
+    "http://staff.ustc.edu.cn/~zqj/": {
+      "topic": "QC",
+      "level": "C",
+      "title": "Qijing Zheng posts on relevant concepts"
+    },
+    "https://karpathy.github.io/2022/03/14/lecun1989/": {
+      "topic": "MLF",
+      "level": "I",
+      "title": "Deep Neural Nets: 33 years ago and 33 years from now"
+    },
+    "https://joshuagoings.com/2013/08/23/davidsons-method/": {
+      "topic": "QC",
+      "level": "C",
+      "title": "Davidsons-method"
+    },
+    "https://www.wolframcloud.com/obj/microsites/summerschool/projects.html": {
+      "topic": "RES",
+      "level": "I",
+      "title": "Wolfram Summer School Projects"
+    },
+    "https://aritraroy.live/tutorial/blogs/2020/introduction-to-pes-and-saddle-point/": {
+      "topic": "QC",
+      "level": "I",
+      "title": "Introduction To Computational Chemistry Calculations: PES and Saddle Point"
+    },
+    "https://demonstrations.wolfram.com/PolarizabilityOfHydrogenAtom/": {
+      "topic": "QM",
+      "level": "I",
+      "title": "Polarizability of Hydrogen Atom"
+    },
+    "https://openmm.github.io/openmm-cookbook/latest/index.html": {
+      "topic": "MD",
+      "level": "C",
+      "title": "The OpenMM Cookbook & Tutorials"
+    },
+    "https://pennylane.ai/demos/tutorial_neutral_atoms": {
+      "topic": "QCOMP",
+      "level": "C",
+      "title": "Neutral-atom quantum computers"
+    },
+    "https://adambaskerville.github.io/posts/HartreeFockGuide/": {
+      "topic": "QC",
+      "level": "C",
+      "title": "HF Theory in 100 lines"
+    },
+    "https://kamounlab.medium.com/fold-on-tight-10-lessons-on-ai-structure-prediction-f231cf882585": {
+      "topic": "PRO",
+      "level": "I",
+      "title": "Fold on Tight - 10 lessons on AI structure prediction"
+    },
+    "https://molssi-ai.github.io/e3nn-course/book/intro.html": {
+      "topic": "MLM",
+      "level": "C",
+      "title": "Equivariant Graph Neural Networks with e3nn"
+    },
+    "https://cbe.osu.edu/sites/default/files/uploads/unsolved_problems_high.pdf": {
+      "topic": "CHE",
+      "level": "I",
+      "title": "Unsolved Problems in Chemical Engineering"
+    },
+    "https://folding.baulab.info/": {
+      "topic": "PRO",
+      "level": "A",
+      "title": "Two Stages of Folding: Convergent Mechanisms in AI Protein Folding Trunks"
+    },
+    "https://brehm-research.de/orcamd.php": {
+      "topic": "MD",
+      "level": "A",
+      "title": "ORCA MD Module"
+    },
+    "https://physics.stackexchange.com/questions/620877/how-does-the-approximate-energy-relate-with-the-trial-function-in-variational-me": {
+      "topic": "QM",
+      "level": "C",
+      "title": "How does the approximate energy relate with the trial function in variational method?"
+    },
+    "https://vovchenko.net/computational-physics/intro.html": {
+      "topic": "NUM",
+      "level": "C",
+      "title": "Computational Physics"
+    },
+    "https://elmoukrie.com/wp-content/uploads/2022/06/ullmanns-chemical-engineering-and-plant-design-wiley-vch-2005.pdf": {
+      "topic": "CHE",
+      "level": "C",
+      "title": "Ullmann’s Chemical Engineering & Plant Design"
+    },
+    "https://www.quantamagazine.org/tag/condensed-matter-physics/": {
+      "topic": "CMP",
+      "level": "I",
+      "title": "Condensed matter physics"
+    },
+    "https://research.uni-leipzig.de/sum/files/magtheory-slides-2.pdf": {
+      "topic": "CMP",
+      "level": "A",
+      "title": "Exchange Interaction"
+    },
+    "https://www.lite.bio/research/litemol1": {
+      "topic": "DRUG",
+      "level": "A",
+      "title": "LiteMol1 ー A Multi Molecule Foundation Diffusion Language Model for Agents"
+    },
+    "https://pablito-playground.readthedocs.io/en/latest/tutorials/qmmm_amber_cpmd/RESP_charges.html": {
+      "topic": "MD",
+      "level": "C",
+      "title": "Generate RESP charges with Gaussian"
+    },
+    "https://lorentz.leidenuniv.nl/history/spin/goudsmit.html": {
+      "topic": "HIST",
+      "level": "I",
+      "title": "The discovery of the electron spin"
+    },
+    "https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/": {
+      "topic": "NUM",
+      "level": "I",
+      "title": "An interactive guide to the Fourier Transform"
+    },
+    "https://tensorcookbook.com/": {
+      "topic": "MATH",
+      "level": "C",
+      "title": "The Tensor Cookbook"
+    },
+    "https://web1.eng.famu.fsu.edu/~dommelen/quantum/style_a/index.html": {
+      "topic": "QM",
+      "level": "C",
+      "title": "Quantum Mechanics for Engineers"
+    },
+    "https://archive.org/details/AMasterfulSpirit-HomiJ.Bhabha": {
+      "topic": "HIST",
+      "level": "I",
+      "title": "A Masterful Spirit ー Homi J. Bhabha"
+    },
+    "https://personal.ems.psu.edu/~fkd/courses/EGEE520/2017Deliverables/SPH_2017.pdf": {
+      "topic": "PDE",
+      "level": "C",
+      "title": "Smooth Particle Hydrodynamics"
+    },
+    "https://lilianweng.github.io/posts/2019-03-14-overfit/": {
+      "topic": "DLT",
+      "level": "I",
+      "title": "Are Deep Neural Networks Dramatically Overfitted?"
+    },
+    "https://distill.pub/2021/gnn-intro/": {
+      "topic": "MLF",
+      "level": "I",
+      "title": "A Gentle Introduction to Graph NN"
+    },
+    "https://www.ebi.ac.uk/training/online/courses/alphafold/alphafold-3-and-alphafold-server/introducing-alphafold-3/what-alphafold-3-struggles-with/": {
+      "topic": "PRO",
+      "level": "I",
+      "title": "What AlphaFold 3 struggles with"
+    },
+    "https://xxl12.github.io/from_math_to_ml/": {
+      "topic": "MATH",
+      "level": "I",
+      "title": "Mathematical Pathways to Machine Learning"
+    },
+    "https://en.wikipedia.org/wiki/Predictive_coding": {
+      "topic": "NEURO",
+      "level": "I",
+      "title": "Predictive coding"
+    },
+    "https://phys.org/news/2026-05-thermodynamic-laws-ai-polymer.html": {
+      "topic": "MAT",
+      "level": "I",
+      "title": "Teaching thermodynamic laws to AI unlocks a polymer modeling challenge"
+    },
+    "https://www.quantamagazine.org/stunning-percolation-proof-solves-decades-old-puzzle-about-phase-transitions-20260831/": {
+      "topic": "SM",
+      "level": "I",
+      "title": "Stunning Percolation Proof Solves Decades-Old Puzzle About Phase Transitions"
+    },
+    "https://sites.google.com/view/smcb2021/seminar-series": {
+      "topic": "SM",
+      "level": "A",
+      "title": "SMCB ー Seminar Series"
+    },
+    "https://pyfock.bragitoff.com/": {
+      "topic": "QC",
+      "level": "A",
+      "title": "PyFock"
+    },
+    "https://www.kaggle.com/code/ducktape07/skala-pyfock-vs-pyscf": {
+      "topic": "QC",
+      "level": "A",
+      "title": "Skala integration with PyFock"
+    },
+    "https://www.marcelswart.eu/": {
+      "topic": "QC",
+      "level": "A",
+      "title": "Swart Lab ー Theoretical Chemistry"
+    },
+    "https://writings.stephenwolfram.com/2023/02/a-50-year-quest-my-personal-journey-with-the-second-law-of-thermodynamics/#computational-irreducibility-and-rule-30": {
+      "topic": "SM",
+      "level": "I",
+      "title": "A 50-Year Quest: My Personal Journey with the Second Law of Thermodynamics by Stephen Wolfram"
+    },
+    "https://www.cond-mat.de/events/correl20/talks/resta.pdf": {
+      "topic": "CMP",
+      "level": "A",
+      "title": "Geometry and Topology in many-body physics"
+    },
+    "https://www.anthropic.com/research/making-claude-a-chemist": {
+      "topic": "MLM",
+      "level": "I",
+      "title": "Making Claude a Chemist"
+    },
+    "https://www.stat.cmu.edu/~larry/=sml/Opt.pdf": {
+      "topic": "MATH",
+      "level": "C",
+      "title": "Optimal Transport and Wasserstein Distance"
+    },
+    "https://automotivepapers.com/2024/04/11/a-brief-review-about-beryllium-copper-alloys-and-their-formula-one-applications/": {
+      "topic": "MAT",
+      "level": "I",
+      "title": "A brief review about beryllium-copper alloys and their Formula One applications"
+    },
+    "https://autochemy.xyz/": {
+      "topic": "QC",
+      "level": "C",
+      "title": "AutoChemy"
+    },
+    "https://sethna.lassp.cornell.edu/Sloppy/": {
+      "topic": "SM",
+      "level": "A",
+      "title": "Sloppy Models"
+    },
+    "https://tensorlab.cms.caltech.edu/users/anima/ks_fno.html": {
+      "topic": "QC",
+      "level": "A",
+      "title": "Linear-Scaling Density Functional Theory with Neural Operators"
+    },
+    "https://sander.ai/2026/05/06/flow-maps.html": {
+      "topic": "MLF",
+      "level": "A",
+      "title": "Learning the integral of a diffusion model"
+    },
+    "https://sander.ai/2023/07/20/perspectives.html": {
+      "topic": "MLF",
+      "level": "C",
+      "title": "Perspectives on diffusion"
+    },
+    "https://www.deeplearning4astro.com/": {
+      "topic": "COSMO",
+      "level": "C",
+      "title": "Deep Learning for Astrophysics"
+    },
+    "https://windowsontheory.org/2021/08/11/replica-method-for-the-machine-learning-theorist-part-1-of-2/": {
+      "topic": "DLT",
+      "level": "A",
+      "title": "Replica Method for the Machine Learning Theorist"
+    },
+    "https://pub.sakana.ai/pc-alm/": {
+      "topic": "MLF",
+      "level": "A",
+      "title": "Augmented Lagrangian Predictive Coding"
+    },
+    "https://www.lakernewhouse.com/writing/muon-1": {
+      "topic": "DLT",
+      "level": "C",
+      "title": "Understanding Muon (MomentUm Orthogonalized by Newton-Schulz)"
+    },
+    "https://aalok.uk/projects/lietheory/": {
+      "topic": "MATH",
+      "level": "I",
+      "title": "Lie Theory: A Visual Introduction without the Maths"
+    },
+    "https://mmaaz.ca/writings/exactnn.html": {
+      "topic": "DLT",
+      "level": "A",
+      "title": "Exact training of a neural network"
+    },
+    "https://drscotthawley.github.io/blog/posts/2017-05-04-Learning-Room-Shapes.html": {
+      "topic": "MLF",
+      "level": "C",
+      "title": "Learning Room Shapes with Neural Networks"
+    },
+    "https://francisbach.com/non-convex-quadratic-problems/": {
+      "topic": "DLT",
+      "level": "A",
+      "title": "ML Research Blog ー Non-convex quadratic optimization problems"
+    },
+    "https://francisbach.com/spectral_log_density_estimation/": {
+      "topic": "DLT",
+      "level": "A",
+      "title": "ML Research Blog ー Exploding variance of means of exponentials: least-squares to the rescue"
+    },
+    "https://www.onurtunali.com/ml/2019/02/01/empirical-rademacher-complexity-and-its-implications-to-deep-learning.html#widehatrad_nmathcalh-code-practice": {
+      "topic": "DLT",
+      "level": "C",
+      "title": "Empirical Rademacher Complexity and Its Implications to Deep Learning"
+    },
+    "https://jalammar.github.io/illustrated-transformer/": {
+      "topic": "MLF",
+      "level": "I",
+      "title": "The Illustrated Transformer"
+    },
+    "http://phys.iit.edu/~segre/phys406/21S/modules_05.pdf": {
+      "topic": "QM",
+      "level": "A",
+      "title": "Intermediate Zeeman Effect"
+    },
+    "https://en.wikipedia.org/wiki/Miedema%27s_model": {
+      "topic": "MAT",
+      "level": "C",
+      "title": "Miedema's model"
+    },
+    "https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=821693": {
+      "topic": "HIST",
+      "level": "C",
+      "title": "Finding Chemical Records using Digital Computers"
+    },
+    "https://sites.google.com/view/molecvue/about": {
+      "topic": "QC",
+      "level": "I",
+      "title": "MoleCVUE"
+    },
+    "https://www.lesswrong.com/posts/6hDvwJyrwLtxBLHWG/mechanisms-too-simple-for-humans-to-design": {
+      "topic": "RES",
+      "level": "I",
+      "title": "Mechanisms too simple for humans to design"
+    },
+    "https://www.cs.ubc.ca/~schmidtm/Documents/2026_ICML_Tutorial.pdf": {
+      "topic": "DLT",
+      "level": "A",
+      "title": "ICML Tutorial by Mark Schmidt"
+    },
+    "https://www.cs.toronto.edu/~hinton/nipstutorial/nipstut3.pdf": {
+      "topic": "MLF",
+      "level": "C",
+      "title": "Deep Belief Nets by Geoffrey Hinton"
+    },
+    "https://valencelabs.substack.com/p/i-ran-boltz-2-100-million-times-to?r=hwlvk": {
+      "topic": "PRO",
+      "level": "A",
+      "title": "Simulating cell biology using Boltz-2"
+    },
+    "https://madrona.ca/e/corerope/index.html": {
+      "topic": "CS",
+      "level": "I",
+      "title": "Core Rope & Woven-Wire Memory Systems"
+    },
+    "https://mattermodeling.stackexchange.com/questions/3942/is-it-right-to-neglect-very-small-imaginary-frequencies": {
+      "topic": "QC",
+      "level": "C",
+      "title": "Is it right to neglect very small imaginary frequencies?"
+    },
+    "https://wildtypehuman.substack.com/p/a-roadmap-for-techbio-disruption": {
+      "topic": "DRUG",
+      "level": "I",
+      "title": "A roadmap for AI disruption in drug discovery"
+    },
+    "https://gdmarmerola.github.io/risk-and-uncertainty-deep-learning/": {
+      "topic": "MLF",
+      "level": "C",
+      "title": "Risk and Uncertainty in Deep Learning"
+    },
+    "https://e-baumer.github.io/2020-04-03-model-risk-uncertainty/": {
+      "topic": "MLF",
+      "level": "C",
+      "title": "Understanding Model Uncertainty"
+    },
+    "https://bindome.epfl.ch/static/index.html": {
+      "topic": "DRUG",
+      "level": "C",
+      "title": "Bindome Database"
+    },
+    "https://dibyaghosh.com/blog/probability/highdimensionalgeometry/": {
+      "topic": "MATH",
+      "level": "I",
+      "title": "Trouble in High-Dimensional Land"
+    },
+    "https://colah.github.io/posts/2014-03-NN-Manifolds-Topology/": {
+      "topic": "MLF",
+      "level": "I",
+      "title": "Neural Networks, Manifolds, and Topology"
+    },
+    "https://pubs.acs.org/orgnd7/article/41/22/3073/396830/Maurice-Brookhart-A-Legacy-to-Organometallic": {
+      "topic": "HIST",
+      "level": "C",
+      "title": "Maurice Brookhart: A Legacy to Organometallic Chemistry"
+    },
+    "https://matsci.org/t/the-theory-calculation-behind-energy-above-hull-how-to-calculate-for-quarternary-structures/59743": {
+      "topic": "MAT",
+      "level": "C",
+      "title": "The theory/calculation behind energy-above-hull: how to calculate for quarternary structures?"
+    },
+    "https://www.beren.io/2026-07-26-How-Can-LLM-RL-Work-Despite-Information-Theoretic-Inefficiency/": {
+      "topic": "DLT",
+      "level": "A",
+      "title": "How can LLM RL Work Despite Information-Theoretic Inefficiency"
+    },
+    "https://jax-ml.github.io/scaling-book/roofline/": {
+      "topic": "CS",
+      "level": "A",
+      "title": "Rooflines ー Learning How to Scale Your Model"
+    },
+    "https://neherlab.org/20171128_theoretical_biophysics.html": {
+      "topic": "BIO",
+      "level": "A",
+      "title": "Phase Transitions in Membranes"
+    },
+    "https://en.wikipedia.org/wiki/Flory%E2%80%93Stockmayer_theory": {
+      "topic": "MAT",
+      "level": "C",
+      "title": "Flory-Stockmayer Theory"
+    },
+    "https://www.iclimbtrees.com/courses": {
+      "topic": "MATH",
+      "level": "C",
+      "title": "IClimbTrees"
+    },
+    "https://en.wikipedia.org/wiki/Oxygen-free_copper?wprov=sfla1": {
+      "topic": "MAT",
+      "level": "I",
+      "title": "Oxygen-free copper"
+    },
+    "https://biocircuits.github.io/": {
+      "topic": "BIO",
+      "level": "C",
+      "title": "Biological Circuit Design"
+    },
+    "https://karthikvedula.com/2024/01/05/visualizing-the-perceptron-learning-algorithm/": {
+      "topic": "MLF",
+      "level": "I",
+      "title": "Visualising the Perceptron Learning Algorithm"
+    },
+    "https://dataspace.princeton.edu/handle/88435/dsp013f462544k": {
+      "topic": "NEURO",
+      "level": "A",
+      "title": "Network-Scale Electrophysiology: Measuring and Understanding the Collective Behavior of Neural Circuits"
+    },
+    "https://amateurgods.substack.com/p/josies-list-of-bio-millenium-problems": {
+      "topic": "BIO",
+      "level": "I",
+      "title": "Josie's List of Bio Problems that need solving"
+    },
+    "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf": {
+      "topic": "IND",
+      "level": "C",
+      "title": "Mineral Commodity Summaries"
+    },
+    "https://deepmind.google/blog/towards-understanding-glasses-with-graph-neural-networks/": {
+      "topic": "MLM",
+      "level": "C",
+      "title": "Towards understanding glasses with graph neural networks"
+    },
+    "https://valencelabs.substack.com/p/chasing-the-grail-a-history-of-binding": {
+      "topic": "DRUG",
+      "level": "I",
+      "title": "Chasing the Grail: A History of Binding Affinity Predictions in Drug Discovery"
+    },
+    "https://roaldhoffmann.com/sites/default/files/fromd6/how_should_chemists_think.pdf": {
+      "topic": "RES",
+      "level": "I",
+      "title": "How should chemists think?"
+    },
+    "https://apps.dtic.mil/sti/tr/pdf/AD0614563.pdf": {
+      "topic": "CHE",
+      "level": "A",
+      "title": "Estimating matter particle combustion kinetics"
+    },
+    "https://www.cce.tsinghua.edu.cn/2021_Tomlin.pdf": {
+      "topic": "CHE",
+      "level": "A",
+      "title": "Combustion Chemistry"
+    },
+    "https://www.physics.rutgers.edu/~friedan/physics_readings/": {
+      "topic": "RES",
+      "level": "C",
+      "title": "Physics reading list"
+    },
+    "https://www.ias.ac.in/article/fulltext/reso/013/05/0420-0429": {
+      "topic": "CS",
+      "level": "I",
+      "title": "TIFRAC, India’s First Computer – A Retrospective"
+    },
+    "https://youtu.be/ameqTFF7Q9g?si=dHzVVXU_inhhkUet": {
+      "topic": "SM",
+      "level": "C",
+      "title": "Hard disks from CM to Stat Mech"
+    },
+    "https://youtu.be/kELQAG-c_o8?si=rd6tqr49j_MMGNYu": {
+      "topic": "MAT",
+      "level": "C",
+      "title": "Steels: characteristics of martensite"
+    },
+    "https://darioamodei.com/post/we-must-pace-the-frontier": {
+      "topic": "AI",
+      "level": "I",
+      "title": "We Must Pace the AI Frontier"
+    },
+    "https://figshare.com/articles/dataset/Materials_Project_Trajectory_Dataset_of_r_sup_2_sup_SCAN_MPr_sup_2_sup_SCAN_/28245650?file=51832613": {
+      "topic": "MLM",
+      "level": "A",
+      "title": "DFT Trajectory Dataset"
+    },
+    "https://projectbrahmagupta.github.io/": {
+      "topic": "MISC",
+      "level": "I",
+      "title": "Project Brahmagupta"
+    },
+    "https://youtu.be/uY-u1qyRM5w?si=iJfNuatBY6W9ZVwC": {
+      "topic": "HIST",
+      "level": "I",
+      "title": "Los Alamos from Below"
+    },
+    "https://qlabs.sh/research/dust": {
+      "topic": "MLF",
+      "level": "A",
+      "title": "Dust: Pretraining Transformers Without Backpropagation"
+    },
+    "https://youtu.be/4mzFqy8EywQ": {
+      "topic": "AI",
+      "level": "I",
+      "title": "Survival with AI"
+    },
+    "https://youtu.be/RUB37QhWNkw": {
+      "topic": "BIO",
+      "level": "C",
+      "title": "Live-Cell Imaging and the limits of Structural Biology"
+    },
+    "https://openai.com/index/navier-stokes-solution/": {
+      "topic": "MATH",
+      "level": "A",
+      "title": "Open AI’s solution on NSE"
+    },
+    "https://pratyakshpatel.me/navier_stokes_option_c.html": {
+      "topic": "MATH",
+      "level": "I",
+      "title": "Spend 15 million dollars to win 1"
+    },
+    "https://youtu.be/tQI35CSNB08": {
+      "topic": "MATH",
+      "level": "I",
+      "title": "Can AI Learn Mathematical Intuition?"
+    },
+    "https://youtu.be/-pb3z2w9gDg?si=XtpB4o5N6brsZkRl": {
+      "topic": "AI",
+      "level": "I",
+      "title": "Introduction to the Society of Mind"
+    },
+    "https://irhum.github.io/blog/spherical-harmonics/": {
+      "topic": "MATH",
+      "level": "I",
+      "title": "Visual Notes on Spherical Harmonics"
+    },
+    "https://loc.closertotruth.com/landscape/exploring-consciousness": {
+      "topic": "AI",
+      "level": "I",
+      "title": "Exploring Consciousness"
+    },
+    "https://youtu.be/hV3_XZXeDQo": {
+      "topic": "CS",
+      "level": "I",
+      "title": "How Shell Works?"
+    },
+    "https://rico.ibs.fr/helixplorer/resolution/": {
+      "topic": "PRO",
+      "level": "I",
+      "title": "Resolution Challenge"
+    },
+    "https://arxiv.org/abs/2408.10234": {
+      "topic": "NEURO",
+      "level": "A",
+      "title": "The Unbearable Slowness of Being: Why do we live at 10 bits/s?"
+    },
+    "https://learnaifromscratch.github.io/taocp.html": {
+      "topic": "CS",
+      "level": "C",
+      "title": "Art of Computer Programming"
+    },
+    "https://scichemcode.github.io/alam-website/": {
+      "topic": "RES",
+      "level": "I",
+      "title": "Member Webpage & Github"
+    },
+    "https://thechipletter.substack.com/p/floating-point-the-origin-story?r=hwlvk&triedRedirect=true": {
+      "topic": "CS",
+      "level": "I",
+      "title": "Floating Point: The Origin Story"
+    },
+    "https://youtu.be/GY4yN4cROE8?si=qvtemzCASiLuQVPl": {
+      "topic": "MATH",
+      "level": "I",
+      "title": "Fermat’s Last Theorem"
+    },
+    "https://naturalgeneralintelligence.ai/": {
+      "topic": "AI",
+      "level": "I",
+      "title": "Natural General Intelligence"
+    },
+    "https://youtu.be/d9s9bQuG1qk?si=XkUThjWPdyQWflRl": {
+      "topic": "BIO",
+      "level": "I",
+      "title": "24 Hrs Inside a Silicon Valley Biotech Startup"
+    },
+    "https://groups.csail.mit.edu/medg/people/psz/Licklider.html": {
+      "topic": "HIST",
+      "level": "C",
+      "title": "ManーComputer Symbiosis"
+    },
+    "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology": {
+      "topic": "IND",
+      "level": "I",
+      "title": "IBM Debuts World’s First Sub-1 Nanometer Chip Technology"
+    },
+    "https://www-zeus.roma1.infn.it/~dagos/history/Orear_Fermi_master.pdf": {
+      "topic": "HIST",
+      "level": "I",
+      "title": "Story of Enrico Fermi"
+    },
+    "https://www.math.purdue.edu/~eremenko/bernoulli.html": {
+      "topic": "MATH",
+      "level": "I",
+      "title": "The Brachistochrone problem: origins"
+    },
+    "https://youtu.be/TfyPshgMbug?si=MxWHXiaxwl7wFF4z": {
+      "topic": "MATH",
+      "level": "I",
+      "title": "AI and the future of Math"
+    },
+    "https://mathathonchallenge.com/": {
+      "topic": "MATH",
+      "level": "I",
+      "title": "Caltech Mathathon"
+    },
+    "https://johnsalvatier.org/blog/2017/reality-has-a-surprising-amount-of-detail": {
+      "topic": "RES",
+      "level": "I",
+      "title": "Reality has a surprising amount of detail"
+    },
+    "https://www.sidhantbansal.com/2025/When-is-a-deck-truly-shuffled/": {
+      "topic": "MATH",
+      "level": "I",
+      "title": "Markov Chains 101"
+    },
+    "https://github.com/Robbyant/lingbot-map": {
+      "topic": "MLF",
+      "level": "A",
+      "title": "LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction"
+    },
+    "https://aldousdj.medium.com/doing-research-mathematics-is-like-aaf4ff0d9235": {
+      "topic": "RES",
+      "level": "I",
+      "title": "Peeping into mathematics research"
+    },
+    "https://jsomers.net/e-coli-chemotaxis/": {
+      "topic": "BIO",
+      "level": "I",
+      "title": "The Baffling Intelligence of a Single Cell (The story of E. coli chemotaxis)"
+    },
+    "https://youtu.be/Chy0k1GiNmY?si=oLKOsxysrwbab3ak": {
+      "topic": "HIST",
+      "level": "I",
+      "title": "Development and impact of Quantum theory by Hans Bethe"
+    },
+    "https://www.ias.ac.in/article/fulltext/reso/011/06/0008-0025": {
+      "topic": "HIST",
+      "level": "I",
+      "title": "Dr Smith goes to Los Alamos"
+    },
+    "https://piyushastrocat.substack.com/p/rabbit-holes-terence-tao": {
+      "topic": "HIST",
+      "level": "I",
+      "title": "Rabbit Holes-I"
+    },
+    "https://piyushastrocat.substack.com/p/rabbit-holes-demis-hassabis": {
+      "topic": "HIST",
+      "level": "I",
+      "title": "Rabbit Holes-II"
+    },
+    "https://youtu.be/c-cSeTz3dMg?si=zMyzkzDXfJ1Zj2i7": {
+      "topic": "HIST",
+      "level": "I",
+      "title": "The Research Lab The US Government Shutdown in 1984"
+    },
+    "https://institute.deepmind.com/": {
+      "topic": "RES",
+      "level": "I",
+      "title": "The DeepMind Institute"
+    },
+    "https://youtu.be/glWvwvhZkQ8?si=5IqFGC6DvgT5zrD6": {
+      "topic": "AI",
+      "level": "I",
+      "title": "What Did Ilya See?"
+    },
+    "https://jino-rohit.github.io/blogs/05_softmax.html": {
+      "topic": "MLF",
+      "level": "C",
+      "title": "Flash Attention Series - Mastering Softmax"
+    },
+    "https://ia800902.us.archive.org/4/items/aircraftpropulsion2ed_201907/Aircraft%20Propulsion%202ed.pdf": {
+      "topic": "IND",
+      "level": "C",
+      "title": "Aircraft Propulsion"
+    },
+    "https://link.springer.com/article/10.1007/s11224-022-02011-0": {
+      "topic": "HIST",
+      "level": "C",
+      "title": "David Harker—a life for crystallography"
+    },
+    "https://youtu.be/anr0fPNBEzc": {
+      "topic": "HIST",
+      "level": "I",
+      "title": "A tribute to Nobel Laureate Prof. R.A. Marcus"
+    },
+    "https://www.anthropic.com/research/formalizing-fermats-last-theorem": {
+      "topic": "MATH",
+      "level": "A",
+      "title": "Formalising Fermat’s Last Theorem"
+    },
+    "https://icm.museum/": {
+      "topic": "CS",
+      "level": "I",
+      "title": "The Interim Computer Museum"
+    },
+    "https://youtu.be/KxKVGj7Mmdg": {
+      "topic": "IND",
+      "level": "I",
+      "title": "The Space Data Centre"
+    },
+    "https://www.youtube.com/live/k_N3PFMUxPc": {
+      "topic": "COSMO",
+      "level": "I",
+      "title": "Beyond Darkness (Public Lecture Programme on Black Holes)"
+    },
+    "https://people-lux.obspm.fr/gourgoulhon/fr/present_rec/bhthermo_X24.pdf": {
+      "topic": "COSMO",
+      "level": "A",
+      "title": "Black Hole Thermodynamics"
+    },
+    "https://www.fermiexplorer.org/": {
+      "topic": "MATH",
+      "level": "I",
+      "title": "Fermi Explorer"
+    },
+    "https://huggingface.co/spaces/ariG23498/flow-matching": {
+      "topic": "MLF",
+      "level": "I",
+      "title": "From Noise to Images: Flow Matching Explained"
+    },
+    "https://teorth.github.io/tao-web/slides/age-of-ai-icm-2026.pdf": {
+      "topic": "MATH",
+      "level": "C",
+      "title": "Mathematics in the Age of AI ー Terrance Tao"
+    },
+    "https://www.greene.sh/compression-and-intelligence/": {
+      "topic": "AI",
+      "level": "I",
+      "title": "Compression and Intelligence"
+    },
+    "https://bdt.semi.ac.cn/library/upload/files/2022/3/3165512406.pdf": {
+      "topic": "CHE",
+      "level": "C",
+      "title": "Chemistry and Lithography"
+    },
+    "https://www.newtinteractive.com/essays/hemoglobin": {
+      "topic": "BIO",
+      "level": "I",
+      "title": "The Story of Haemoglobin"
+    },
+    "https://www.owlposting.com/p/why-havent-organoids-solved-all-of": {
+      "topic": "DRUG",
+      "level": "I",
+      "title": "Why haven't organoids solved all of drug discovery?"
+    },
+    "https://www.lesswrong.com/posts/75dnjiD8kv2khe9eQ/measuring-hardware-overhang": {
+      "topic": "AI",
+      "level": "I",
+      "title": "Measuring hardware overhang"
+    },
+    "https://youtu.be/yTNMEYeCgWw?si=-HBlBS2nn9Kqsu61": {
+      "topic": "DRUG",
+      "level": "I",
+      "title": "Inside Moderna’s Biggest mRNA test since Covid"
+    },
+    "https://web.archive.org/web/20201105122829/https://tor-lattimore.com/downloads/book/book.pdf": {
+      "topic": "MLF",
+      "level": "C",
+      "title": "Bandit Algorithms"
+    },
+    "https://youtu.be/0a3xg4M9Oa8": {
+      "topic": "BIO",
+      "level": "I",
+      "title": "Hidden Intelligence - Can Cells Think?"
+    },
+    "https://iopscience.iop.org/article/10.1088/2632-072X/acb8a1": {
+      "topic": "HIST",
+      "level": "C",
+      "title": "A scientific portrait of Giorgio Parisi: complex systems and much more"
+    },
+    "https://anatomy-livid.vercel.app/en": {
+      "topic": "BIO",
+      "level": "I",
+      "title": "Learn Anatomy Interactively"
+    },
+    "https://physics.lnu.edu.ua/jps/2017/3/pdf/3002-19.pdf": {
+      "topic": "HIST",
+      "level": "C",
+      "title": "The Fate of Ernst Ising and the Fate of his Model"
+    },
+    "https://diffuse.one/p/d1-012": {
+      "topic": "RES",
+      "level": "I",
+      "title": "Measuring Scientific Progress"
+    },
+    "https://pypi.org/project/fanos/": {
+      "topic": "DLT",
+      "level": "A",
+      "title": "FANoS-v2"
+    },
+    "https://terrytao.wordpress.com/career-advice/theres-more-to-mathematics-than-rigour-and-proofs/": {
+      "topic": "MATH",
+      "level": "I",
+      "title": "Understanding Mathematics ー Terrace Tao"
+    },
+    "https://nightingal3.github.io/blog/2026/08/09/research-retrospective/": {
+      "topic": "RES",
+      "level": "I",
+      "title": "When We Did Research by Hand"
+    },
+    "https://en.wikipedia.org/wiki/Hyperaccumulator?wprov=sfla1": {
+      "topic": "BIO",
+      "level": "I",
+      "title": "Hyperaccumulator"
+    },
+    "https://www.dwarkesh.com/p/openai-huggingface": {
+      "topic": "AI",
+      "level": "I",
+      "title": "The Rise and Fall of Agent Civilizations"
+    },
+    "https://www.owlposting.com/p/how-to-build-a-cancer-vaccine-and": {
+      "topic": "DRUG",
+      "level": "I",
+      "title": "How to build a cancer vaccine, and whether they will work this time?"
+    },
+    "https://youtu.be/YFiQIZOM2fw": {
+      "topic": "COSMO",
+      "level": "I",
+      "title": "Learning Particle Physics in 17 hrs"
+    },
+    "https://tadaoyamaoka.hatenablog.com/entry/2024/09/29/163801": {
+      "topic": "MLF",
+      "level": "C",
+      "title": "Image Generation with Rectified Flow"
+    },
+    "https://arxiv.org/pdf/2603.29996": {
+      "topic": "COSMO",
+      "level": "A",
+      "title": "What Does the Universe Sound Like?"
+    },
+    "https://www.statnews.com/2019/06/25/alzheimers-cabal-thwarted-progress-toward-cure/": {
+      "topic": "DRUG",
+      "level": "I",
+      "title": "The maddening saga of how an Alzheimer’s ‘cabal’ thwarted progress toward a cure for decades"
+    },
+    "https://www.owlposting.com/p/are-organoids-useful-for-alzheimers": {
+      "topic": "DRUG",
+      "level": "I",
+      "title": "Are organoids useful for Alzheimer’s research?"
+    },
+    "https://www.princeton.edu/~wbialek/rome/refs/shannon_51.pdf": {
+      "topic": "HIST",
+      "level": "C",
+      "title": "Prediction and Entropy of Printed English"
+    },
+    "https://youtu.be/tMhp4-ylrdE?si=Max4BVnylwookvit": {
+      "topic": "IND",
+      "level": "I",
+      "title": "Tesla Cathode Factory"
+    },
+    "https://www.jacobpeake.com/ai-chip-architectures": {
+      "topic": "CS",
+      "level": "C",
+      "title": "AI Chip Architectures"
+    },
+    "https://valencelabs.substack.com/p/i-ran-boltz-2-100-million-times-to": {
+      "topic": "MATH",
+      "level": "I",
+      "title": "Why Are Rivers So Mathematical?"
+    },
+    "https://youtu.be/n5YpxFiJf7k": {
+      "topic": "OPT",
+      "level": "I",
+      "title": "How does a Telescope Mirror creates an image?"
+    },
+    "https://youtu.be/XyHqqYuEbUo": {
+      "topic": "OPT",
+      "level": "I",
+      "title": "How Photo and Cine lenses are manufactured?"
+    },
+    "https://youtu.be/ZSECCauVFA8?si=a9cTI4hNYR3GVyDQ": {
+      "topic": "HIST",
+      "level": "I",
+      "title": "Aelita ー The Hardest Soviet Mission in History"
+    },
+    "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.24.829": {
+      "topic": "COSMO",
+      "level": "A",
+      "title": "Perturbation of the de Sitter-Schwarzschild universe with massless fields"
+    },
+    "https://youtu.be/NJHRvs7cGJI": {
+      "topic": "COSMO",
+      "level": "I",
+      "title": "How Quarks were discovered?"
+    },
+    "https://newscenter.lbl.gov/2026/09/01/lz-sees-surprising-result-in-search-for-dark-matter/": {
+      "topic": "COSMO",
+      "level": "I",
+      "title": "LZ’s surprising results in search of DM"
+    },
+    "https://www.avikde.me/p/should-robots-run-like-humans-or": {
+      "topic": "IND",
+      "level": "I",
+      "title": "Should Robots Run Like Humans or Ostriches?"
+    },
+    "https://www.kellogg.northwestern.edu/faculty/jones-ben/htm/BurdenOfKnowledge.pdf": {
+      "topic": "RES",
+      "level": "C",
+      "title": "The Burden of Knowledge and the ëDeath of the Renaissance Maní: Is Innovation Getting Harder?"
+    },
+    "https://couteiral.substack.com/p/miniproteins-are-the-tikz-unicorn": {
+      "topic": "PRO",
+      "level": "I",
+      "title": "Miniproteins are the TikZ unicorn of biology"
+    },
+    "https://youtu.be/GXhzZAem7k0": {
+      "topic": "MATH",
+      "level": "I",
+      "title": "3 as sum of 3 cubes"
+    },
+    "https://math.mit.edu/~drew/NTW2020.pdf": {
+      "topic": "MATH",
+      "level": "A",
+      "title": "Number Theory Seminar 2020"
+    },
+    "https://ciechanow.ski/": {
+      "topic": "MISC",
+      "level": "I",
+      "title": "Bartosz Ciechanowski’s Webpage"
+    },
+    "https://suveenellawela.com/thoughts/robot-learning-2026-spring-eth-zurich": {
+      "topic": "MLF",
+      "level": "C",
+      "title": "Robot Learning Course Notes"
+    },
+    "https://youtu.be/YfApATdLnoI": {
+      "topic": "IND",
+      "level": "I",
+      "title": "The Dawn of Energy Abundance"
+    },
+    "https://youtu.be/kmAc1nDizu0": {
+      "topic": "CS",
+      "level": "I",
+      "title": "The Boundary of Computation"
+    },
+    "https://openaifoundation.org/news/public-data-for-health": {
+      "topic": "DRUG",
+      "level": "I",
+      "title": "Public Data for Health"
+    },
+    "https://piyushastrocat.substack.com/p/can-we-reach-the-island-of-stability": {
+      "topic": "COSMO",
+      "level": "I",
+      "title": "Can we reach the island of stability?"
+    },
+    "https://notebook.link/blog/the-last-mile-faster-numpy/": {
+      "topic": "CS",
+      "level": "C",
+      "title": "Emscripten-forge"
+    },
+    "https://thechipletter.substack.com/p/the-air-computer": {
+      "topic": "CS",
+      "level": "I",
+      "title": "The Air Computer"
+    },
+    "https://www.nature.com/articles/218663b0": {
+      "topic": "COSMO",
+      "level": "A",
+      "title": "Cosmological Significance of Time Reversal"
+    },
+    "https://youtu.be/zaXKQ70q4KQ": {
+      "topic": "HIST",
+      "level": "I",
+      "title": "The Man Who Took LSD & Changed the World"
+    },
+    "https://substack.com/@rishikarai/note/c-316583766?r=5wgt6f": {
+      "topic": "BIO",
+      "level": "I",
+      "title": "A Reflection on Cognitive Biophysics"
+    },
+    "https://www.taraprogram.org/": {
+      "topic": "AI",
+      "level": "I",
+      "title": "TARA"
+    },
+    "https://saweis.net/posts/rsa-896.html": {
+      "topic": "MATH",
+      "level": "C",
+      "title": "RSA-896"
+    },
+    "https://www.vam.ac.uk/articles/leonardo-da-vincis-notebooks": {
+      "topic": "HIST",
+      "level": "I",
+      "title": "Leonardo da Vinci's notebooks"
+    },
+    "https://deepmanifold.substack.com/p/ai-alignment-is-a-mathematical-problem": {
+      "topic": "AI",
+      "level": "I",
+      "title": "AI Alignment Is a Mathematical Problem"
+    },
+    "https://www.youtube.com/live/AKMuA_TVz3A": {
+      "topic": "DLT",
+      "level": "C",
+      "title": "An Observation on Generalisation"
+    },
+    "https://youtu.be/dpIuNUn0PZc": {
+      "topic": "CS",
+      "level": "I",
+      "title": "Why do computers look like this anyway?"
+    },
+    "https://youtu.be/93PHxVpPLxA": {
+      "topic": "CS",
+      "level": "I",
+      "title": "Relay computer compile, load & run"
+    },
+    "https://youtu.be/0EP_t9yuBiQ": {
+      "topic": "MATH",
+      "level": "I",
+      "title": "How close are we to proving Yang-Mills and Mass Gap?"
+    },
+    "https://writings.stephenwolfram.com/2026/09/whats-the-future-for-pure-math-research-in-the-age-of-ai/": {
+      "topic": "MATH",
+      "level": "I",
+      "title": "What’s the Future for Pure Math Research in the Age of AI?"
+    },
+    "https://youtu.be/-spNwKVqi1k": {
+      "topic": "RES",
+      "level": "I",
+      "title": "How to Use a Research Rabbit to Explore a Research Field?"
+    },
+    "https://youtu.be/KT18KJouHWg": {
+      "topic": "MISC",
+      "level": "I",
+      "title": "How did they Caught the Golden state killer?"
+    },
+    "https://youtu.be/LXBrk0F7HC0": {
+      "topic": "AI",
+      "level": "I",
+      "title": "What if AI progress doesn't slow down?"
+    },
+    "https://en.wikipedia.org/wiki/Titanium-sapphire_laser?wprov=sfla1": {
+      "topic": "OPT",
+      "level": "I",
+      "title": "Titanium-sapphire laser"
+    },
+    "https://youtu.be/pfAh5oQDPDM": {
+      "topic": "IND",
+      "level": "I",
+      "title": "Figure 02 Robot Decommision"
+    },
+    "https://youtu.be/Gj5liYnpTeM": {
+      "topic": "IND",
+      "level": "I",
+      "title": "The Insane Complexity of the Semiconductor Global Supply Chain"
+    },
+    "https://youtu.be/AwbFrritiyc": {
+      "topic": "MAT",
+      "level": "I",
+      "title": "Textile Materials"
+    },
+    "https://robonomics.substack.com/p/ai-drug-discovery-is-becoming-a-bottleneck": {
+      "topic": "DRUG",
+      "level": "I",
+      "title": "AI Drug Discovery Is Becoming a Bottleneck Trade"
+    },
+    "https://youtu.be/wULlr9BiTVs": {
+      "topic": "AI",
+      "level": "I",
+      "title": "Peter Norvig on the future of AI"
+    },
+    "https://youtu.be/YCGJtXTnemg": {
+      "topic": "MISC",
+      "level": "I",
+      "title": "Is Reality too strange to narrate?"
+    },
+    "https://youtu.be/gs38tMxZseA": {
+      "topic": "AI",
+      "level": "I",
+      "title": "What is Intelligence?"
+    },
+    "https://youtu.be/tqb2Bp5E330": {
+      "topic": "NEURO",
+      "level": "I",
+      "title": "Breaking the Wall to Neuroengineering 2014"
+    },
+    "https://youtu.be/8i9WMD6xbuA": {
+      "topic": "NEURO",
+      "level": "I",
+      "title": "Dragonflies hunt by predicting the future"
+    },
+    "https://jlevy.github.io/squares/": {
+      "topic": "MATH",
+      "level": "I",
+      "title": "The Square Packing Problem"
+    },
+    "https://youtu.be/oS8m9fSk-Wk?si=sg4t1_eFZHBC_G8g": {
+      "topic": "MATH",
+      "level": "I",
+      "title": "What makes Mario NP-Hard?"
+    },
+    "https://github.com/openai/math/blob/main/preprints/Integer-multiplication-below-n-log-n-September-23-2026/paper.pdf": {
+      "topic": "MATH",
+      "level": "A",
+      "title": "Integer Multiplication Problem"
+    }
+  }
+}
