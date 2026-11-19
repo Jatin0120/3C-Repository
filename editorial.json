@@ -8,8 +8,10 @@
   },
   "lead": {
     "url": "https://github.com/mrauha/compchem_start",
-    "kicker": "Cover story",
-    "headline": "So you want to do computational chemistry",
+    "kicker": "Start here",
+    "headline": "So you want to do computational chemistry?",
+    "accent": "computational chemistry?",
+    "cta": "Open the guide",
     "dek": "The getting-started guide we wish we had on day one: which textbooks to read, how to live on an HPC cluster with SSH and SLURM, and the codes you will actually meet: ORCA, Gaussian, NWChem, GROMACS and RDKit."
   },
   "path": {
