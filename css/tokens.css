@@ -1,0 +1,77 @@
+/*
+ * 3C design tokens: the Tabloid look, as approved on 19 Nov 2026.
+ * Every colour, font and rule on the site comes from these names.
+ * Dark mode follows the reader's system setting unless they pick a theme
+ * with the toggle (stored as data-theme="light" | "dark" on <html>).
+ */
+
+:root {
+  /* Colour: light */
+  --paper: #FFFFFF;      /* page background */
+  --ink: #111111;        /* text, rules, borders */
+  --muted: #4A4A4A;      /* secondary text */
+  --soft: #DDDDDD;       /* hairlines between list items */
+  --red: #C8201A;        /* masthead, buttons, busiest tiles */
+  --red-text: #C8201A;   /* red text on the page background */
+  --on-red: #FFFFFF;     /* text on red */
+  --t1: #FFFFFF;         /* index tile: under 8 entries */
+  --t2: #E4E4E4;         /* index tile: 8-12 entries */
+  --t3: #BDBDBD;         /* index tile: 13-21 entries */
+  --bar-i: #A8A8A8;      /* level bar: intro segment */
+  --done-bg: #F2F2F2;    /* ticked-off rows */
+
+  /* Type */
+  --font-display: 'Anton', Impact, 'Arial Narrow', sans-serif;
+  --font-body: 'Source Serif 4', Georgia, serif;
+  --font-ui: 'Inter', system-ui, -apple-system, sans-serif;
+
+  /* Rules */
+  --rule-section: 6px solid var(--ink);
+  --rule-box: 3px solid var(--ink);
+  --rule-tile: 2px solid var(--ink);
+  --rule-hair: 1px solid var(--soft);
+
+  /* Spacing steps */
+  --s1: 4px; --s2: 6px; --s3: 8px; --s4: 12px; --s5: 16px; --s6: 24px; --s7: 32px;
+  --max: 1280px;
+  --gutter: clamp(16px, 2.5vw, 32px);
+  --target: 40px;        /* minimum touch target */
+
+  color-scheme: light;
+}
+
+/* Colour: dark (system preference, unless the reader chose light) */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #121212;
+    --ink: #F2F2F2;
+    --muted: #B8B8B8;
+    --soft: #333333;
+    --red: #D92B21;
+    --red-text: #FF6B5E;
+    --on-red: #FFFFFF;
+    --t1: #121212;
+    --t2: #262626;
+    --t3: #3D3D3D;
+    --bar-i: #707070;
+    --done-bg: #1E1E1E;
+    color-scheme: dark;
+  }
+}
+
+/* Colour: dark (chosen with the toggle) */
+:root[data-theme="dark"] {
+  --paper: #121212;
+  --ink: #F2F2F2;
+  --muted: #B8B8B8;
+  --soft: #333333;
+  --red: #D92B21;
+  --red-text: #FF6B5E;
+  --on-red: #FFFFFF;
+  --t1: #121212;
+  --t2: #262626;
+  --t3: #3D3D3D;
+  --bar-i: #707070;
+  --done-bg: #1E1E1E;
+  color-scheme: dark;
+}
